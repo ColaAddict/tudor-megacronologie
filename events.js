@@ -8691,6 +8691,16 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Adoptarea legii casei rurale",
+    "date": "1908",
+    "info": "",
+    "categories": [
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Ion I.C. Brătianu(1909-1927)",
     "date": "1909",
     "info": "Lider PNL din 1909",
@@ -13291,6 +13301,16 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Începutul conflictului între Stalin și Tito",
+    "date": "1948",
+    "info": "Acutizarea sa în 1951 a dus la deportarea a 40.000(44.000) de persoane în Bărăgan",
+    "categories": [
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "PCR se unifică cu PSD și ia numele de PMR",
     "date": "1948-02-03",
     "info": "",
@@ -15644,6 +15664,16 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Constituirea Parlamentului European",
+    "date": "1979",
+    "info": "Constituirea Parlamentului European a avut loc în 1979.",
+    "categories": [
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Congresul XII PCR unde Constantin Pârvulescu îi spune lui Ceaușescu că pune interesele personale în fața celor ale statului",
     "date": "1979-11",
     "info": "",
@@ -16698,36 +16728,6 @@ window.events = [
     "title": "România aderă la UE",
     "date": "2007-01-01",
     "info": "România devine stat membru al Uniunii Europene.",
-    "categories": [
-      "politics"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
-    "title": "Începutul conflictului între Stalin și Tito",
-    "date": "1948",
-    "info": "Acutizarea sa în 1951 a dus la deportarea a 40.000(44.000) de persoane în Bărăgan",
-    "categories": [
-      "politics"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
-    "title": "Constituirea Parlamentului European",
-    "date": "1979",
-    "info": "Constituirea Parlamentului European a avut loc în 1979.",
-    "categories": [
-      "politics"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
-    "title": "Adoptarea legii casei rurale",
-    "date": "1908",
-    "info": "",
     "categories": [
       "politics"
     ],
