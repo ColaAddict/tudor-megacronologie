@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="darkreader-lock">
+  <title>Axa Timpului – Mega Cronologie</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- App Container -->
+  <div class="app-layout">
+    
+    <!-- Top Header -->
+    <header class="app-header">
+      <div class="header-logo">
+        <h1>Mega Cronologie</h1>
+        <p class="subtitle">Breviar & Instrument de Învățare Istorică</p>
+      </div>
+      
+      <!-- Search & Filters -->
+      <div class="header-controls">
+        <div class="search-box">
+          <input type="text" id="search-input" placeholder="Caută evenimente, ani, cronicari..." autocomplete="off">
+          <span class="search-icon">🔍</span>
+          <button id="clear-search" class="hidden">&times;</button>
+        </div>
+        
+        <div class="filter-controls">
+          <select id="era-filter">
+            <option value="all">Toate Epocile</option>
+            <option value="bc">Înainte de Hristos (î.Hr.)</option>
+            <option value="ad">După Hristos (A.D.)</option>
+          </select>
+          <select id="category-filter">
+            <option value="all">Toate Categoriile</option>
+            <option value="battles">⚔️ Războaie & Bătălii</option>
+            <option value="culture">📖 Cultură & Cronicari</option>
+            <option value="politics">⚖️ Legi & Politică</option>
+            <option value="rulers">👑 Domnitori & Dinastii</option>
+            <option value="general">📁 Diverse</option>
+          </select>
+        </div>
+
+        <!-- View Switcher -->
+        <div class="view-switcher">
+          <button id="btn-timeline-view" class="switch-btn active" data-view="timeline">
+            <span>📅 Timeline</span>
+          </button>
+          <button id="btn-quiz-view" class="switch-btn" data-view="quiz">
+            <span>🧠 Chestionar</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-content">
+      <!-- Sidebar Navigation (Only visible in Timeline View) -->
+      <aside class="century-sidebar" id="century-sidebar">
+        <h3 class="sidebar-title">Secole</h3>
+        <ul class="century-list" id="century-list">
+          <!-- Populated dynamically via JS -->
+        </ul>
+      </aside>
+
+      <!-- Main Panel -->
+      <main class="content-panel">
+        
+        <!-- Timeline Section -->
+        <section id="timeline-section" class="view-panel active">
+          <div id="timeline-container" class="timeline-container">
+            <!-- Timeline elements populated dynamically via JS -->
+          </div>
+        </section>
+
+        <section id="quiz-section" class="view-panel">
+          <div class="quiz-container">
+            <!-- Progress Dashboard -->
+            <div class="quiz-dashboard">
+              <h3 class="dashboard-title">📈 Progres de Memorare</h3>
+              <div class="dashboard-stats">
+                <div class="stat-box" style="border-left-color: #f43f5e;">
+                  <span class="stat-count" id="stat-count-0">0</span>
+                  <span class="stat-label">🔴 Noi</span>
+                </div>
+                <div class="stat-box" style="border-left-color: #f97316;">
+                  <span class="stat-count" id="stat-count-1-2">0</span>
+                  <span class="stat-label">🟠 Învățare</span>
+                </div>
+                <div class="stat-box" style="border-left-color: #fbbf24;">
+                  <span class="stat-count" id="stat-count-3-4">0</span>
+                  <span class="stat-label">🟡 Consolidat</span>
+                </div>
+                <div class="stat-box" style="border-left-color: #22c55e;">
+                  <span class="stat-count" id="stat-count-5">0</span>
+                  <span class="stat-label">👑 Stăpânit</span>
+                </div>
+              </div>
+              <div class="progress-bar-container">
+                <div class="progress-bar-segment segment-0" id="bar-0" style="width: 100%;"></div>
+                <div class="progress-bar-segment segment-1-2" id="bar-1-2" style="width: 0%;"></div>
+                <div class="progress-bar-segment segment-3-4" id="bar-3-4" style="width: 0%;"></div>
+                <div class="progress-bar-segment segment-5" id="bar-5" style="width: 0%;"></div>
+              </div>
+              <div class="dashboard-footer">
+                <span id="progress-percent-text">0% finalizat (termen lung)</span>
+                <button id="btn-reset-srs" class="btn-reset-srs">Resetează Progresul</button>
+              </div>
+            </div>
+
+            <div class="quiz-card">
+              <div class="quiz-header">
+                <span class="quiz-badge">🧠 Autoevaluare</span>
+                <span id="quiz-srs-level" class="quiz-srs-badge">🔴 Nou</span>
+                <span id="quiz-score" class="quiz-score">Scor: 0/0</span>
+              </div>
+              <h2 id="quiz-question-title" class="quiz-question">Se încarcă întrebarea...</h2>
+              <div id="quiz-question-info" class="quiz-question-info"></div>
+              
+              <div class="quiz-options" id="quiz-options-container">
+                <!-- 4 Choices -->
+              </div>
+
+              <div id="quiz-feedback" class="quiz-feedback hidden">
+                <p id="quiz-feedback-text"></p>
+                <button id="btn-next-question" class="quiz-next-btn">Următoarea Întrebare &rarr;</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </main>
+    </div>
+  </div>
+
+  <!-- Detail Reader Slide-out Drawer -->
+  <div class="drawer-overlay" id="drawer-overlay"></div>
+  <div class="drawer" id="drawer">
+    <button class="drawer-close" id="drawer-close" aria-label="Închide drawerul">&times;</button>
+    <div class="drawer-body">
+      <div class="drawer-header">
+        <span class="drawer-date-badge" id="drawer-date">Secolul XIV</span>
+        <h2 id="drawer-title" class="drawer-title">Titlu Eveniment</h2>
+      </div>
+      <hr class="drawer-divider">
+      <div class="drawer-content" id="drawer-text">
+        Detalii despre eveniment...
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Scroll-To-Top Button -->
+  <button id="btn-scroll-top" class="scroll-top-btn" aria-label="Înapoi sus">&uarr;</button>
+
+  <!-- Database & Logic Script Loading -->
+  <script src="events.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
