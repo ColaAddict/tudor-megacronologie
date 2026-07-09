@@ -199,8 +199,10 @@ const centurySidebar = document.getElementById("century-sidebar");
 
 const btnTimelineView = document.getElementById("btn-timeline-view");
 const btnQuizView = document.getElementById("btn-quiz-view");
+const btnAcademyView = document.getElementById("btn-academy-view");
 const timelineSection = document.getElementById("timeline-section");
 const quizSection = document.getElementById("quiz-section");
+const academySection = document.getElementById("academy-section");
 
 const drawer = document.getElementById("drawer");
 const drawerOverlay = document.getElementById("drawer-overlay");
@@ -474,34 +476,37 @@ categoryFilterSelect.addEventListener("change", (e) => {
   renderTimeline();
 });
 
-// View Switching Logic
-btnTimelineView.addEventListener("click", () => {
-  if (activeView === "timeline") return;
-  activeView = "timeline";
-  
-  btnTimelineView.classList.add("active");
-  btnQuizView.classList.remove("active");
-  
-  timelineSection.classList.add("active");
-  quizSection.classList.remove("active");
-  centurySidebar.classList.remove("hidden");
-  
-  renderTimeline();
-});
+// View Switching Logic (generic, supports Timeline / Chestionar / Test Academie)
+const VIEWS = {
+  timeline: { btn: btnTimelineView, section: timelineSection, onEnter: () => { centurySidebar.classList.remove("hidden"); renderTimeline(); } },
+  quiz: { btn: btnQuizView, section: quizSection, onEnter: () => { centurySidebar.classList.add("hidden"); startQuizGame(); } },
+  academy: { btn: btnAcademyView, section: academySection, onEnter: () => { centurySidebar.classList.add("hidden"); startAcademyGame(); } }
+};
 
-btnQuizView.addEventListener("click", () => {
-  if (activeView === "quiz") return;
-  activeView = "quiz";
-  
-  btnQuizView.classList.add("active");
-  btnTimelineView.classList.remove("active");
-  
-  quizSection.classList.add("active");
-  timelineSection.classList.remove("active");
-  centurySidebar.classList.add("hidden");
-  
-  startQuizGame();
-});
+function switchToView(viewName) {
+  if (activeView === viewName) return;
+  activeView = viewName;
+
+  Object.keys(VIEWS).forEach(name => {
+    const view = VIEWS[name];
+    if (!view.btn || !view.section) return;
+    if (name === viewName) {
+      view.btn.classList.add("active");
+      view.section.classList.add("active");
+    } else {
+      view.btn.classList.remove("active");
+      view.section.classList.remove("active");
+    }
+  });
+
+  VIEWS[viewName].onEnter();
+}
+
+btnTimelineView.addEventListener("click", () => switchToView("timeline"));
+btnQuizView.addEventListener("click", () => switchToView("quiz"));
+if (btnAcademyView) {
+  btnAcademyView.addEventListener("click", () => switchToView("academy"));
+}
 
 // Scroll to Top Logic
 window.addEventListener("scroll", () => {
@@ -714,34 +719,53 @@ function loadNextQuizQuestion() {
     quizSrsLevel.textContent = srsLabels[currentLvl] || "🔴 Nou";
   }
 
-  // 2. Generate 4 choices (1 correct, 3 wrong ones closely matched)
+  // 2. Generate 4 choices (1 correct, 3 wrong ones closely matched in year AND same format)
   const correctOption = formatDateRO(selectedEvent.date);
   const optionsSet = new Set([correctOption]);
 
-  // Parse current year to find close neighbors
+  // Determinăm formatul răspunsului corect pentru a filtra distractorii cu același format
+  const trimmedDate = selectedEvent.date.trim();
+  let correctFormat = 'other';
+  if (/^[IVXLCDM]+$/i.test(trimmedDate)) correctFormat = 'century';
+  else if (/^(-?\d{1,4})-(\d{3,4})$/.test(trimmedDate)) correctFormat = 'range';
+  else if (/^-?\d{1,4}$/.test(trimmedDate)) correctFormat = 'year-only';
+  else if (/^-?\d{1,4}-\d{2}$/.test(trimmedDate)) correctFormat = 'year-month';
+  else if (trimmedDate.split("-").length === 3) correctFormat = 'full-date';
+
+  // Parsăm anul curent pentru a găsi vecini apropiați
   let currentYear = parseInt(selectedEvent.date, 10);
   if (isNaN(currentYear) && selectedEvent.date.includes('-')) {
     currentYear = parseInt(selectedEvent.date.split("-")[0], 10);
   }
 
   if (!isNaN(currentYear)) {
-    // Sort all valid events by how close they are to the target year
+    // Sortăm evenimentele după proximitatea cronologică, dar filtrăm să aibă EXACT același format brut
     const nearbyEvents = validEvents
       .filter(e => {
-        let y = parseInt(e.date, 10);
-        if (isNaN(y) && e.date && e.date.includes('-')) y = parseInt(e.date.split("-")[0], 10);
-        return !isNaN(y) && formatDateRO(e.date) !== correctOption;
+        const tDate = e.date.trim();
+        let eFormat = 'other';
+        if (/^[IVXLCDM]+$/i.test(tDate)) eFormat = 'century';
+        else if (/^(-?\d{1,4})-(\d{3,4})$/.test(tDate)) eFormat = 'range';
+        else if (/^-?\d{1,4}$/.test(tDate)) eFormat = 'year-only';
+        else if (/^-?\d{1,4}-\d{2}$/.test(tDate)) eFormat = 'year-month';
+        else if (tDate.split("-").length === 3) eFormat = 'full-date';
+
+        if (eFormat !== correctFormat) return false;
+        return formatDateRO(e.date) !== correctOption;
       })
       .sort((a, b) => {
         let yA = parseInt(a.date, 10);
-        if (isNaN(yA)) yA = parseInt(a.date.split("-")[0], 10);
+        if (isNaN(yA) && a.date.includes('-')) yA = parseInt(a.date.split("-")[0], 10);
         let yB = parseInt(b.date, 10);
-        if (isNaN(yB)) yB = parseInt(b.date.split("-")[0], 10);
+        if (isNaN(yB) && b.date.includes('-')) yB = parseInt(b.date.split("-")[0], 10);
         return Math.abs(yA - currentYear) - Math.abs(yB - currentYear);
       });
 
-    // Take the closest unique dates (e.g., pool from the top 12 closest events to keep some variety)
-    const closePool = nearbyEvents.slice(0, 12);
+    // MODIFICARE AICI: Pool diferențiat în funcție de format
+    // Dacă formatul este doar an (YYYY), luăm doar top 12 cei mai apropiați ani. Altfel, luăm 40.
+    const poolSize = (correctFormat === 'year-only') ? 12 : 40;
+    const closePool = nearbyEvents.slice(0, poolSize);
+    
     while (optionsSet.size < 4 && closePool.length > 0) {
       const randomIndex = Math.floor(Math.random() * closePool.length);
       const wrongEvent = closePool.splice(randomIndex, 1)[0];
@@ -752,17 +776,32 @@ function loadNextQuizQuestion() {
     }
   }
 
-  // Fallback fallback if we couldn't get 4 options from nearby years (e.g. for Roman Century strings)
+  // Fallback în caz că nu am strâns 4 opțiuni din pool-ul de proximitate (ex: pentru secole)
   let attempts = 0;
-  while (optionsSet.size < 4 && attempts < 100) {
+  while (optionsSet.size < 4 && attempts < 200) {
     const wrongEvent = validEvents[Math.floor(Math.random() * validEvents.length)];
-    const option = formatDateRO(wrongEvent.date);
-    if (option) {
-      optionsSet.add(option);
+    const tDate = wrongEvent.date.trim();
+    let eFormat = 'other';
+    if (/^[IVXLCDM]+$/i.test(tDate)) eFormat = 'century';
+    else if (/^(-?\d{1,4})-(\d{3,4})$/.test(tDate)) eFormat = 'range';
+    else if (/^-?\d{1,4}$/.test(tDate)) eFormat = 'year-only';
+    else if (/^-?\d{1,4}-\d{2}$/.test(tDate)) eFormat = 'year-month';
+    else if (tDate.split("-").length === 3) eFormat = 'full-date';
+
+    if (eFormat === correctFormat) {
+      const option = formatDateRO(wrongEvent.date);
+      if (option) {
+        optionsSet.add(option);
+      }
     }
     attempts++;
   }
 
+  // Fallback extrem (dacă baza de date nu are destule evenimente de același format, adăugăm orice ca să nu crape UI-ul)
+  while (optionsSet.size < 4) {
+    const wrongEvent = validEvents[Math.floor(Math.random() * validEvents.length)];
+    optionsSet.add(formatDateRO(wrongEvent.date));
+  }
   // Convert set to array and shuffle
   quizState.options = Array.from(optionsSet);
   shuffleArray(quizState.options);
@@ -866,3 +905,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
   renderTimeline();
 });
+// Funcție ajutătoare pentru a extrage doar anul din string-ul datei
+function getYearOnly(dateStr) {
+  if (!dateStr) return '';
+  
+  // Dacă este un secol (ex: "Secolul XIV") sau conține litere, îl lăsăm așa
+  if (/[a-zA-Z]/.test(dateStr)) return dateStr;
+  
+  // Separăm după cratimă (ex: "2007-01-01" devine ["2007", "01", "01"])
+  const parts = dateStr.split('-');
+  
+  // Dacă anul este negativ (ex: "-514"), prima parte din split va fi goală ""
+  if (dateStr.startsWith('-')) {
+    return `-${parts[1]}`;
+  }
+  
+  return parts[0]; // Returnează doar primul element (anul, ex: "2007")
+}

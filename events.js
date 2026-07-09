@@ -1548,6 +1548,16 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Basarab I ia parte la conflicte în balcani de partea bulgarilor împotriva sârbilor și bizantinilor",
+    "date": "1323",
+    "info": "",
+    "categories": [
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Documentul Maghiar ce îl numea pe Basarab „Voiebodul nostru transalpin” recunoscându-se vasal lal regelui Carol Robert de Anjou",
     "date": "1324",
     "info": "Carol Robert de Anjou îi recunoștea la rândul său domnia asupra unei țări sud-carpatice unificate sub numele Terra Transalpina",
@@ -1897,7 +1907,7 @@ window.events = [
     "isRange": false
   },
   {
-    "title": "Sigismund de Luxemburg (1387-1437)",
+    "title": "Sigismund de Luxemburg conduce Ungaria (1387-1437)",
     "date": "1387",
     "info": "Se aliază cu Mircea cel Bătrân la 7 martie 1395.",
     "categories": [
@@ -3642,7 +3652,7 @@ window.events = [
   {
     "title": "Grigore Ureche(1590-1647)",
     "date": "1590",
-    "info": "",
+    "info": "A fost primul reprezentant de seamă al umanismului în mediul românesc.",
     "categories": [
       "culture"
     ],
@@ -4389,17 +4399,6 @@ window.events = [
     "info": "Prin intervenția regelui polonez Ian Sobieski, trupele otomane sunt învinse la Viena. Prin această victorie începe „Criza Orientală”",
     "categories": [
       "battles",
-      "rulers"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
-    "title": "Pătrunderea forțelor imperiale în principatul Trasnilvaniei",
-    "date": "1687",
-    "info": "",
-    "categories": [
-      "politics",
       "rulers"
     ],
     "isCentury": false,
@@ -6275,7 +6274,7 @@ window.events = [
   {
     "title": "Proclamația de la Islaz",
     "date": "1848-06-09",
-    "info": "Lider-Ion Heliade Rădulescu, cerea independența administrativă a Țării Românești, egalitatea drepturilor politice, domn responsabil ales pe 5 ani, libertatea absolută a tiparului, desființarea rangurilor și instrucția generală. De asemenea se cerea dezrobirea țiganilor și emanciparea clăcașilor.",
+    "info": "Lider-Ion Heliade Rădulescu, cerea independența administrativă a Țării Românești, egalitatea drepturilor politice, domn responsabil ales pe 5 ani, libertatea absolută a tiparului, desființarea rangurilor și instrucția generală. De asemenea se cerea dezrobirea țiganilor și emanciparea clăcașilor.<br><br>Din cauza nemulțumirii Rusiei față de Soliman Pașa, trimis de otomani pentru înfrângerea revoluției, Imperiul Otoman l-a trimis pe Fuad Pașa, care a înfrânt revoluția.",
     "categories": [
       "politics",
       "rulers"
@@ -6414,16 +6413,6 @@ window.events = [
     "isRange": false
   },
   {
-    "title": "Bucovina este ridicată la rangul de DUCAT",
-    "date": "1849",
-    "info": "",
-    "categories": [
-      "politics"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
     "title": "Bucovina devine ducat sub directa guvernare a Curții de la Viena",
     "date": "1849-03-04",
     "info": "",
@@ -6512,6 +6501,16 @@ window.events = [
     "title": "Codul civil penal prusac, din care este inspirat cel Românesc",
     "date": "1851",
     "info": "",
+    "categories": [
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Nicolae Bălcescu scrie Manualul Bunului Român",
+    "date": "1851",
+    "info": "Această lucrare este menționată în contextul proiectelor politice pașoptiste, evidențiind idei precum „contractul social” și suveranitatea poporului, care trebuie să fie singurul stăpân al țării",
     "categories": [
       "politics"
     ],
@@ -8195,6 +8194,16 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Ia ființă PNR din Transilvania",
+    "date": "1881",
+    "info": "",
+    "categories": [
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "România devine regat",
     "date": "1881-03-14",
     "info": "La 14/26 martie 1881 România devine regat. În 1881 România avea relații cu 18 state.",
@@ -8922,7 +8931,7 @@ window.events = [
   {
     "title": "Începe Primul Război Mondial",
     "date": "1914-07-15",
-    "info": "La 15/28 Iulie 1914 începe Primul război Mondial, prin asasinarea la 28 iunie 1914",
+    "info": "După războiul de independență, România, amenințată de atitudinea Rusiei, s-a orietnat către o alianță cu Puterile Centrale la (18/30 octombrie 1883), printr-un tratat bilateral semnat cu Austro-Ungaria, tratat ținut secret din cauza opiniei publice de la momentul respectiv (Tranislvania se afla în granițele Austro-Ungariei). Clauzele tratatului nu au fost puse în aplicare din cauza faptului că războiul dus de Austro-Ungaria și Germania era unul ofensiv, iar România avea obligația de a intra în război doar în cazul în care una din țări era atacată.<br><br>Românii au urmărit de asemenea și evoluția alianței franco-ruse în 1891, acordul franco-rus din 1893 și apropierea dintre Marea Britanie și Franța, prin Antanta Cordială din 1904 și acordul anglo-rus din 1907(care definitiva alianța).<br><br>În 1908 are loc criza Bosniacă, când Austro-Ungaria anexează Bosnia (pe care o primise în administrare din 1878). În consecință, Bulgaria se va orienta către Puterile Centrale iar Serbia se va orienta către o alianță cu Rusia. Proclamarea independenței Bulgariei a fost însoțită de tensionarea relațiilor sale cu Petersburgul și apropierea de Viena.<br><br>Cu acest prilej, I.I.C. Brătianu își exprimă categoric ostilitatea față de politica balcanică a Austro-Ungariei. Problema aromânilor a tensionat relațiile României cu Grecia, iar relațiile cu Turcia erau practic inexistente. Singurul stat din zonă cu care România a avut relații mai apropiate a fost Serbia.<br>Principesa Maria și I.I.C. Brătianu tatonau terenul pentru reorientarea politicii românești către Antantă.<br><br>Înainte de începerea efectivă a Primului Război Mondial au avut cele două Războaie Balcanice, primul între (1912-1913), între Serbia, Grecia, Bulgaria și Muntenegru împotriva Turciei, încheiat prin pacea de la Londra și al doilea în (1913), între Bulgaria și foștii săi aliați(la care se adăugau România și Turcia. !În timpul acestui război, ministrul de externe și prim-ministru al României). Bulgaria a fost înfrântă în acest război, iar prin pacea de la București, România a încadrat Cadrilaterul(județele Drustor și Caliacra).<br><br>La sfârșitul anului (1913), erau inițiate tratative între contele Tisza și Comitetul Executiv al PNR din Transilvania. Împăratul Wilhelm al II-lea a insistat ca acestea să se termine printr-un compromis acceptabil pentru români.<br><br>Țarul Nicolae al II-lea împreună cu familia și ministrul de externe Sazonov a vizitat Constanța la (1/14 iunie 1914). Discuțiile sale cu Carol I și I.I.C. Brătianu au reconfirmat noua orientare politică a României.<br><br>La (15/28 iunie 1914) arhiducele Franz Ferdinand este asasinat de către studentul naționalist sârb Gavril Princip, ceea ce a dus la izbucnirea Primului Război Mondial o lună mai târziu la (15/28 iulie 1914)<br><br>La Sinaia s-a ținut un Consiliu de Coroană la (21 iulie/3 august 1914) unde s-a decis neutralitatea României în acest conflict, deși regele Carol I, convins că Germania va câștiga conflictul, împreună cu gruparea condusă de Petre P. Carp (și Titu Maiorescu??) doreau intrarea în război alături de Puterile Centrale, invocând tratatul din (1883).<br><br>O altă parte din conservatori erau de partea Antantei (Nicolae Iorga, Octavian Goga și Nicolae Filipescu) și doreau intrarea în război împotriva Puterilor Centrale. Take Ionescu susținea de asemenea intrarea de partea Antantei în război. Opinia publică era de asemenea în favoarea Antantei.<br><br> \tGruparea lui Titu Maiorescu și Alexandru Marghiloman se pronunța pentru neutralitate și bune relații cu Germania și Austro-Ungaria. Majoritatea oamenilor politici au preferat neutralitatea, întrucât tratatul cu Puterile Centrale avea un caracter defensiv (casus foedris).<br><br>S-a decis expectativa armată(înarmare în timpul neutralității), decizie cu care a fost de acord atât Carol I cât și Ferdinand. Astfel România va fi neutră, dar va simpatiza cu Antanta între anii (1914-1916).<br><br>România era privită cu interes de către ambele tabere, din punct de vedere economic, militar și strategic, mai ales că era înconjurată de state participante la război. Astfel, la (18 septembrie/1 octombrie 1918), printr-un acord secret, Rusia se angaja să respecte integritatea teritorială a României și îi recunoștea drepturile asupra teritoriilor din Austro-Ungaria (tratatul Sazonov-Diamandi), în schimbul neutralității sale.<br><br>La 26 septembrie/10 octombrie 1914 moare Carol I și urcă pe tron fiul fratelui său, Ferdinand I, căsătorit cu Regina Maria, nepoată a Casei Regale Britanice și a țarului Rusiei, ceea ce ne-a împins mai tare spre o alianță cu Antanta.<br><br>În 1915 Italia intră în război de partea Antantei iar Bulgaria și Turcia intră în război de partea Puterilor Centrale. Puterile Centrale sperau, în cel mai fericit caz, neutralitatea României, iar Franța și UK erau nemulțumite de atitudinea lui I I C Brătianu.<br><br>La (4/17 august 1916) Brătianu a obținut recunoașterea drepturilor României asupra Transilvaniei, Banatului și a Bucovinei. Între 1916-1918 I.I.C. Brătianu a ocupat și funcția de ministru de externe. Prevederile tratatului erau - România va declara război Austro-Ungariei și va lansa atacul la (15/29 august 1916).<br><br>- Antanta va sprijini ofensiva Română prin atacuri la Salonic.<br><br>-Rusia se obligă să trimită în Dobrogea 2 divizii de infanterie și 1 de cavalerie. Rusia va ataca și Austria. <br><br>- Antanta va recunoaște integritatea teritorială a României.<br><br>- La sfârșitul războiului, Antanta va recunoaște România ca aliat cu drepturi depline la masa tratativelor.<br><br>Antanta recunoaște drepturile României asupra Transilvaniei, Banatului și Bucovinei aflate la Austro-Ungari.(Atenție, tratatul NU prevede Basarabia, deoarece erau în teritoriul Rusiei, care ne era aliată.)<br><br>Consiliul de Coroană de la București(Cotroceni) la (14/27 august 1916) a decis intrarea în război împotriva Puterilor Centrale. La 14 august 1916 România a declarat război Austro-Ungariei. În ziua următoare (15/27 august 1916) Germania a declarat război României. Atacul general începe la data de 15/27 august 1916, conform planului „Ipoteza Z” conform căruia, 3 părți din armata României atacau Austro-Ungaria, iar una apăra granița cu Bulgaria. Sunt cu succes eliberate orașele Brașov, Sf. Gheorghe, Miercurea Ciuc, Gheorgheni, până aproape de Sibiu, iar în Banat a fost ocupată Orșova.<br><br>Contraofensiva Germano-Bulgară în sud la Turtucaia a venit la 18 august – 24 august (31 august – 7 septembrie gregorian), condusă de generalul/feldmareșalul August Von Mackensen, iar armatele inamice se vor revărsa în Muntenia.<br><br>Până la sfârșitul campaniei vor fi cucerite Turtucaia, Silistra, Constanța și Cernavodă. Absența presiunii din partea generalului Sarrail la Salonic a fost un factor major în înfrângerea României. Ajutoarele au întârziat și Rusia nu a trimis ajutoarele promise în Dobrogea.<br><br>Eșecul contraofensivei generalului ALEXANDRU AVERESCU la Flămânda a obligat România să oprească ofensiva în Transilvania (2/16 septembrie 1916). Armatele germane, comandate de Eric von Falkenhayn în nord și August von Mackensen în sud încep un nou atac. În acest context, generalul EREMIA GRIGORESCU a câștigat bătălia trecătorilor Carpaților Orientali sub deviza „Pe aici nu se trece”.<br><br>Dinspre Valea Jiului și Valea Oltului, România a fost atacată, iar generalii I. Drăgălina și  David Praporgescu, inferior atât numeric cât și tehnic, nu au putut rezista ofensivei.(Aici s-a remarcat și Ecaterina Teodoroiu, înrolată ca voluntar în armată.)<br><br>La 8 noiembrie 1916 a căzut și orașul Craiova.<br><br>După bătălia de pe Neajlov și Argeș (noiembrie/1-3 decembrie 1916), Bucureștiul era părăsit de oficiaități, era ocupat (23 noiembrie / 6 decembrie 1916), iar capitala țării se muta la Iași. 2/3 din teritoriul țării era ocupat de Puterile Centrale. Țara suferise 250.000 de pierderi, aproape 1/3 din toate forțele mobilizate. Tot acum tezaurul României este trimis spre Rusia pentru a fi în siguranță.<br><br>Frontul a fost stabilizat pe linia Focșani-Nămoloasa-Galați în sudul Moldovei la sfârșitul lunii decembrie 1916. La Iași s-a format un guvern condus de I.I.C Brătianu, la 11 decembrie 1916, condus format din liberali și conservatori.<br><br>În Rusia începe revoluția bolșevică în februarie/martie 1917, condusă de Vladimir Ilici Lenin. Țarul și familia vor fi înlăturați și asasinați (martie 1917)<br><br>! – Regele Fedinand face o proclamație la (23 martie 1917) promițând o reformă agrară și votul universal. La (19 iulie 1917) este modificată constituția PENTRU A PERMITE aceste modificări (ele sunt puse în practică, efectiv din 1918, iar primele alegeri pe baza votului universal au loc în 1919) lucru ce a sporit moralul armatei.<br><br>A fost trimis și generalul francez Henry Berthelot pentru instruirea armatei României, care a fost reorganizată în A1(armata I) și A2.<br><br>Armata română, pregătită, va da luptele victorioase la Mărăști(11/24 iulie) Mărășești (24 iulie – 6 august) și Oituz (26 iulie – 9 august) 1917!<br>La Mărăști, generalul ALEXANDRU AVERESCU declanșa OFENSIVA înaintând 20 km în dispozitivul inamic.<br>La (24 iulie 1917) Mackensen a contraatacat în zona Focșani-Mărășești-Adjud, dar A1 condusă de EREMIA GRIGORESCU a reușit să-i oprească pe germani. Pe linia Carpaților Orientali A2 a ținut cu succes trecătorile.<br>La Oituz (26 iulie – 9 august 1917), generalul ALEXANDRU AVERESCU, a reușit să respingă încercarea inamică de a străpunge linia la est de Carpați.<br><br>În Rusia are loc revoluția din Octombrie (25 octombrie/ 7 noiembrie 1917) condusă de Lenin.<br><br>La (26 noiembrie/9 decembrie 1917), România încheie ARMISTIȚIUL DE LA FOCȘANI cu Puterile Centrale.<br><br>În (Ianuarie 1918) este confiscat tezaurul României de către bolșevici. Tot acum președintele american Woodrow Wilson scrie cele 14 puncte despre dreptul popoarelor la autodeterminare.<br><br>La (18 februarie/3 martie 1918), Rusia Bolșevică va semna pacea de la Brest-Litovsk cu Puterile Centrale, ieșind din război. România semnează și ea Pacea de la București (Buftea) cu Puterile Centrale la (24 aprilie/7 mai 1918), semnată de către guvernul progerman condus de Alexandru Marghiloman.<br><br>Pacea de la Buftea prevedea<br> 1 -Teritoriul Țării Românești va fi ocupat de Germania. <br>2.-\tDobrogrea va fi administrată de Bulgaria<br>3. -\tPierdeam Dobrogea și culmile Carpaților în suprafață de 5 600 km2 si 170 de sate. <br> 4. -\tArmata română va fi demobilizată<br>5. -\tSurplusul României de cereale, lemn, petrol, finanțele și navigație pe Dunăre vor fi gestionate de Germania timp de 90 DE ANI. Astfel economic țara va fi SUBORDONATĂ GERMANIEI.<br>6. -\tPuterile Centrale recunoșteau unirea Basarabiei cu România.<br>Regele Ferdinand NU a promulgat legea pentru ratificarea tratatului, care a rămas nul juridic.<br><br>Antanta obține noi victorii, pe frontul de vest în iulie 1918 au reușit să străpungă și să înainteze constant spre Germania. Contraofensiva generalului FOCH pe SOMME a început din nou în august 1918 și în septembrie a început ofensiva lui Sarrail la Salonic. În nordul Italiei, aliații au respins armatele Austro-Ungariei ceea ce a obligat Austro-Ungaria să semneze armistițiul la (21 octombrie/3 noiembrie 1918).<br><br>În aceste condiții, Ferdinand denunță pacea de la București și reintră în război la (28 octombrie/10 noiembrie 1918). Astfel, sfârșitul războiului (29 octombrie/11 noiembrie 1918) prin capitularea Germaniei găsește România în tabăra învingătoare.<br><br>Pierderile României ajungeau la 800.000 de morți, răniți și dispăruți. Capitala eliberată revenea în granițele României la 18 noiembire/1 decembrie 1918.<br><br>România va continua luptele până în 1919, restabilind ordinea în Ungaria( în martie 1919 s-a instalat un regim comunist condus de Bella Kun iar în august 1919 acesta este lichidat de armata română, deoarece prezența a două state comuniste la graniță era riscantă).<br><br>În urma înfăptuirii Marii Uniri au fost semnate tratate cu celelalte state precum:<br>Tratatul de la Versailles cu Germania (28 iunie 1919)<br>2.La Saint Germain cu Austria (10 septembrie/10 octombrie 1919) tratatul cu Austria și cel al minorităților (semnat de România la 10 decembrie 1919)<br>3.Tratatul de la Neuilly cu Bulgaria la (27 noiembrie 1919) prin care se păstra frontiera din 1913.<br><br>4.Tratatul de la Trianon cu Ungaria negociat de N Titulescu la (4 iunie 1920) unde se recunoștea apartenența Transilvaniei la România.<br><br>5.Tratatul de la Paris (ianuarie 1919-28 octombrie 1920) unde UK, Franța, Italia și Japonia recunosc unirea Basarabiei cu România. Aceste puteri invitau Rusia la tratat de îndată ce aceasta va avea un guvern recunoscut de ele.<br><br>6.Tratatul de la Sevres cu Turcia (10 august 1920)",
     "categories": [
       "battles"
     ],
@@ -10793,6 +10802,16 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Legea pentru organizarea judecătorească",
+    "date": "1925",
+    "info": "Legea stabilește structura și funcția instanțelor judecătorești.",
+    "categories": [
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Discursul lui Mussolini în parlament cu prilejul asasinării deputatului socialist Matteoti",
     "date": "1925-01-03",
     "info": "",
@@ -11016,6 +11035,16 @@ window.events = [
     "title": "Scrisoarea lui C Argetoianu, jud. Dolj în timpul unei campanii electorale",
     "date": "1928",
     "info": "",
+    "categories": [
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Constantin Argetoianu candidează în județul Dolj",
+    "date": "1928",
+    "info": "Constantin Argetoianu candidat în județul Dolj.",
     "categories": [
       "politics"
     ],
@@ -11522,6 +11551,16 @@ window.events = [
   },
   {
     "title": "Congresul PNȚ unde s-a insistat pe ideea de colaborare a tuturor forțelor sociale din cadrul statului național țărănesc pe baza unei reale democrații",
+    "date": "1935",
+    "info": "",
+    "categories": [
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Nicolae Titulescu negociază cu URSS un tratat de asisntență reciprocă care nu a fost finalizat, nefiind ratificat",
     "date": "1935",
     "info": "",
     "categories": [

@@ -725,6 +725,31 @@ body {
   margin-bottom: 1rem;
 }
 
+/* Academy Test - Chronological Ordering List (A, B, C, D items) */
+.academy-items-list {
+  list-style: none;
+  counter-reset: academy-counter;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.academy-items-list li {
+  padding: 0.875rem 1.125rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  font-size: 0.98rem;
+  line-height: 1.4;
+  color: var(--text-primary);
+}
+
+.academy-items-list li strong {
+  color: var(--accent-gold);
+  margin-right: 0.4rem;
+}
+
 .quiz-next-btn {
   background-color: var(--accent-gold);
   color: var(--bg-app);
@@ -987,4 +1012,24 @@ body {
   .dashboard-stats {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+.academy-container{
+    max-width:900px;
+    margin:auto;
+}
+
+.academy-card{
+    background:#101722;
+    border-radius:15px;
+    padding:30px;
+}
+
+.academy-card ol{
+    margin:25px 0;
+    line-height:2;
+}
+
+.academy-card button{
+    width:100%;
+    margin:10px 0;
 }
