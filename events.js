@@ -245,7 +245,6 @@ window.events = [
     "date": "VI",
     "info": "",
     "categories": [
-      "rulers",
       "culture"
     ],
     "isCentury": true,
@@ -397,8 +396,7 @@ window.events = [
     "date": "IX",
     "info": "IX-X cu centrul la Dăbâca. Este situat de la Porțile Meseșului și Valea Someșului până la cursul mijlociu al Mureșului.<br><BR>A fost primul voievodat cucerit de Ungaria, supus de căpetenia maghiară <B>Tuhutum</B> pe la 900.",
     "categories": [
-      "rulers",
-      "battles"
+      "rulers"
     ],
     "isCentury": true,
     "isRange": false
@@ -408,7 +406,6 @@ window.events = [
     "date": "894",
     "info": "Dar de ce atâta zel pentru a goli de populație daco-romană fosta provincie romană Dacia şi îndeosebi spațiul intracarpatic?... în 894, primul loc de descălecare a ungurilor a fost deci Transilvania. Drumul parcurs apoi de descälecare a fost prin valea Mureşului şi a Crişului Repede şi poate prin trecătoarea Meseș, în direcţia Câmpiei Panonice. Adică exact invers decât s-au petrecut faptele. Se ştie că în 896, triburile ungare au venit în Câmpia Panonică şi au încercat să înainteze spre Apus, dar drumul lor a fost barat în această direcţie; abia după aceea ele au început să efectueze incursiuni spre interiorul Transilvaniei. Şi iată cum printr-un simplu artificiu Transilvania a devenit un străvechi leagăn al triburilor ungare, mai vechi decât Câmpia Panonică, unde se află statul maghiar azi.",
     "categories": [
-      "rulers",
       "politics"
     ],
     "isCentury": false,
@@ -562,7 +559,8 @@ window.events = [
     "date": "1000",
     "info": "După anul 1000. Regele Ungariei Vaik se creștinează la 25 decembrie 1001 și ia numele de Ștefan(997-1038)",
     "categories": [
-      "rulers"
+      "rulers",
+      "culture"
     ],
     "isCentury": false,
     "isRange": false
@@ -1013,7 +1011,6 @@ window.events = [
     "date": "XIII",
     "info": "",
     "categories": [
-      "rulers",
       "culture"
     ],
     "isCentury": true,
@@ -1145,7 +1142,7 @@ window.events = [
     "date": "1230",
     "info": "Între Manglia și Varna unde domnește Balica.",
     "categories": [
-      "rulers"
+      "politics"
     ],
     "isCentury": false,
     "isRange": false
@@ -1165,7 +1162,8 @@ window.events = [
     "date": "1234",
     "info": "Dată de papa Grigore al IX-lea către viitorul rege Bela al IV-lea",
     "categories": [
-      "rulers"
+      "politics",
+      "culture"
     ],
     "isCentury": false,
     "isRange": false
@@ -1184,8 +1182,7 @@ window.events = [
     "title": "Marea invazie a tătarilor",
     "date": "1241",
     "info": "Românii încercaseră împreună cu secuii să apere trecătorile trasnilvănene, iar în exteriorul Carpaților, tătarii se confruntă cu Mișelau(probabil Senselau) care apare mai târziu în documente. Invazia tătară a pulverizat atât voievodatele românești dar a și dezorganizat regatul ungar, scăzând presiunea maghiară.",
-    "categories": [
-      "rulers",
+    "categories": [ 
       "battles"
     ],
     "isCentury": false,
@@ -1288,7 +1285,7 @@ window.events = [
     "info": "Acest lucru duce la moartea sa și capturarea fratelui său Bărbat, care se răscumpără cu o sumă „Nu mică de bani”",
     "categories": [
       "rulers",
-      "politics"
+      "battles"
     ],
     "isCentury": false,
     "isRange": false
@@ -1997,8 +1994,7 @@ window.events = [
     "date": "1392",
     "info": "",
     "categories": [
-      "battles",
-      "rulers"
+      "battles"
     ],
     "isCentury": false,
     "isRange": false
@@ -2009,7 +2005,6 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
-      "rulers"
     ],
     "isCentury": false,
     "isRange": false
@@ -2020,7 +2015,6 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
-      "rulers"
     ],
     "isCentury": false,
     "isRange": false
@@ -2051,8 +2045,7 @@ window.events = [
     "date": "1394-10-10",
     "info": "În 10 octombrie 1394/ 17 mai 1395 oastea muneană luptă cu turcii într-un loc numit Rovine, împotriva lui Baiazid I.",
     "categories": [
-      "battles",
-      "rulers"
+      "battles"
     ],
     "isCentury": false,
     "isRange": false
@@ -2063,8 +2056,7 @@ window.events = [
     "info": "La 7 martie 1395 semnează o alianță pe picior de egalitate.",
     "categories": [
       "battles",
-      "politics",
-      "rulers"
+      "politics"
     ],
     "isCentury": false,
     "isRange": false
@@ -2074,8 +2066,7 @@ window.events = [
     "date": "1396",
     "info": "",
     "categories": [
-      "battles",
-      "rulers"
+      "battles"
     ],
     "isCentury": false,
     "isRange": false
@@ -2175,8 +2166,7 @@ window.events = [
     "date": "1402",
     "info": "Timur Lenk(Mongol) îl învinge pe Baiazid I. Mircea este nevoit să devină arbitru pentru succesiune între fii lui Baiazid.",
     "categories": [
-      "battles",
-      "rulers"
+      "battles"
     ],
     "isCentury": false,
     "isRange": false
@@ -2221,7 +2211,6 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
-      "rulers"
     ],
     "isCentury": false,
     "isRange": false
@@ -2298,7 +2287,7 @@ window.events = [
   {
     "title": "Dobrogea este cucerită de turci",
     "date": "1417",
-    "info": "Dobrogea rămâne în statul Muntean până în 1417/1420 când este cucerită de turci(se opresc la Giurgiu) și rămâne sub conducerea acestora până în 1878",
+    "info": "Dobrogea rămâne în statul Muntean până în 1417/1420 când este cucerită de turci(Cuceresc cetățile Turnu și Giurgiu) și rămâne sub conducerea acestora până în 1878",
     "categories": [
       "battles",
       "politics"
@@ -2422,7 +2411,6 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
-      "rulers"
     ],
     "isCentury": false,
     "isRange": false
@@ -2433,7 +2421,6 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
-      "rulers"
     ],
     "isCentury": false,
     "isRange": false
@@ -2444,7 +2431,6 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
-      "rulers"
     ],
     "isCentury": false,
     "isRange": false
@@ -2489,7 +2475,6 @@ window.events = [
     "categories": [
       "battles",
       "politics",
-      "rulers"
     ],
     "isCentury": false,
     "isRange": false
@@ -2544,7 +2529,6 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
-      "rulers"
     ],
     "isCentury": false,
     "isRange": false
@@ -2555,7 +2539,6 @@ window.events = [
     "info": "Din timpul lui Iancu de Hunedoara, dar va fi cucerită de Ștefan cel Mare.",
     "categories": [
       "battles",
-      "rulers"
     ],
     "isCentury": false,
     "isRange": false
@@ -4324,7 +4307,7 @@ window.events = [
   {
     "title": "Apare în Transilvania culegerea de legi Approbatae Constitutiones",
     "date": "1653",
-    "info": "",
+    "info": "Culegerea de legi Compilatae Constitutiones apare în 1669",
     "categories": [
       "politics"
     ],
@@ -6000,9 +5983,8 @@ window.events = [
   {
     "title": "Mihail Sturdza(Moldova, 1834-1849)",
     "date": "1834",
-    "info": "",
+    "info": "Mihail Sturdza și Alexandru Ghica NU au fost aleși în conformitate cu Regulamentele Organice, ci au fost numiți de Poartă. Singurul domn ales în conformitate cu Regulamentele Organice a fost Gheorghe Bibescu(Țara Românească, 1842-1848).",
     "categories": [
-      "politics",
       "rulers"
     ],
     "isCentury": false,
@@ -6021,7 +6003,7 @@ window.events = [
   {
     "title": "Actele adiționale ale Regulamenteleor Organice",
     "date": "1835",
-    "info": "Primul în 1835, al doilea în 1839",
+    "info": "Primul în 1835(În Moldova!), al doilea în 1839",
     "categories": [
       "politics"
     ],
@@ -6043,7 +6025,7 @@ window.events = [
   {
     "title": "Actele adiționale ale Regulamentelor Organice",
     "date": "1839",
-    "info": "Primul în 1835, al doilea în 1839",
+    "info": "Primul în 1835(În Moldova!), al doilea în 1839",
     "categories": [
       "politics"
     ],
@@ -6063,7 +6045,7 @@ window.events = [
   {
     "title": "Gheorghe Bibescu(Țara Românească, 1842-1848)",
     "date": "1842",
-    "info": "",
+    "info": "A fost singurul domn ales în conformitate cu Regulamentele Organice.",
     "categories": [
       "rulers"
     ],
@@ -6406,7 +6388,6 @@ window.events = [
     "date": "1849",
     "info": "",
     "categories": [
-      "politics",
       "rulers"
     ],
     "isCentury": false,
@@ -11235,16 +11216,6 @@ window.events = [
     "isRange": false
   },
   {
-    "title": "Negocierile Româno-Sovietice de la Riga",
-    "date": "1932",
-    "info": "Fără rezultate",
-    "categories": [
-      "politics"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
     "title": "Nicolae Titulescu devine ministru de externe",
     "date": "1932",
     "info": "1932-1936",
@@ -13567,7 +13538,7 @@ window.events = [
   {
     "title": "CAER este înființat",
     "date": "1949",
-    "info": "",
+    "info": "Delegatul permanent al României la CAER a fost Alexandru Bârlădeanu",
     "categories": [
       "politics"
     ],
@@ -16767,6 +16738,56 @@ window.events = [
     "title": "România aderă la UE",
     "date": "2007-01-01",
     "info": "România devine stat membru al Uniunii Europene.",
+    "categories": [
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Convenția de alianță defensivă între România și Polonia",
+    "date": "1921",
+    "info": "Această convenție este semnată la inițiativa ministrului de externe român Take Ionescu, care a propus Poloniei un tratat de alianță defensivă împotriva oricărei agresiuni din partea vecinului din est. Această alianță se dezvoltă mai mult în 1926, devenind o alianță împotriva oricărei agresiuni.",
+    "categories": [
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Apare în Transilvania culegerea de legi Compilatae Constitutiones",
+    "date": "1669",
+    "info": "Culegerea de legi Compilatae Constitutiones apare în 1669",
+    "categories": [
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Vizita lui Ceaușescu la Paris cu George Pompidou",
+    "date": "1974",
+    "info": "",
+    "categories": [
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Sunt naționalizate instituțiile de sănătate, casele de filme și cinematografele.",
+    "date": "1948-11",
+    "info": "",
+    "categories": [
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Vlad Țepeș încheie alianță cu regele Ungariei, Matia Corvin",
+    "date": "1460",
+    "info": "",
     "categories": [
       "politics"
     ],
