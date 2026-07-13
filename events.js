@@ -1182,7 +1182,7 @@ window.events = [
     "title": "Marea invazie a tătarilor",
     "date": "1241",
     "info": "Românii încercaseră împreună cu secuii să apere trecătorile trasnilvănene, iar în exteriorul Carpaților, tătarii se confruntă cu Mișelau(probabil Senselau) care apare mai târziu în documente. Invazia tătară a pulverizat atât voievodatele românești dar a și dezorganizat regatul ungar, scăzând presiunea maghiară.",
-    "categories": [ 
+    "categories": [
       "battles"
     ],
     "isCentury": false,
@@ -2004,7 +2004,7 @@ window.events = [
     "date": "1393",
     "info": "",
     "categories": [
-      "battles",
+      "battles"
     ],
     "isCentury": false,
     "isRange": false
@@ -2014,7 +2014,7 @@ window.events = [
     "date": "1394",
     "info": "",
     "categories": [
-      "battles",
+      "battles"
     ],
     "isCentury": false,
     "isRange": false
@@ -2210,7 +2210,7 @@ window.events = [
     "date": "1406",
     "info": "",
     "categories": [
-      "politics",
+      "politics"
     ],
     "isCentury": false,
     "isRange": false
@@ -2410,7 +2410,7 @@ window.events = [
     "date": "1442-03-18",
     "info": "",
     "categories": [
-      "battles",
+      "battles"
     ],
     "isCentury": false,
     "isRange": false
@@ -2420,7 +2420,7 @@ window.events = [
     "date": "1442-03-22",
     "info": "",
     "categories": [
-      "battles",
+      "battles"
     ],
     "isCentury": false,
     "isRange": false
@@ -2430,7 +2430,7 @@ window.events = [
     "date": "1442-09-02",
     "info": "",
     "categories": [
-      "battles",
+      "battles"
     ],
     "isCentury": false,
     "isRange": false
@@ -2474,7 +2474,7 @@ window.events = [
     "info": "Vladislav I al Poloniei și Ungariei(rege al ambelor) organizează cruciada de la Varna, sub insistențele lui Iancu. Vladislav moare în luptă.",
     "categories": [
       "battles",
-      "politics",
+      "politics"
     ],
     "isCentury": false,
     "isRange": false
@@ -2528,7 +2528,7 @@ window.events = [
     "date": "1448",
     "info": "",
     "categories": [
-      "battles",
+      "battles"
     ],
     "isCentury": false,
     "isRange": false
@@ -2538,7 +2538,7 @@ window.events = [
     "date": "1448",
     "info": "Din timpul lui Iancu de Hunedoara, dar va fi cucerită de Ștefan cel Mare.",
     "categories": [
-      "battles",
+      "battles"
     ],
     "isCentury": false,
     "isRange": false
@@ -2666,6 +2666,16 @@ window.events = [
     "categories": [
       "politics",
       "rulers"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Vlad Țepeș încheie alianță cu regele Ungariei, Matia Corvin",
+    "date": "1460",
+    "info": "",
+    "categories": [
+      "politics"
     ],
     "isCentury": false,
     "isRange": false
@@ -4330,6 +4340,16 @@ window.events = [
     "info": "",
     "categories": [
       "culture"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Apare în Transilvania culegerea de legi Compilatae Constitutiones",
+    "date": "1669",
+    "info": "Culegerea de legi Compilatae Constitutiones apare în 1669",
+    "categories": [
+      "politics"
     ],
     "isCentury": false,
     "isRange": false
@@ -10369,6 +10389,16 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Convenția de alianță defensivă între România și Polonia",
+    "date": "1921",
+    "info": "Această convenție este semnată la inițiativa ministrului de externe român Take Ionescu, care a propus Poloniei un tratat de alianță defensivă împotriva oricărei agresiuni din partea vecinului din est. Această alianță se dezvoltă mai mult în 1926, devenind o alianță împotriva oricărei agresiuni.",
+    "categories": [
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Convenția dintre Regatul României și Republica Poloniei",
     "date": "1921-03-03",
     "info": "Tratat defensiv, împotriva vecinului de la răsărit, semnat la București. Take Ionescu era ministrul de externe în acest moment",
@@ -13516,6 +13546,16 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Sunt naționalizate instituțiile de sănătate, casele de filme și cinematografele.",
+    "date": "1948-11",
+    "info": "",
+    "categories": [
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Biserica greco-catolică își încheie oficial existența",
     "date": "1948-12-01",
     "info": "",
@@ -15411,6 +15451,16 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Vizita lui Ceaușescu la Paris cu George Pompidou",
+    "date": "1974",
+    "info": "",
+    "categories": [
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "N Ceaușescu devine primul președinte al României",
     "date": "1974-03-26",
     "info": "26/28 martie 1974",
@@ -16738,56 +16788,6 @@ window.events = [
     "title": "România aderă la UE",
     "date": "2007-01-01",
     "info": "România devine stat membru al Uniunii Europene.",
-    "categories": [
-      "politics"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
-    "title": "Convenția de alianță defensivă între România și Polonia",
-    "date": "1921",
-    "info": "Această convenție este semnată la inițiativa ministrului de externe român Take Ionescu, care a propus Poloniei un tratat de alianță defensivă împotriva oricărei agresiuni din partea vecinului din est. Această alianță se dezvoltă mai mult în 1926, devenind o alianță împotriva oricărei agresiuni.",
-    "categories": [
-      "politics"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
-    "title": "Apare în Transilvania culegerea de legi Compilatae Constitutiones",
-    "date": "1669",
-    "info": "Culegerea de legi Compilatae Constitutiones apare în 1669",
-    "categories": [
-      "politics"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
-    "title": "Vizita lui Ceaușescu la Paris cu George Pompidou",
-    "date": "1974",
-    "info": "",
-    "categories": [
-      "politics"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
-    "title": "Sunt naționalizate instituțiile de sănătate, casele de filme și cinematografele.",
-    "date": "1948-11",
-    "info": "",
-    "categories": [
-      "politics"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
-    "title": "Vlad Țepeș încheie alianță cu regele Ungariei, Matia Corvin",
-    "date": "1460",
-    "info": "",
     "categories": [
       "politics"
     ],
