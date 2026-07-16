@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
+  <link rel="icon" type="image/png" href="favicon.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="darkreader-lock">
@@ -32,12 +33,22 @@
           <button id="clear-search" class="hidden">&times;</button>
         </div>
         
+
+
+
         <div class="filter-controls">
-          <select id="era-filter">
-            <option value="all">Toate Epocile</option>
-            <option value="bc">Înainte de Hristos (î.Hr.)</option>
-            <option value="ad">După Hristos (A.D.)</option>
-          </select>
+<select id="theme-filter">
+  <option value="all">Toate Temele</option>
+  <option value="tema1">Tema 1 - Romanitatea</option>
+  <option value="tema2">Tema 2 - Autonomii locale</option>
+  <option value="tema3">Tema 3 - Evul Mediu</option>
+  <option value="tema4">Tema 4 - Statul Român Modern</option>
+  <option value="tema5">Tema 5 - Criza Orientală</option>
+  <option value="tema6">Tema 6 - Constituțiile</option>
+  <option value="tema7">Tema 7 - Sec. XX (Democrație/Totalitarism)</option>
+  <option value="tema8">Tema 8 - România Postbelică</option>
+  <option value="tema9">Tema 9 - Războiul Rece</option>
+</select>
           <select id="category-filter">
             <option value="all">Toate Categoriile</option>
             <option value="battles">⚔️ Războaie & Bătălii</option>
@@ -48,6 +59,9 @@
           </select>
         </div>
 
+
+        
+        
         <!-- View Switcher -->
         <div class="view-switcher">
           <button id="btn-timeline-view" class="switch-btn active" data-view="timeline">

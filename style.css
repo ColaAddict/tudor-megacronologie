@@ -1033,3 +1033,35 @@ body {
     width:100%;
     margin:10px 0;
 }
+/* --- Distinct Styling for Manual Theme Tags --- */
+
+/* Targets any class name starting with badge-category-tema */
+[class*="badge-category-tema"] {
+  background-color: rgba(255, 255, 255, 0.03) !important; /* Semi-transparent dark background */
+  border-width: 1px !important;
+  border-style: solid !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+  padding: 0.15rem 0.625rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific borders and text colors based on the theme colors */
+.badge-category-tema1 { border-color: #f4f800 !important; color: #f4f800 !important; }
+.badge-category-tema2 { border-color: #3f87e6 !important; color: #3f87e6 !important; }
+.badge-category-tema3 { border-color: #00d7f3 !important; color: #00d7f3 !important; }
+.badge-category-tema4 { border-color: #a00505 !important; color: #a00505 !important; }
+.badge-category-tema5 { border-color: #61c953 !important; color: #61c953 !important; }
+.badge-category-tema6 { border-color: #27e6ff !important; color: #27e6ff !important; }
+.badge-category-tema7 { border-color: #b38c45 !important; color: #b38c45 !important; }
+.badge-category-tema8 { border-color: #CC0000 !important; color: #CC0000 !important; }
+.badge-category-tema9 { border-color: #004990 !important; color: #004990 !important; }
+
+/* Subtle hover pop effect on the event card hover */
+.event-item:hover [class*="badge-category-tema"] {
+  background-color: rgba(255, 255, 255, 0.07) !important;
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}

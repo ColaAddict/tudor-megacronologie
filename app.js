@@ -36,43 +36,95 @@ function romanFromInt(num) {
   }
   return roman;
 }
+// Normalize Romanian diacritics to their base characters for easy matching
+function normalizeDiacritics(str) {
+  if (!str) return "";
+  return str
+    .toLowerCase()
+    // Standardizes both comma-below and cedilla-below diacritics
+    .replace(/[ăâ]/g, 'a')
+    .replace(/î/g, 'i')
+    .replace(/[șş]/g, 's')
+    .replace(/[țţ]/g, 't');
+}
 
 const CATEGORIES = {
   BATTLES: {
     id: "battles",
     label: "⚔️ Război / Revoltă",
-    color: "#f43f5e",
-    keywords: [/război/i, /bătăli/i, /luptă/i, /asediu/i, /atac/i, /confrunt/i, /conflict/i, /armată/i, /oaste/i, /înfrâng/i, /victori/i, /răscoal/i, /revoluți/i, /mineriad/i, /pacea/i, /tratat/i, /alianță/i, /antantă/i, /teuton/i, /ioanit/i, /cruciad/i]
+    color: "#f43f5e"
   },
   CULTURE: {
     id: "culture",
     label: "📖 Cultură / Școală",
-    color: "#fbbf24",
-    keywords: [/cronicar/i, /istoric/i, /umanist/i, /scri/i, /lucrar/i, /carte/i, /letopiseț/i, /tipar/i, /tipări/i, /biseric/i, /mitropoli/i, /episcop/i, /cleric/i, /religi/i, /donari/i, /stela/i, /hronic/i, /școala ardelean/i, /supplex/i, /densușianu/i, /xenopol/i, /hasdeu/i, /brătianu/i, /parvan/i, /istoriograf/i, /roesler/i, /sulzer/i, /cantacuzino/i, /olahus/i, /verancs/i, /della valle/i, /papacostea/i, /boia/i, /coresi/i, /ureche/i, /costin/i, /micu/i, /șincai/i, /maior/i, /klein/i]
+    color: "#fbbf24"
   },
   POLITICS: {
     id: "politics",
     label: "⚖️ Lege / Politică",
-    color: "#3b82f6",
-    keywords: [/constituți/i, /lege/i, /legis/i, /electoral/i, /vot/i, /reform/i, /anex/i, /ceda/i, /pierde/i, /unire/i, /statul/i, /independen/i, /diplomă/i, /bulă/i, /edict/i, /dietă/i, /parlament/i, /republic/i, /guvern/i, /nato/i, /ue/i]
+    color: "#3b82f6"
   },
   RULERS: {
     id: "rulers",
     label: "👑 Domnitor / Dinastie",
-    color: "#a855f7",
-    keywords: [/rege/i, /regat/i, /domnitor/i, /domnie/i, /voievod/i, /împărat/i, /princip/i, /dinast/i, /basarab/i, /mușat/i, /corvin/i, /drăculeșt/i, /lupu/i, /cantemir/i, /sturza/i, /cuza/i, /hohenzollern/i, /ferdinand/i, /carol/i, /mihai/i, /mircea/i, /vlad/i, /ștefan cel/i, /matei basarab/i, /neagoe/i, /petru rareș/i, /alexandru cel bun/i, /gelu/i, /glad/i, /menumorut/i, /gyula/i, /litovoi/i, /seneslau/i, /băsescu/i, /iliescu/i, /constantinescu/i]
+    color: "#a855f7"
   },
   GENERAL: {
     id: "general",
     label: "Diverse",
-    color: "#64748b",
-    keywords: []
-  }
+    color: "#64748b"
+  }, 
+  THEME1: {
+    id: "tema1",
+    label: "Tema 1 - Romanitatea românilor în viziunea istoricilor",
+    color: "#f4f800"
+  },
+  THEME2: {
+    id: "tema2",
+    label: "Tema 2 - Autonomii locale",
+    color: "#3f87e6"
+  },
+  THEME3: {
+    id: "tema3",
+    label: "Tema 3 - Spațiul Românesc în evul mediu între diplomație și conflict 🏰",
+    color: "#00d7f3"
+  },
+  THEME4: {
+    id: "tema4",
+    label: "Tema 4 - Statul Român Modern 🇷🇴",
+    color: "#a00505"
+  },
+  THEME5: {
+    id: "tema5",
+    label: "Tema 5 - Criza Orientală 🪖🇹🇷",
+    color: "#61c953"
+  },
+  THEME6: {
+    id: "tema6",
+    label: "Tema 6 - Constituțiile 🏛️",
+    color: "#27e6ff"
+  },
+  THEME7: {
+    id: "tema7",
+    label: "Tema 7 - Sec.XX între democrație și totalitarism",
+    color: "#b38c45"
+  },
+  THEME8: {
+    id: "tema8",
+    label: "Tema 8 - România Postbelică ☭",
+    color: "#CC0000"
+  },
+  THEME9: {
+    id: "tema9",
+    label: "Tema 9 - Războiul Rece 🇺🇳 ✯",
+    color: "#004990"
+  },
 };
 
 function getEventCategories(event) {
-  // 1. Check for manual categories override in database
   let rawCategories = [];
+  
+  // 1. Gather manual categories from database
   if (Array.isArray(event.categories)) {
     rawCategories = event.categories;
   } else if (event.categories) {
@@ -81,28 +133,20 @@ function getEventCategories(event) {
     rawCategories = [event.category];
   }
 
-  if (rawCategories.length > 0) {
-    const cats = [];
-    rawCategories.forEach(c => {
-      const upper = c.toUpperCase();
-      if (CATEGORIES[upper]) {
-        cats.push(CATEGORIES[upper]);
-      }
-    });
-    if (cats.length > 0) return cats;
-  }
-  
-  // 2. Fallback to dynamic regex matching (can match multiple!)
-  const text = `${event.title} ${event.info}`.toLowerCase();
+  // 2. Map manual categories to our defined CATEGORIES
   const cats = [];
-  if (CATEGORIES.BATTLES.keywords.some(kw => kw.test(text))) cats.push(CATEGORIES.BATTLES);
-  if (CATEGORIES.CULTURE.keywords.some(kw => kw.test(text))) cats.push(CATEGORIES.CULTURE);
-  if (CATEGORIES.POLITICS.keywords.some(kw => kw.test(text))) cats.push(CATEGORIES.POLITICS);
-  if (CATEGORIES.RULERS.keywords.some(kw => kw.test(text))) cats.push(CATEGORIES.RULERS);
-  
+  rawCategories.forEach(c => {
+    const upper = c.toUpperCase();
+    if (CATEGORIES[upper]) {
+      cats.push(CATEGORIES[upper]);
+    }
+  });
+
+  // 3. Fallback to GENERAL if no valid manual category was provided
   if (cats.length === 0) {
     cats.push(CATEGORIES.GENERAL);
   }
+  
   return cats;
 }
 
@@ -185,14 +229,15 @@ function getCenturyLabel(event) {
 // UI State
 let activeView = "timeline";
 let searchQuery = "";
-let eraFilter = "all";
+let themeFilter = "all"; // <--- Modificat
 let categoryFilter = "all";
 
+// DOM Nodes
 // DOM Nodes
 const timelineContainer = document.getElementById("timeline-container");
 const searchInput = document.getElementById("search-input");
 const clearSearchBtn = document.getElementById("clear-search");
-const eraFilterSelect = document.getElementById("era-filter");
+const themeFilterSelect = document.getElementById("theme-filter"); // <--- Am schimbat aici
 const categoryFilterSelect = document.getElementById("category-filter");
 const centuryList = document.getElementById("century-list");
 const centurySidebar = document.getElementById("century-sidebar");
@@ -231,34 +276,45 @@ function escapeRegExp(string) {
 }
 
 // Highlight Search Matches
+// Highlight Search Matches (Diacritic-Insensitive)
 function highlightText(text, query) {
   if (!query) return text;
+  
   const escaped = escapeRegExp(query);
-  const regex = new RegExp(`(${escaped})`, 'gi');
-  return text.replace(regex, '<span class="highlight-search">$1</span>');
+  let regexPattern = "";
+  
+  // Map standard characters to their equivalent diacritic groups
+  for (let char of escaped) {
+    const lowerChar = char.toLowerCase();
+    if (lowerChar === 'a' || lowerChar === 'ă' || lowerChar === 'â') {
+      regexPattern += "[aăâAĂÂ]";
+    } else if (lowerChar === 'i' || lowerChar === 'î') {
+      regexPattern += "[iîIÎ]";
+    } else if (lowerChar === 's' || lowerChar === 'ș' || lowerChar === 'ş') {
+      regexPattern += "[sșşSȘŞ]";
+    } else if (lowerChar === 't' || lowerChar === 'ț' || lowerChar === 'ţ') {
+      regexPattern += "[tțţTȚŢ]";
+    } else {
+      regexPattern += escapeRegExp(char);
+    }
+  }
+
+  try {
+    const regex = new RegExp(`(${regexPattern})`, 'gi');
+    return text.replace(regex, '<span class="highlight-search">$1</span>');
+  } catch (e) {
+    return text; // Fallback in case of regex parsing issues
+  }
 }
 
 // Process and Group Events on the fly
 function getFilteredAndGroupedEvents() {
   const filtered = window.events.filter(e => {
-    // 1. Era filter
-    let matchesEra = true;
-    let year = 0;
-    if (e.isCentury || /^[IVXLCDM]+$/i.test(e.date)) {
-      // Century events: centuries under IV are BC or AD.
-      // But in our database we only have Roman numerals for AD.
-      year = 100; 
-    } else if (e.isRange) {
-      const parts = e.date.split("-");
-      year = (parseInt(parts[0], 10) + parseInt(parts[1], 10)) / 2;
-    } else {
-      year = parseInt(e.date, 10);
-    }
-    
-    if (eraFilter === "bc") {
-      matchesEra = year < 0;
-    } else if (eraFilter === "ad") {
-      matchesEra = year >= 0;
+    // 1. Theme filter (Înlocuiește complet era filter)
+    let matchesTheme = true;
+    if (themeFilter !== "all") {
+      const cats = getEventCategories(e);
+      matchesTheme = cats.some(cat => cat.id === themeFilter);
     }
 
     // 1.5 Category filter
@@ -271,12 +327,14 @@ function getFilteredAndGroupedEvents() {
     // 2. Search filter
     let matchesSearch = true;
     if (searchQuery) {
-      const q = searchQuery.toLowerCase();
-      const textToSearch = `${formatDateRO(e.date)} ${e.title} ${e.info}`.toLowerCase();
-      matchesSearch = textToSearch.includes(q);
+      const normalizedQuery = normalizeDiacritics(searchQuery);
+      const textToSearch = `${formatDateRO(e.date)} ${e.title} ${e.info}`;
+      const normalizedText = normalizeDiacritics(textToSearch);
+      
+      matchesSearch = normalizedText.includes(normalizedQuery);
     }
 
-    return matchesEra && matchesCategory && matchesSearch;
+    return matchesTheme && matchesCategory && matchesSearch; // <--- Modificat aici la return
   });
 
   // Group sequentially
@@ -466,8 +524,8 @@ clearSearchBtn.addEventListener("click", () => {
   renderTimeline();
 });
 
-eraFilterSelect.addEventListener("change", (e) => {
-  eraFilter = e.target.value;
+themeFilterSelect.addEventListener("change", (e) => {
+  themeFilter = e.target.value;
   renderTimeline();
 });
 

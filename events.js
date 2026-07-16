@@ -7,7 +7,8 @@ window.events = [
     "date": "-514",
     "info": "",
     "categories": [
-      "politics"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -17,7 +18,8 @@ window.events = [
     "date": "-82",
     "info": "82-44 ÎHR",
     "categories": [
-      "rulers"
+      "rulers",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -27,7 +29,8 @@ window.events = [
     "date": "46",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -37,7 +40,8 @@ window.events = [
     "date": "87",
     "info": "87-106",
     "categories": [
-      "rulers"
+      "rulers",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -48,7 +52,8 @@ window.events = [
     "info": "87-88",
     "categories": [
       "rulers",
-      "battles"
+      "battles",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -59,7 +64,8 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -79,7 +85,8 @@ window.events = [
     "date": "II",
     "info": "II-III",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -89,7 +96,8 @@ window.events = [
     "date": "101",
     "info": "101-102",
     "categories": [
-      "battles"
+      "battles",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -100,7 +108,8 @@ window.events = [
     "info": "105-106. În urma acestui război, în 106 Dacia devine provincie imperială Romană. Începutul romanizării largi.",
     "categories": [
       "battles",
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -110,7 +119,8 @@ window.events = [
     "date": "113",
     "info": "Scene de pe aceasta:1.Lupta de la Tapae.<br>2.Asaltul Sarmisegetusei.<br>3. Sinuciderea lui Decebal.<br>4. Întoarcerea dacilor la casele lor.",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -120,7 +130,8 @@ window.events = [
     "date": "117",
     "info": "",
     "categories": [
-      "general"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -130,7 +141,8 @@ window.events = [
     "date": "III",
     "info": "Căesiu, Cluj",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -141,7 +153,8 @@ window.events = [
     "info": "Între 271-275. Când în sec. III Împăratul Aurelian a fost nevoit să renunțe la administrarea provinciei Dacia, idiomul latin era predominant, continuând sa evolueze ÎN CONTACT cu provinciile latine de la sud de Dunăre.",
     "categories": [
       "rulers",
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -172,7 +185,8 @@ window.events = [
     "date": "IV",
     "info": "IV-V",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -182,7 +196,8 @@ window.events = [
     "date": "IV",
     "info": "Secolele IV-VIII",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -235,7 +250,8 @@ window.events = [
     "date": "V",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -245,7 +261,8 @@ window.events = [
     "date": "VI",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -255,7 +272,8 @@ window.events = [
     "date": "VI",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -286,7 +304,8 @@ window.events = [
     "info": "Atât în această lucrare cât și în lucrarea lui Constatin al VII-lea românii sunt numiți romani.",
     "categories": [
       "rulers",
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -296,7 +315,8 @@ window.events = [
     "date": "602",
     "info": "",
     "categories": [
-      "general"
+      "battles",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -306,7 +326,9 @@ window.events = [
     "date": "610",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -316,7 +338,8 @@ window.events = [
     "date": "VIII",
     "info": "Procesul de evoluare se încheie în sec. VIII. O influență mai accentuată a rezultat din contactul cu limbile slave, mai ales cu cea sud-slavă",
     "categories": [
-      "general"
+      "general",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -326,7 +349,8 @@ window.events = [
     "date": "IX",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -336,7 +360,8 @@ window.events = [
     "date": "IX",
     "info": "amintește „Țara necunoscută ce-i zic Balak-Valahia”",
     "categories": [
-      "general"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -346,7 +371,8 @@ window.events = [
     "date": "IX",
     "info": "Scrie despre o țară a vlahilor(<span class='highlight'>Ulak-ili</span>)",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -356,7 +382,8 @@ window.events = [
     "date": "IX",
     "info": "",
     "categories": [
-      "general"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -426,7 +453,8 @@ window.events = [
     "date": "X",
     "info": "Secolele X-XIII",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -457,7 +485,8 @@ window.events = [
     "info": "912-959 Scrie lucrarea „Despre administrarea imperiului”(sec X)",
     "categories": [
       "rulers",
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -478,7 +507,8 @@ window.events = [
     "date": "969",
     "info": "Acesta împreună cu Vasile al II-lea (976-1025) pornesc ofensive încununate de succes, anihilând Primul Țarat Bulgar, întâi în estul, apoi în vestul Peninsulei Balcanice.",
     "categories": [
-      "rulers"
+      "rulers",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -488,7 +518,8 @@ window.events = [
     "date": "971",
     "info": "910??",
     "categories": [
-      "general"
+      "general",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -508,7 +539,8 @@ window.events = [
     "date": "976",
     "info": "",
     "categories": [
-      "rulers"
+      "rulers",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -518,7 +550,8 @@ window.events = [
     "date": "980",
     "info": "",
     "categories": [
-      "rulers"
+      "rulers",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -570,7 +603,8 @@ window.events = [
     "date": "XI",
     "info": "Sunt amintiți românii care locuiau lângă Dunăre și Saos(Sava) unde locuiau la momentul respectiv, sârbii.",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -580,7 +614,8 @@ window.events = [
     "date": "XI",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -656,7 +691,8 @@ window.events = [
     "date": "1020",
     "info": "",
     "categories": [
-      "rulers"
+      "rulers",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -789,7 +825,8 @@ window.events = [
     "date": "1167",
     "info": "Scrie lucrarea Epitome. Este secretar al lui Manuel Comnenul",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -900,7 +937,8 @@ window.events = [
     "date": "XIII",
     "info": "pe ruinele unei vechi construcții romane.",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -910,7 +948,8 @@ window.events = [
     "date": "XIII",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -920,7 +959,7 @@ window.events = [
     "date": "XIII",
     "info": "IX-XIII",
     "categories": [
-      "general"
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -1032,6 +1071,17 @@ window.events = [
     "info": "",
     "categories": [
       "general"
+    ],
+    "isCentury": true,
+    "isRange": false
+  },
+  {
+    "title": "Apare termenul de România",
+    "date": "XIII",
+    "info": "",
+    "categories": [
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -1254,7 +1304,8 @@ window.events = [
     "date": "1250",
     "info": "Ele, (Țările Române) s-au născut în spiritul pluralismului statal specific Europei Evului Mediu, ca etapă intermediară necesară unificării politice depline a întregului spațiu etnic românesc, a Țării unice tuturor românilor.",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -1397,7 +1448,9 @@ window.events = [
     "date": "XIV",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme1",
+      "theme2"
     ],
     "isCentury": true,
     "isRange": false
@@ -1407,7 +1460,8 @@ window.events = [
     "date": "XIV",
     "info": "Mijlocul secolului XIV. Odată cu desfășurarea luptei antiotomane a Țărilor Române, interesul european față de ele a sporit, manifestat prin umaniști precum Poggio Bracciolini, care a fost printre primii care a afirmat originea romană a românilor. Contemporanul său, Flavio Biondo spunea despre românii cu care se întâlnise la Roma că „Incovă cu mândrie originea lor romană” iar odata cu Papa pius II ideea originii române a intrat în circuitul științific european.",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -1560,6 +1614,16 @@ window.events = [
     "info": "Carol Robert de Anjou îi recunoștea la rândul său domnia asupra unei țări sud-carpatice unificate sub numele Terra Transalpina",
     "categories": [
       "rulers",
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Maramureșul este numit Districtus",
+    "date": "1326",
+    "info": "1299 - Țara Românească, 1300 - Terra, 1326 - Districtus",
+    "categories": [
       "politics"
     ],
     "isCentury": false,
@@ -2113,7 +2177,8 @@ window.events = [
     "date": "XV",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -2188,7 +2253,8 @@ window.events = [
     "date": "1405",
     "info": "1405-1464, a fost papa între 1458-1464.",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -2344,7 +2410,8 @@ window.events = [
     "date": "1434",
     "info": "A scris Decadele. Spune că românii locuiesc pe pământurile geților și dacilor, deoarece sunt urmașii coloniștilor romani, așa cum o dovedește asemănarea limbii lor cu cea a latinilor.",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -3108,7 +3175,7 @@ window.events = [
     "categories": [
       "culture",
       "politics",
-      "rulers"
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -3152,7 +3219,8 @@ window.events = [
     "date": "XVI",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -3162,7 +3230,8 @@ window.events = [
     "date": "XVI",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -3175,6 +3244,17 @@ window.events = [
       "battles",
       "politics",
       "rulers"
+    ],
+    "isCentury": true,
+    "isRange": false
+  },
+  {
+    "title": "Apariția tiparului și a scrisului în limba română",
+    "date": "XVI",
+    "info": "",
+    "categories": [
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -3208,7 +3288,7 @@ window.events = [
     "categories": [
       "culture",
       "politics",
-      "rulers"
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -3249,7 +3329,8 @@ window.events = [
     "date": "1514",
     "info": "„Ei sunt oșteni de odinioară ai romanilor.”",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -3292,9 +3373,9 @@ window.events = [
     "date": "1520",
     "info": "1520-1566",
     "categories": [
-      "battles",
       "politics",
-      "rulers"
+      "rulers",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -3353,7 +3434,7 @@ window.events = [
     "info": "Finalul bătăliei este la 29 august 1526. Regele ungariei Ludovic al II-lea este înfrânt pe câmpul de luptă și Ungaria 🇭🇺 devine pașalâc în 1541.",
     "categories": [
       "battles",
-      "rulers"
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -3422,7 +3503,8 @@ window.events = [
     "date": "1532",
     "info": "„sti romanest?”",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -3444,7 +3526,8 @@ window.events = [
     "date": "1536",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -3519,8 +3602,8 @@ window.events = [
     "date": "1542",
     "info": "Originar din Brașov",
     "categories": [
-      "battles",
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -3564,7 +3647,8 @@ window.events = [
     "date": "1549",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -3574,7 +3658,8 @@ window.events = [
     "date": "1550",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -3605,7 +3690,8 @@ window.events = [
     "date": "1570",
     "info": "„Mai toate neamurile au cuvântul lui Dumnezeu, numa noi rumănii nu”",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -3647,7 +3733,8 @@ window.events = [
     "date": "1590",
     "info": "A fost primul reprezentant de seamă al umanismului în mediul românesc.",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -3700,7 +3787,8 @@ window.events = [
     "date": "1593",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -4004,7 +4092,7 @@ window.events = [
     "categories": [
       "battles",
       "politics",
-      "rulers"
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -4047,7 +4135,8 @@ window.events = [
     "date": "XVII",
     "info": "Sfârșitul secolului XVII",
     "categories": [
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -4057,7 +4146,8 @@ window.events = [
     "date": "XVII",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -4130,7 +4220,8 @@ window.events = [
     "info": "La moartea lui Mihai Viteazul compune un epitaf numit „Nero Verus”. Afirmă că românii nu pot fi urmașii romanilor pentru că aceștia ar fi fost mutați la sud de Dunăre în timpul împăratului Gallienus. A fost combătut de cărturarii sași L. Toppeltinus și J Troster.",
     "categories": [
       "culture",
-      "rulers"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -4254,7 +4345,8 @@ window.events = [
     "info": "(1633-1691), scrie și „De Neamul Moldovenilor” primul tratat savant care a consacrat exclusiv originea neamului... Pe moldovean și pe munteam îl numesc valaskos.",
     "categories": [
       "culture",
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -4274,7 +4366,8 @@ window.events = [
     "date": "1640",
     "info": "1640-1714",
     "categories": [
-      "rulers"
+      "rulers",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -4297,7 +4390,8 @@ window.events = [
     "info": "",
     "categories": [
       "culture",
-      "rulers"
+      "rulers",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -4329,7 +4423,8 @@ window.events = [
     "date": "1666",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -4339,7 +4434,8 @@ window.events = [
     "date": "1666",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -4480,7 +4576,8 @@ window.events = [
     "info": "1692-1768 era episcop unit și singurul român în Dieta Transilvaniei. A activat pentru recunoașterea drepturilor poporului său, utilizând argumentele romanității românilor precum vechimea, numărul și continuitatea urmașilor Romei în Transilvania.<br>A fost primul care a elaborat un program complex de emancipare poltică și socială în Transilvania.<br><img src='micuklein.jpg'>",
     "categories": [
       "culture",
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -4555,7 +4652,8 @@ window.events = [
     "info": "1699-1701",
     "categories": [
       "culture",
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -4576,7 +4674,8 @@ window.events = [
     "date": "XVIII",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -4586,7 +4685,8 @@ window.events = [
     "date": "XVIII",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -4597,7 +4697,8 @@ window.events = [
     "info": "Scrie Hronicul Romano-Moldo-Vlahilor, 343 de foi de manuscris și Descrierea Moldovei.<br>Întregul nostru neam românesc se vădește, printr-o tradiție veșnică, a-și trage începutul de la cetățeni romani- se păstrează și astăzi numele romanilor.",
     "categories": [
       "culture",
-      "rulers"
+      "rulers",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -4811,7 +4912,8 @@ window.events = [
     "info": "",
     "categories": [
       "culture",
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -4821,7 +4923,8 @@ window.events = [
     "date": "1745",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -4871,7 +4974,8 @@ window.events = [
     "date": "1754",
     "info": "1754-1816",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -4881,7 +4985,8 @@ window.events = [
     "date": "1756",
     "info": "Românii se trag de la romanii, pe care Traian, învingându-l pe Decheval i-a trimis în Dacia spre moștenirea ei.<br><br>Scrie în 1812 Istoria penjtru începuturile românilor în Dacia.",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -4903,7 +5008,8 @@ window.events = [
     "info": "1760-1810, scrie un tratat despre romani publicat la exact 100 de ani dupa moartea sa. O teză larg răspândită în istoriografia noastră atribuie lui Daniel Philippide <span class='highlight'>prima mențiune a României(1816).</span>",
     "categories": [
       "culture",
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -5118,7 +5224,8 @@ window.events = [
     "date": "1778",
     "info": "Arată că mulți romani împreună cu dacii indigeni au rămas pe loc.",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -5129,7 +5236,8 @@ window.events = [
     "info": "",
     "categories": [
       "culture",
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -5150,7 +5258,8 @@ window.events = [
     "date": "1780",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -5161,7 +5270,8 @@ window.events = [
     "info": "",
     "categories": [
       "culture",
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -5172,7 +5282,8 @@ window.events = [
     "info": "1780-1790",
     "categories": [
       "politics",
-      "rulers"
+      "rulers",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -5203,7 +5314,8 @@ window.events = [
     "date": "1781",
     "info": "prin lucrarea sa „Istoria dacilor transalpini”(1781-1782) Dacia a fost părăsită la retragerea aureliană(271), românii refugiindu-se undeva între Albania și Bulgaria, ceea ce ar explica ritul ortodox și influențele lingvistice.<br>La această teorie vor adera și istoricii I.C.Eder, I.Ch.Enghel și Bolla Marton.",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -5236,7 +5348,8 @@ window.events = [
     "date": "1784",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -5246,7 +5359,8 @@ window.events = [
     "date": "1784",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -5299,7 +5413,8 @@ window.events = [
     "date": "1787",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -5382,7 +5497,8 @@ window.events = [
     "info": "Memoriu scris de savanții Școlii Ardelene, adresat curții de la Viena.<br> Cere ca toate denumirile jignitoare precum cea de „tolerați” sau „admiși” să fie revocate.r",
     "categories": [
       "culture",
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -5392,7 +5508,8 @@ window.events = [
     "date": "1791",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -5403,7 +5520,8 @@ window.events = [
     "info": "",
     "categories": [
       "culture",
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -5477,7 +5595,8 @@ window.events = [
     "info": "",
     "categories": [
       "culture",
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": true,
     "isRange": false
@@ -5570,7 +5689,8 @@ window.events = [
     "date": "1808",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -5602,7 +5722,8 @@ window.events = [
     "date": "1812",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -5844,7 +5965,7 @@ window.events = [
   {
     "title": "Poarta acceptă în urma mișcării lui Tudor Vladimirescu restaurarea domniilor pământene",
     "date": "1822-09",
-    "info": "Astfel își încep domniile Grigore Ghica(ȚR) și Ioniță Sandu Sturdza(MD)",
+    "info": "Astfel își încep domniile Grigore Ghica(ȚR) și Ioniță Sandu Sturdza(MD). Acceptarea domniilor pământene se face sub presiunea Rusiei.",
     "categories": [
       "politics",
       "rulers"
@@ -6079,7 +6200,7 @@ window.events = [
     "categories": [
       "culture",
       "politics",
-      "rulers"
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -6102,7 +6223,8 @@ window.events = [
     "info": "",
     "categories": [
       "culture",
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -6123,7 +6245,8 @@ window.events = [
     "date": "1846",
     "info": "1846-1911, erudit și membru al academiei Române, ajunge la concluzia că vechea dacie a fost centrul celor mai importante elemente istorice",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -6154,7 +6277,8 @@ window.events = [
     "date": "1848",
     "info": "1848 1859 1877 1918",
     "categories": [
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -6700,16 +6824,6 @@ window.events = [
     "isRange": false
   },
   {
-    "title": "Apariția statului național Român",
-    "date": "1859",
-    "info": "",
-    "categories": [
-      "politics"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
     "title": "Franța învinge Austria",
     "date": "1859",
     "info": "Consolidând astfel hegemonia lui Napoleon III asupra continentului",
@@ -6769,7 +6883,8 @@ window.events = [
     "date": "1860",
     "info": "Spune că poporul român s-a format atât din Daci cât și din Romani<br>Este primul istoric român care ia atitudine față noua versiune a teoriei imigraționiste, fiind urmat de A.D. Xenopol care a dat cea mai viguroasă replică imigraționiștilor. Același lucru l-a făcut și Daniel Phillipide, care demonstrează caracterul latin al limbii române.",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -7447,7 +7562,8 @@ window.events = [
     "date": "1867",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -7487,7 +7603,8 @@ window.events = [
     "date": "1868",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -7562,9 +7679,8 @@ window.events = [
     "info": "Tipărită la Leipzieg, scrisă la Viena.<br>Roesler încearcă să fundameneze „științific” ideea că românii s-au format ca popor la sud de Dunăre, unde în sec XIII au emigrat spre nordul acesteia.<br>George Barițiu observă că „nu a fost dorința sinceră de a descoperi adevărul, cât tendințe politice”.<br>Dacia era provincie imperială în frunte cu un legat de rang pretorian la început, apoi din vremea lui Marcus Aurelius, cu rang consular. Țara care și-a pierdut cea mai bună și cea  mai bună și cea mai mare parte a puterii sale demografice de-a lungul unui război îndărjit și sângeros, care a durat mai mulți ani ca și prin emigrare, primi o nouă populație prin coloinștii romani care s-au revărsat aicidin toate provinciile Imperiului Roman, dar ăn mare măsura din Italia de jos.<br>Avem motive să credem că elementul dacic supus s-a ținut departe de contactul cu civilizația romană și și-a menținut dușmănia față de Roma. Romanitatea Daciei a fost însă diferită de cea a altor provincii cucerite de armata romei.",
     "categories": [
       "politics",
-      "rulers",
-      "battles",
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -7574,7 +7690,8 @@ window.events = [
     "date": "1871",
     "info": "1871-1875",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -7585,7 +7702,8 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -8240,7 +8358,8 @@ window.events = [
     "date": "1882",
     "info": "Face prima hartă arheologică a României.<br>Este membru al Academiei Române.<br>Scrie importatnele lucrări „Getica” și „Începuturile vieții române la gurile Dunării”.",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -8303,8 +8422,8 @@ window.events = [
     "date": "1884",
     "info": "A.D. Xenopol - Teoria lui Roesler. Studii asupra stăruinței românilor în Dacia Traiană 1884<br>Și inscripțiile găsite atât în Dacia, cât şi în alte părți ne dovedesc cu prisosință ființarea poporului dac după cucerire, precum şi romanizarea lui. (...) Departe de a alcătui o castă despărțită de poporul cucerit, romanii se legau cu el prin căsătorii. (...) Ce nevoie ar fi împins pe valachi a trece Dunărea în cei dintâi ani ai ființării statului valacho-bulgar? Cum putem inchipui că valachii să fi părăsit țara lor tocmai in mo- mentul când, întemeind un stat neatârnat, ei puteau să se bucure de toate drepturile lor?<br>Roesler era un geograf austriac.",
     "categories": [
-      "rulers",
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -8330,11 +8449,12 @@ window.events = [
     "isRange": false
   },
   {
-    "title": "D.Onciul îi răspunde lui Roesler",
+    "title": "D. Onciul îi răspunde lui Roesler",
     "date": "1885",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -8788,7 +8908,7 @@ window.events = [
     "info": "Lucrarea apărută postum de 1200 de pagini reconstituia istoria unui „imperiu pelasgic” care pronind din Dacia cu 6000 de ani ÎHR s-ar fi întins pe o mare parte a globului iar limba latină și dacă sunt doar dialecte diferite ale aceleeași limbi.<br>Ajunge la concluzia că vechea Dacie a fost centrul celor mai importante evenimente ale istoriei din acea epocă și că limba română este moștenită de la daci.",
     "categories": [
       "culture",
-      "rulers"
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -9925,7 +10045,8 @@ window.events = [
     "date": "1918-12-01",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -11474,7 +11595,8 @@ window.events = [
     "date": "1935",
     "info": "Susținea că majoritatea teritoriilor Daciei romane au constituit-o dacii și că romanismul a biruit în Dacia fiindcă el a câștigat pe autohtoni.",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -11658,7 +11780,8 @@ window.events = [
     "date": "1937",
     "info": "Cf. edit. coring pg.9 1940",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -12137,6 +12260,16 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Carol II abdică",
+    "date": "1940-09-06",
+    "info": "Cf. Zoe Petre pg.124 Carol II abdică la 6 septembrie 1940 iar tratatul de la Craiova în urma căruia România pierde Cadrilaterul este PARAFARAT la 7 septembrie 1940.",
+    "categories": [
+      "rulers"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Tratatul de la Craiova",
     "date": "1940-09-07",
     "info": "În urma acestuia, România ceda Bulgariei sudul Dobrogei (Cadrilaterul, cu jutețele Druostor și Caliacra. Prin acesta pierde România pierde (6 921 km^2 și 4250 000 loc cf.Zoe Petre p.124<img src=dobrogea7sept.jpg>",
@@ -12152,16 +12285,6 @@ window.events = [
     "info": "Art.1 - Statul român devine stat național-legionar.<br>Art.2 - Mișcarea legionară este singura mișcare recunoscută în noul stat, având ca țel ridicarea morală și materială a poporului român.<br>Art.3 - Domnul general <span class=\"highlight\"> Ion Antonescu </span>este conducătorul <span class=\"highlight\">statului</span> legionar și șeful regimului legionar.<br>Art.4 - Domnul <span class=\"highlight1\">Horia Sima</span> este conducătorul <span class=\"highlight1\">mișcării</span> legionare.",
     "categories": [
       "politics",
-      "rulers"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
-    "title": "Carol II abdică",
-    "date": "1940-09",
-    "info": "",
-    "categories": [
       "rulers"
     ],
     "isCentury": false,
@@ -12216,6 +12339,16 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
+      "politics"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Armata Română și germană ajung la cursul superior al Nistrului",
+    "date": "1941-07",
+    "info": "",
+    "categories": [
       "politics"
     ],
     "isCentury": false,
@@ -12998,7 +13131,9 @@ window.events = [
     "date": "1947",
     "info": "Se vorbeşte mereu de transformarea Daciei în provincie romană. Unii istorici burghezi consideră aceasta ca una din minunile pe care le-a cunoscut istoria țării noastre. Dar, din analiza documentelor existente şi accesibile fiecăruia, reiese cruzimea cu care erau exploatate provinciile cotropite de către Imperiul Roman deci şi Dacia. Nu prea vorbesc unii istorici de groaza care cu- prindea popoarele, când auzeau de autoritățile romane.  Nu prea ne ocupam de lămurirea eroismului şi a izvorului acestui eroism al dacilor, conduşi de Decebal, în luptele contra cotropitorilor romani, conduşi de Traian, eroism care îşi găseşte explicația în dorința fierbinte a dacilor de a nu cădea în sclavia Imperiului Roman. Exagerarea tendențioasă a latinității [are drept obiectiv] a evita studierea şi cunoaşterea popoarelor vecine, în absoluta lor majoritate slave, şi a influenței pe care aceste popoare au exercitat-o asupra formării şi dezvoltării poporului român.",
     "categories": [
-      "culture"
+      "culture",
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -14743,7 +14878,8 @@ window.events = [
     "date": "1965",
     "info": "",
     "categories": [
-      "rulers"
+      "rulers",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -15298,7 +15434,8 @@ window.events = [
     "date": "1972",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -15350,7 +15487,8 @@ window.events = [
     "date": "1973",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -15360,7 +15498,8 @@ window.events = [
     "date": "1973",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -15749,7 +15888,8 @@ window.events = [
     "date": "1980",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -16022,8 +16162,8 @@ window.events = [
     "date": "1987",
     "info": "",
     "categories": [
-      "rulers",
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -16105,8 +16245,8 @@ window.events = [
     "date": "1988",
     "info": "",
     "categories": [
-      "politics",
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -16116,8 +16256,8 @@ window.events = [
     "date": "1988",
     "info": "",
     "categories": [
-      "politics",
-      "culture"
+      "culture",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
