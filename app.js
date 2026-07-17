@@ -526,7 +526,13 @@ clearSearchBtn.addEventListener("click", () => {
 
 themeFilterSelect.addEventListener("change", (e) => {
   themeFilter = e.target.value;
-  renderTimeline();
+  
+  if (activeView === "timeline") {
+    renderTimeline();
+  } else if (activeView === "quiz") {
+    recentQuestionsQueue = []; // Clear queue so we don't lock small themes
+    loadNextQuizQuestion();
+  }
 });
 
 categoryFilterSelect.addEventListener("change", (e) => {
@@ -703,10 +709,23 @@ function loadNextQuizQuestion() {
   quizQuestionInfo.style.display = "none";
   quizQuestionInfo.innerHTML = "";
 
-  // 1. Pick a random event that has a title
-  const validEvents = window.events.filter(e => e.title && e.date);
+  // 1. Filter events that have a title and date, AND match the active theme filter
+  const validEvents = window.events.filter(e => {
+    if (!e.title || !e.date) return false;
+    
+    // If a specific theme is selected, make sure this event belongs to it
+    if (themeFilter !== "all") {
+      const cats = getEventCategories(e);
+      return cats.some(cat => cat.id === themeFilter);
+    }
+    
+    return true;
+  });
+
+  // Handle case where no events match the selected theme
   if (validEvents.length === 0) {
-    quizQuestionTitle.textContent = "Niciun eveniment disponibil pentru chestionar.";
+    quizQuestionTitle.textContent = "Niciun eveniment disponibil pentru tema selectată.";
+    if (quizSrsLevel) quizSrsLevel.textContent = "---";
     return;
   }
 
@@ -716,6 +735,7 @@ function loadNextQuizQuestion() {
     return !recentQuestionsQueue.includes(key);
   });
 
+  // If we ran out of unseen events in this category, reset and use the whole valid theme pool
   const pool = eligibleEvents.length > 0 ? eligibleEvents : validEvents;
 
   // Weighted SRS selection (roulette wheel)
@@ -740,10 +760,11 @@ function loadNextQuizQuestion() {
 
   quizState.currentEvent = selectedEvent;
 
-  // Add to recent questions queue (limit to 15 items)
+  // Add to recent questions queue (limit to 15 items, or pool size if it's smaller)
   const currentKey = getEventKey(selectedEvent);
   recentQuestionsQueue.push(currentKey);
-  if (recentQuestionsQueue.length > 15) {
+  const maxQueueSize = Math.min(15, Math.floor(validEvents.length / 2));
+  if (recentQuestionsQueue.length > maxQueueSize) {
     recentQuestionsQueue.shift();
   }
 
@@ -781,7 +802,7 @@ function loadNextQuizQuestion() {
   const correctOption = formatDateRO(selectedEvent.date);
   const optionsSet = new Set([correctOption]);
 
-  // Determinăm formatul răspunsului corect pentru a filtra distractorii cu același format
+  // Determine the format of the correct response
   const trimmedDate = selectedEvent.date.trim();
   let correctFormat = 'other';
   if (/^[IVXLCDM]+$/i.test(trimmedDate)) correctFormat = 'century';
@@ -790,14 +811,13 @@ function loadNextQuizQuestion() {
   else if (/^-?\d{1,4}-\d{2}$/.test(trimmedDate)) correctFormat = 'year-month';
   else if (trimmedDate.split("-").length === 3) correctFormat = 'full-date';
 
-  // Parsăm anul curent pentru a găsi vecini apropiați
   let currentYear = parseInt(selectedEvent.date, 10);
   if (isNaN(currentYear) && selectedEvent.date.includes('-')) {
     currentYear = parseInt(selectedEvent.date.split("-")[0], 10);
   }
 
+  // Find distractors from the entire valid pool of this theme
   if (!isNaN(currentYear)) {
-    // Sortăm evenimentele după proximitatea cronologică, dar filtrăm să aibă EXACT același format brut
     const nearbyEvents = validEvents
       .filter(e => {
         const tDate = e.date.trim();
@@ -819,11 +839,24 @@ function loadNextQuizQuestion() {
         return Math.abs(yA - currentYear) - Math.abs(yB - currentYear);
       });
 
-    // MODIFICARE AICI: Pool diferențiat în funcție de format
-    // Dacă formatul este doar an (YYYY), luăm doar top 12 cei mai apropiați ani. Altfel, luăm 40.
-    const poolSize = (correctFormat === 'year-only') ? 12 : 40;
+
+
+
+   // Define custom pool sizes depending on how precise the format is
+    let poolSize = 40; // Default fallback
+    if (correctFormat === 'year-only') {
+      poolSize = 12;
+    } else if (correctFormat === 'full-date') {
+      poolSize = 6;  // Crucial for Academy tests: only looks at the 6 closest dates
+    } else if (correctFormat === 'year-month') {
+      poolSize = 8;  // Only looks at the 8 closest months
+    }
+
+    // Grab the tightly filtered subset of closest historical events
     const closePool = nearbyEvents.slice(0, poolSize);
     
+
+
     while (optionsSet.size < 4 && closePool.length > 0) {
       const randomIndex = Math.floor(Math.random() * closePool.length);
       const wrongEvent = closePool.splice(randomIndex, 1)[0];
@@ -834,10 +867,11 @@ function loadNextQuizQuestion() {
     }
   }
 
-  // Fallback în caz că nu am strâns 4 opțiuni din pool-ul de proximitate (ex: pentru secole)
+  // Fallback 1: Try to pull matching formats from the entire database if the current theme pool is small
   let attempts = 0;
+  const globalValidEvents = window.events.filter(e => e.title && e.date);
   while (optionsSet.size < 4 && attempts < 200) {
-    const wrongEvent = validEvents[Math.floor(Math.random() * validEvents.length)];
+    const wrongEvent = globalValidEvents[Math.floor(Math.random() * globalValidEvents.length)];
     const tDate = wrongEvent.date.trim();
     let eFormat = 'other';
     if (/^[IVXLCDM]+$/i.test(tDate)) eFormat = 'century';
@@ -855,11 +889,12 @@ function loadNextQuizQuestion() {
     attempts++;
   }
 
-  // Fallback extrem (dacă baza de date nu are destule evenimente de același format, adăugăm orice ca să nu crape UI-ul)
+  // Fallback 2: Extreme fallback
   while (optionsSet.size < 4) {
-    const wrongEvent = validEvents[Math.floor(Math.random() * validEvents.length)];
+    const wrongEvent = globalValidEvents[Math.floor(Math.random() * globalValidEvents.length)];
     optionsSet.add(formatDateRO(wrongEvent.date));
   }
+
   // Convert set to array and shuffle
   quizState.options = Array.from(optionsSet);
   shuffleArray(quizState.options);
