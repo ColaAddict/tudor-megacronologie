@@ -301,7 +301,8 @@ window.events = [
     "date": "527",
     "info": "527-565",
     "categories": [
-      "rulers"
+      "rulers",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -579,7 +580,8 @@ window.events = [
     "info": "Este menționat Jupân Gheorghe.",
     "categories": [
       "rulers",
-      "culture"
+      "culture",
+      "theme2"
     ],
     "isCentury": false,
     "isRange": false
@@ -819,7 +821,8 @@ window.events = [
     "date": "1111",
     "info": "",
     "categories": [
-      "culture"
+      "culture",
+      "theme2"
     ],
     "isCentury": false,
     "isRange": false
@@ -1128,7 +1131,8 @@ window.events = [
     "date": "XIII",
     "info": "",
     "categories": [
-      "general"
+      "general",
+      "theme2"
     ],
     "isCentury": true,
     "isRange": false
@@ -1450,7 +1454,8 @@ window.events = [
     "date": "1288",
     "info": "",
     "categories": [
-      "general"
+      "general",
+      "theme2"
     ],
     "isCentury": false,
     "isRange": false
@@ -1674,7 +1679,20 @@ window.events = [
     "categories": [
       "rulers",
       "battles",
-      "theme3"
+      "theme3",
+      "theme2"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Prima atestare documentară a lui Basarab ca voievod",
+    "date": "1317",
+    "info": "",
+    "categories": [
+      "politics",
+      "rulers",
+      "theme2"
     ],
     "isCentury": false,
     "isRange": false
@@ -1695,7 +1713,7 @@ window.events = [
     "date": "1323",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -1752,7 +1770,8 @@ window.events = [
     "date": "1331",
     "info": "Decade spectaculos după moartea sa.",
     "categories": [
-      "rulers"
+      "rulers",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -1917,7 +1936,8 @@ window.events = [
       "battles",
       "politics",
       "rulers",
-      "theme2"
+      "theme2",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -1935,11 +1955,35 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Vladislav I bate primele monede (de argint) ale Țării Românești",
+    "date": "1365",
+    "info": "",
+    "categories": [
+      "politics",
+      "rulers",
+      "theme2"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Ludovic I condiționează calitatea de nobil de apartenența la catolicism",
     "date": "1366",
     "info": "În contextul independenței românilor la sud și est de Carpați",
     "categories": [
       "culture",
+      "politics",
+      "rulers",
+      "theme2"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Cel mai vechi privilegiu comercial acordat de Vladislav I Brașovenilor",
+    "date": "1368-01",
+    "info": "",
+    "categories": [
       "politics",
       "rulers",
       "theme2"
@@ -2000,7 +2044,7 @@ window.events = [
     "date": "1370",
     "info": "Întemeiată de Lațcu",
     "categories": [
-      "politics"
+      "politics","theme2"
     ],
     "isCentury": false,
     "isRange": false
@@ -2073,7 +2117,7 @@ window.events = [
     "date": "1386",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme2"
     ],
     "isCentury": false,
     "isRange": false
@@ -2084,7 +2128,9 @@ window.events = [
     "info": "Astfel este inaugurată principala direcție de politică externă a Moldovei pe următoare perioadă",
     "categories": [
       "politics",
-      "rulers"
+      "rulers",
+      "theme2",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -2094,7 +2140,8 @@ window.events = [
     "date": "1387",
     "info": "Se aliază cu Mircea cel Bătrân la 7 martie 1395.",
     "categories": [
-      "rulers"
+      "rulers",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -2106,7 +2153,8 @@ window.events = [
     "categories": [
       "battles",
       "rulers",
-      "theme3"
+      "theme3",
+      "theme2"
     ],
     "isCentury": false,
     "isRange": false
@@ -2307,7 +2355,8 @@ window.events = [
       "culture",
       "politics",
       "rulers",
-      "theme2"
+      "theme2",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -2423,7 +2472,7 @@ window.events = [
     "date": "1406",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme2"
     ],
     "isCentury": false,
     "isRange": false
@@ -2510,7 +2559,8 @@ window.events = [
     "categories": [
       "battles",
       "politics",
-      "theme2"
+      "theme2",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -2544,7 +2594,8 @@ window.events = [
     "categories": [
       "battles",
       "politics",
-      "rulers"
+      "rulers",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -2806,6 +2857,7 @@ window.events = [
     "categories": [
       "battles",
       "rulers",
+      "theme2",
       "theme3"
     ],
     "isCentury": false,
@@ -2884,7 +2936,8 @@ window.events = [
     "info": "Domnește în Ungaria",
     "categories": [
       "rulers",
-      "theme3"
+      "theme3",
+      "theme2"
     ],
     "isCentury": false,
     "isRange": false
@@ -2930,7 +2983,7 @@ window.events = [
     "date": "1460",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -3025,7 +3078,7 @@ window.events = [
     "info": "În locul lui Radu cel Frumos care era pe tron din 1462.",
     "categories": [
       "politics",
-      "rulers"
+      "rulers","theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -3046,9 +3099,9 @@ window.events = [
   {
     "title": "În 1473 Ștefan cel Mare intervine în Țara Românească și impune un domn favorabil politicii antiotomane(probabil Laoită Basarab)",
     "date": "1473",
-    "info": "",
+    "info": "????",
     "categories": [
-      "politics"
+      "politics","theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -3530,6 +3583,7 @@ window.events = [
     "info": "Apare tiparul în limba română",
     "categories": [
       "culture",
+      "theme1",
       "theme3"
     ],
     "isCentury": false,
@@ -3667,6 +3721,7 @@ window.events = [
     "categories": [
       "battles",
       "rulers",
+      "theme2",
       "theme3"
     ],
     "isCentury": false,
@@ -3731,6 +3786,17 @@ window.events = [
     "categories": [
       "battles",
       "rulers",
+      "theme3"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Este ctitorită mănăstirea Moldovița",
+    "date": "1532",
+    "info": "Ctitoria lui Petru Rareș",
+    "categories": [
+      "culture",
       "theme3"
     ],
     "isCentury": false,
@@ -3831,6 +3897,18 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Ungaria devine pașalâc",
+    "date": "1541",
+    "info": "",
+    "categories": [
+      "politics",
+      "rulers",
+      "theme3"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Transilvania intră sub administrație otomană și este organizată ca principat autonom.",
     "date": "1541",
     "info": "",
@@ -3920,7 +3998,8 @@ window.events = [
     "categories": [
       "politics",
       "rulers",
-      "theme3"
+      "theme3",
+      "theme2"
     ],
     "isCentury": false,
     "isRange": false
@@ -3964,6 +4043,18 @@ window.events = [
     "date": "1572",
     "info": "",
     "categories": [
+      "rulers",
+      "theme3"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Bătălia de la Jiliște",
+    "date": "1574",
+    "info": "Ion Vodă cel Viteaz, înainte de Roșcani.",
+    "categories": [
+      "battles",
       "rulers",
       "theme3"
     ],
@@ -4105,7 +4196,7 @@ window.events = [
     "date": "1594",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -4377,6 +4468,7 @@ window.events = [
       "battles",
       "politics",
       "rulers",
+      "theme1",
       "theme3"
     ],
     "isCentury": false,
@@ -4584,7 +4676,8 @@ window.events = [
     "info": "1613-1629",
     "categories": [
       "rulers",
-      "theme2"
+      "theme2",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -4662,7 +4755,8 @@ window.events = [
     "info": "Albanez care la urcarea pe tron și-a luat numele de Vasile.",
     "categories": [
       "rulers",
-      "theme3"
+      "theme3",
+      "theme2"
     ],
     "isCentury": false,
     "isRange": false
@@ -4721,7 +4815,7 @@ window.events = [
     "date": "1653",
     "info": "Culegerea de legi Compilatae Constitutiones apare în 1669",
     "categories": [
-      "politics"
+      "politics","theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -4753,7 +4847,7 @@ window.events = [
     "date": "1669",
     "info": "Culegerea de legi Compilatae Constitutiones apare în 1669",
     "categories": [
-      "politics"
+      "politics","theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -4787,7 +4881,8 @@ window.events = [
     "date": "1677",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -4810,6 +4905,9 @@ window.events = [
     "categories": [
       "battles",
       "rulers",
+      "theme2",
+      "theme3",
+      "theme4",
       "theme5"
     ],
     "isCentury": false,
@@ -4856,7 +4954,8 @@ window.events = [
     "info": "A obținut protecția împăratului Leopold I de Habsburg",
     "categories": [
       "politics",
-      "rulers"
+      "rulers",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -4882,7 +4981,8 @@ window.events = [
       "battles",
       "politics",
       "rulers",
-      "theme2"
+      "theme2",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -5127,7 +5227,8 @@ window.events = [
     "info": "",
     "categories": [
       "rulers",
-      "theme3"
+      "theme3",
+      "theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -5138,7 +5239,9 @@ window.events = [
     "info": "",
     "categories": [
       "rulers",
-      "theme2"
+      "theme2",
+      "theme3",
+      "theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -5186,7 +5289,9 @@ window.events = [
     "info": "",
     "categories": [
       "rulers",
-      "theme3"
+      "theme2",
+      "theme3",
+      "theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -5197,7 +5302,11 @@ window.events = [
     "info": "În urma războiului austro-turc din 1716-1718, Banatul și Oltenia trec sub dominație austriacă",
     "categories": [
       "battles",
-      "politics"
+      "politics",
+      "theme2",
+      "theme3",
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -5220,7 +5329,8 @@ window.events = [
     "info": "A domnit alternativ în Țara Românească și Moldova.",
     "categories": [
       "rulers",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -5232,7 +5342,9 @@ window.events = [
     "categories": [
       "battles",
       "politics",
-      "theme4"
+      "theme3",
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -5429,7 +5541,8 @@ window.events = [
       "battles",
       "politics",
       "rulers",
-      "theme3"
+      "theme3",
+      "theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -5464,7 +5577,8 @@ window.events = [
     "categories": [
       "culture",
       "rulers",
-      "theme2"
+      "theme2",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -5477,7 +5591,8 @@ window.events = [
       "battles",
       "politics",
       "rulers",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -5488,7 +5603,8 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
-      "theme2"
+      "theme2",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -5522,7 +5638,8 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -5650,7 +5767,8 @@ window.events = [
     "info": "1780-1790",
     "categories": [
       "politics",
-      "rulers"
+      "rulers",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -5767,7 +5885,8 @@ window.events = [
     "categories": [
       "politics",
       "rulers",
-      "theme3"
+      "theme3",
+      "theme2"
     ],
     "isCentury": false,
     "isRange": false
@@ -5882,7 +6001,8 @@ window.events = [
       "culture",
       "politics",
       "theme5",
-      "theme1"
+      "theme1",
+      "theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -5929,6 +6049,7 @@ window.events = [
       "battles",
       "politics",
       "rulers",
+      "theme3",
       "theme4"
     ],
     "isCentury": false,
@@ -5962,7 +6083,9 @@ window.events = [
     "date": "1794-07-19",
     "info": "",
     "categories": [
-      "rulers"
+      "rulers",
+      "theme5",
+      "theme2"
     ],
     "isCentury": false,
     "isRange": false
@@ -6018,7 +6141,8 @@ window.events = [
     "info": "Acesta propunea un proiect republican de nuanță aristrocratică.",
     "categories": [
       "politics",
-      "rulers"
+      "rulers",
+      "theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -6120,7 +6244,7 @@ window.events = [
     "date": "1812",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -6131,7 +6255,11 @@ window.events = [
     "info": "În urma războiului ruso-turc (1806-1812)",
     "categories": [
       "battles",
-      "politics"
+      "politics",
+      "theme2",
+      "theme3",
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -6224,7 +6352,7 @@ window.events = [
     "date": "1818",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -6389,7 +6517,9 @@ window.events = [
     "categories": [
       "politics",
       "rulers",
-      "theme4"
+      "theme3",
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -6414,6 +6544,7 @@ window.events = [
       "battles",
       "politics",
       "rulers",
+      "theme3",
       "theme5"
     ],
     "isCentury": false,
@@ -6448,7 +6579,8 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
-      "theme4"
+      "theme4",
+      "theme6"
     ],
     "isCentury": false,
     "isRange": false
@@ -6458,7 +6590,8 @@ window.events = [
     "date": "1829",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -6470,7 +6603,9 @@ window.events = [
     "categories": [
       "battles",
       "politics",
+      "theme3",
       "theme4",
+      "theme5",
       "theme6"
     ],
     "isCentury": false,
@@ -6493,7 +6628,8 @@ window.events = [
     "info": "Podul de la Cernavodă a fost construit de Andrei Saligny.(nu am avut unde altundeva sa pun asta)",
     "categories": [
       "politics",
-      "theme4"
+      "theme4",
+      "theme6"
     ],
     "isCentury": false,
     "isRange": false
@@ -6505,6 +6641,8 @@ window.events = [
     "categories": [
       "culture",
       "politics",
+      "theme2",
+      "theme5",
       "theme6"
     ],
     "isCentury": false,
@@ -6517,6 +6655,8 @@ window.events = [
     "categories": [
       "politics",
       "rulers",
+      "theme2",
+      "theme3",
       "theme4"
     ],
     "isCentury": false,
@@ -6528,6 +6668,10 @@ window.events = [
     "info": "Redactate de 2 consilii boierești si de consulul rus Minciaki",
     "categories": [
       "politics",
+      "theme2",
+      "theme3",
+      "theme4",
+      "theme5",
       "theme6"
     ],
     "isCentury": false,
@@ -6562,7 +6706,8 @@ window.events = [
     "info": "Mihail Sturdza și Alexandru Ghica NU au fost aleși în conformitate cu Regulamentele Organice, ci au fost numiți de Poartă. Singurul domn ales în conformitate cu Regulamentele Organice a fost Gheorghe Bibescu(Țara Românească, 1842-1848).",
     "categories": [
       "rulers",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -6597,7 +6742,8 @@ window.events = [
       "culture",
       "politics",
       "rulers",
-      "theme4"
+      "theme4",
+      "theme6"
     ],
     "isCentury": false,
     "isRange": false
@@ -6720,6 +6866,18 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Revolutiile de la 1848",
+    "date": "1848",
+    "info": "",
+    "categories": [
+      "politics",
+      "battles",
+      "theme5"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Momentele cruciale ale națiunii",
     "date": "1848",
     "info": "1848 1859 1877 1918",
@@ -6805,6 +6963,8 @@ window.events = [
     "categories": [
       "culture",
       "politics",
+      "theme2",
+      "theme4",
       "theme6"
     ],
     "isCentury": false,
@@ -6838,7 +6998,8 @@ window.events = [
     "info": "Lider-Euxodiu Hurmuzaki, se cerea autonomia provinciei, autonomia bisericii ortodoxe, libertatea persoanei, o dietă care să curpindă reprezentanți ai tuturor stărilor și o conducere proprie în administrație, justiție și politică și desființarea clăcii.",
     "categories": [
       "culture",
-      "politics"
+      "politics",
+      "theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -6934,7 +7095,8 @@ window.events = [
     "categories": [
       "culture",
       "politics",
-      "theme6"
+      "theme6",
+      "theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -7026,6 +7188,7 @@ window.events = [
     "categories": [
       "politics",
       "rulers",
+      "theme3",
       "theme4",
       "theme5"
     ],
@@ -7050,7 +7213,8 @@ window.events = [
     "date": "1849-08",
     "info": "Înțelegerea între români și maghiari s-a petrecut prea târziu.",
     "categories": [
-      "battles"
+      "battles",
+      "theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -7070,20 +7234,10 @@ window.events = [
   {
     "title": "Proiecte federaliste susținute de Nicolae Bălcescu(1850 și 1851)",
     "date": "1850",
-    "info": "reținând atenția cel ce viza fondarea Statelo Unite ale Dunării care i-ar fi curprins pe români, maghiari și iugoslavi.",
+    "info": "reținând atenția cel ce viza fondarea Statelo Unite ale Dunării care i-ar fi curprins pe români, maghiari și iugoslavi.(susținea ideea de „State unite ale Dunării”.",
     "categories": [
       "politics",
       "theme4"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
-    "title": "Nicolae Bălcescu susține Statele unite ale Dunării(1850, 1851)",
-    "date": "1850",
-    "info": "",
-    "categories": [
-      "politics"
     ],
     "isCentury": false,
     "isRange": false
@@ -7116,7 +7270,7 @@ window.events = [
     "date": "1851",
     "info": "Această lucrare este menționată în contextul proiectelor politice pașoptiste, evidențiind idei precum „contractul social” și suveranitatea poporului, care trebuie să fie singurul stăpân al țării",
     "categories": [
-      "politics"
+      "culture","theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -7149,7 +7303,9 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
-      "theme3"
+      "theme3",
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -7197,7 +7353,9 @@ window.events = [
     "categories": [
       "battles",
       "politics",
-      "theme4"
+      "theme3",
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -7209,7 +7367,9 @@ window.events = [
     "categories": [
       "battles",
       "politics",
-      "theme5"
+      "theme3",
+      "theme5",
+      "theme6"
     ],
     "isCentury": false,
     "isRange": false
@@ -7234,7 +7394,8 @@ window.events = [
     "categories": [
       "politics",
       "rulers",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -7256,7 +7417,8 @@ window.events = [
     "date": "1857-10-07",
     "info": "La 7/19 octombrie 1857 au fost în Moldova și 8/20 octombrie 1857 în Valahia.<br><br>Cerea respectarea vechilor capitulații încheiate cu Poarta în 1393, 1460, 1511 și 1634. Aici românii cer unirea, autonomie, prinț străin, neutralitate și garanța celor 7 mari puteri.",
     "categories": [
-      "politics"
+      "politics",
+      "theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -7302,7 +7464,9 @@ window.events = [
     "info": "Prin aceasta este introdus statul de drept pentru prima oară la 7/19 august<br>Singurele puteri constituite comune erau puterea Domnului, impus de Adunările Elective, Comisia Centrala și Înalta Curte de Casație și Justiție cu sediul la Focșani.<br>Art. 3 Puterile publice vor fi încredințate în fiecare principat unui <span class=\"highlight1\">hospodar</span> și unei adunări elective acționând, în cazurile prevăzute de prezenta convenție, cu concursul unei comisii centrale comune celor două principate.<br>Art.4 Puterea <span class=\"highlight\">executivă</span> va fi exercitată de către <span class=\"highlight1\">hospodar</span> (nu domn sau rege!).<br>Art.5 Puterea <span class=\"highlight\">legislativă</span> va fi exercitată în mod colectiv, de către hospodar, adunare și comisia contrală.<br>Art.6 Legile prezentând un interes pecial pentru fiecare principat vor fi pregătite de către hospodar și votate de către adunare.<br>Art.7 Puterea <span class=\"highlight\">judecătorească</span>, exercitată în numele hospodarului, va fi încredințată magistraților numiți de el, fără ca nimeni să se poată sustrage judecătorilor săi naturali.<br>    O lege va determina condițiile de admitere și de înaintare în magistratură, luând ca baza aplicarea în mod progresiv a principiului inamovibiltății<br>Art. 46 - Moldovenii și valahii vor fi cu toții egali în fața impozitului și vor fi în aceeași măsură admiși în slujbele publice într-unul sau altul din principate. Libertatea lor individuală va fi garantată. Numeni nu va putea fi reținut, arestat sau urmărit decât conform legii.",
     "categories": [
       "politics",
-      "rulers"
+      "rulers",
+      "theme4",
+      "theme6"
     ],
     "isCentury": false,
     "isRange": false
@@ -7349,7 +7513,8 @@ window.events = [
     "categories": [
       "politics",
       "rulers",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -7361,7 +7526,8 @@ window.events = [
     "categories": [
       "politics",
       "rulers",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -7659,7 +7825,8 @@ window.events = [
     "categories": [
       "politics",
       "battles",
-      "rulers"
+      "rulers",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -7858,7 +8025,8 @@ window.events = [
     "categories": [
       "politics",
       "rulers",
-      "theme4"
+      "theme4",
+      "theme6"
     ],
     "isCentury": false,
     "isRange": false
@@ -8020,7 +8188,8 @@ window.events = [
     "categories": [
       "politics",
       "rulers",
-      "theme4"
+      "theme4",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -8037,12 +8206,25 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Se constituie „Societatea literară română”",
+    "date": "1866",
+    "info": "",
+    "categories": [
+      "culture",
+      "theme7"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Îndepărtarea lui Cuza de pe tronul României",
     "date": "1866-02-11",
     "info": "În acelali an Carol I este pus la conducerea României.",
     "categories": [
       "rulers",
-      "theme5"
+      "theme4",
+      "theme5",
+      "theme6"
     ],
     "isCentury": false,
     "isRange": false
@@ -8126,6 +8308,7 @@ window.events = [
       "rulers",
       "battles",
       "culture",
+      "theme4",
       "theme6"
     ],
     "isCentury": false,
@@ -8137,7 +8320,9 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
-      "theme1"
+      "theme1",
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -8204,7 +8389,8 @@ window.events = [
     "categories": [
       "politics",
       "rulers",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -8251,7 +8437,8 @@ window.events = [
       "politics",
       "rulers",
       "general",
-      "theme7"
+      "theme7",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -8294,6 +8481,18 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Franța este înfrântă de Prusia în Războiul dintre(1870-1871)",
+    "date": "1871",
+    "info": "",
+    "categories": [
+      "battles",
+      "politics",
+      "theme4"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Guvernare conservatoare(1871-1876)",
     "date": "1871",
     "info": "",
@@ -8323,7 +8522,8 @@ window.events = [
     "categories": [
       "politics",
       "rulers",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -8356,7 +8556,8 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -8548,7 +8749,8 @@ window.events = [
     "categories": [
       "politics",
       "battles",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -8559,7 +8761,10 @@ window.events = [
     "info": "Prin aceasta se garantează trecerea trupelor rusești prin România, precum și inviolabilitatea granițelor. Această convenție este încălcată prin tratatul de la San Stefano(1878)",
     "categories": [
       "politics",
-      "battles"
+      "battles",
+      "theme3",
+      "theme5",
+      "theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -8570,7 +8775,8 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -8581,7 +8787,8 @@ window.events = [
     "info": "La 26 aprilie 1877 artileria română a ripostat de la Calafat bombardând Vidinul",
     "categories": [
       "battles",
-      "theme5"
+      "theme5",
+      "theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -8626,7 +8833,8 @@ window.events = [
     "info": "La 9 mai 1877 Ministrul de externe Mihail Kogălniceanu proclamă independența în Adunarea Deputaților<br>Proclamarea și câștigarea independeței s-au întâmplat în 1877-1878.<br>Interpelat de Nicolae Fleva, reprezentantul opoziției din Adunare.",
     "categories": [
       "politics",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -8649,7 +8857,8 @@ window.events = [
     "categories": [
       "politics",
       "rulers",
-      "theme4"
+      "theme4",
+      "theme6"
     ],
     "isCentury": false,
     "isRange": false
@@ -8673,7 +8882,8 @@ window.events = [
     "categories": [
       "battles",
       "rulers",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -8708,6 +8918,7 @@ window.events = [
     "info": "S-a încheiat cu mari pierderi, așa că se decide înfometarea fortăreții. Printre pierderi s-au enumerat și MAIORUL George Șonțu și CĂPITANUL Valtăr Mărcineanu. După grave pierderi este cucerită Grivița I",
     "categories": [
       "battles",
+      "theme4",
       "theme5"
     ],
     "isCentury": false,
@@ -8730,7 +8941,8 @@ window.events = [
     "info": "În frunte cu comandantul Osman Pașa.",
     "categories": [
       "battles",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -8742,6 +8954,7 @@ window.events = [
     "categories": [
       "politics",
       "rulers",
+      "theme4",
       "theme5"
     ],
     "isCentury": false,
@@ -8788,7 +9001,8 @@ window.events = [
     "categories": [
       "politics",
       "battles",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -8812,7 +9026,8 @@ window.events = [
     "categories": [
       "politics",
       "battles",
-      "theme4"
+      "theme4",
+      "theme6"
     ],
     "isCentury": false,
     "isRange": false
@@ -8846,6 +9061,17 @@ window.events = [
     "categories": [
       "rulers",
       "theme5"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Societatea literară română devine Academia Română",
+    "date": "1879",
+    "info": "",
+    "categories": [
+      "culture",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -8925,7 +9151,8 @@ window.events = [
     "date": "1880-12",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -8958,7 +9185,8 @@ window.events = [
     "date": "1881",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -9061,6 +9289,7 @@ window.events = [
     "categories": [
       "politics",
       "battles",
+      "theme4",
       "theme5"
     ],
     "isCentury": false,
@@ -9095,6 +9324,7 @@ window.events = [
     "info": "Reducerea numărului colegiilor electorale, de la 4 la 3 în Adunarea Deputaților și de la 3 la 2 în Senat.(Cf. editura Corint pg.50) Constituția de la 1866 avea „2 camere la senat și 4 la camera inferioară”<br> Se scade și censul.",
     "categories": [
       "politics",
+      "theme4",
       "theme6"
     ],
     "isCentury": false,
@@ -9128,7 +9358,8 @@ window.events = [
     "info": "Războiul vamal între Austro-Ungaria și România(1886-1891)",
     "categories": [
       "politics",
-      "battles"
+      "battles",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -9230,7 +9461,41 @@ window.events = [
     "date": "1892",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme4"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Se constituie PNR din Banat și Ungaria",
+    "date": "1869-01",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme7"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Se constituie PNR din Transilvania",
+    "date": "1869-03",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme7"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Se constituie PSD al muncitorilor din România",
+    "date": "1893",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -9276,7 +9541,8 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
-      "theme4"
+      "theme4",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -9511,7 +9777,7 @@ window.events = [
     "date": "1908",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme5","theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -9522,7 +9788,8 @@ window.events = [
     "info": "Lider PNL din 1909",
     "categories": [
       "politics",
-      "theme4"
+      "theme4",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -9589,7 +9856,9 @@ window.events = [
     "info": "Începe în oct. 1912, terminat în mai 1913, între Serbia, Bulgaria, Grecia și Muntenegru împotriva Turciei, încheiat prin tratatul de la Londra",
     "categories": [
       "battles",
-      "politics"
+      "politics",
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -9680,7 +9949,7 @@ window.events = [
     "date": "1913-05",
     "info": "",
     "categories": [
-      "battles"
+      "battles","theme4","theme5","theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -9692,7 +9961,8 @@ window.events = [
     "categories": [
       "politics",
       "rulers",
-      "theme7"
+      "theme7",
+      "theme6"
     ],
     "isCentury": false,
     "isRange": false
@@ -9714,7 +9984,8 @@ window.events = [
     "date": "1914",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -9747,7 +10018,8 @@ window.events = [
     "date": "1914-06-15",
     "info": "Atentatul de la Sarajevo",
     "categories": [
-      "rulers"
+      "rulers",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -9758,6 +10030,7 @@ window.events = [
     "info": "După războiul de independență, România, amenințată de atitudinea Rusiei, s-a orietnat către o alianță cu Puterile Centrale la (18/30 octombrie 1883), printr-un tratat bilateral semnat cu Austro-Ungaria, tratat ținut secret din cauza opiniei publice de la momentul respectiv (Tranislvania se afla în granițele Austro-Ungariei). Clauzele tratatului nu au fost puse în aplicare din cauza faptului că războiul dus de Austro-Ungaria și Germania era unul ofensiv, iar România avea obligația de a intra în război doar în cazul în care una din țări era atacată.<br><br>Românii au urmărit de asemenea și evoluția alianței franco-ruse în 1891, acordul franco-rus din 1893 și apropierea dintre Marea Britanie și Franța, prin Antanta Cordială din 1904 și acordul anglo-rus din 1907(care definitiva alianța).<br><br>În 1908 are loc criza Bosniacă, când Austro-Ungaria anexează Bosnia (pe care o primise în administrare din 1878). În consecință, Bulgaria se va orienta către Puterile Centrale iar Serbia se va orienta către o alianță cu Rusia. Proclamarea independenței Bulgariei a fost însoțită de tensionarea relațiilor sale cu Petersburgul și apropierea de Viena.<br><br>Cu acest prilej, I.I.C. Brătianu își exprimă categoric ostilitatea față de politica balcanică a Austro-Ungariei. Problema aromânilor a tensionat relațiile României cu Grecia, iar relațiile cu Turcia erau practic inexistente. Singurul stat din zonă cu care România a avut relații mai apropiate a fost Serbia.<br>Principesa Maria și I.I.C. Brătianu tatonau terenul pentru reorientarea politicii românești către Antantă.<br><br>Înainte de începerea efectivă a Primului Război Mondial au avut cele două Războaie Balcanice, primul între (1912-1913), între Serbia, Grecia, Bulgaria și Muntenegru împotriva Turciei, încheiat prin pacea de la Londra și al doilea în (1913), între Bulgaria și foștii săi aliați(la care se adăugau România și Turcia. !În timpul acestui război, ministrul de externe și prim-ministru al României). Bulgaria a fost înfrântă în acest război, iar prin pacea de la București, România a încadrat Cadrilaterul(județele Drustor și Caliacra).<br><br>La sfârșitul anului (1913), erau inițiate tratative între contele Tisza și Comitetul Executiv al PNR din Transilvania. Împăratul Wilhelm al II-lea a insistat ca acestea să se termine printr-un compromis acceptabil pentru români.<br><br>Țarul Nicolae al II-lea împreună cu familia și ministrul de externe Sazonov a vizitat Constanța la (1/14 iunie 1914). Discuțiile sale cu Carol I și I.I.C. Brătianu au reconfirmat noua orientare politică a României.<br><br>La (15/28 iunie 1914) arhiducele Franz Ferdinand este asasinat de către studentul naționalist sârb Gavril Princip, ceea ce a dus la izbucnirea Primului Război Mondial o lună mai târziu la (15/28 iulie 1914)<br><br>La Sinaia s-a ținut un Consiliu de Coroană la (21 iulie/3 august 1914) unde s-a decis neutralitatea României în acest conflict, deși regele Carol I, convins că Germania va câștiga conflictul, împreună cu gruparea condusă de Petre P. Carp (și Titu Maiorescu??) doreau intrarea în război alături de Puterile Centrale, invocând tratatul din (1883).<br><br>O altă parte din conservatori erau de partea Antantei (Nicolae Iorga, Octavian Goga și Nicolae Filipescu) și doreau intrarea în război împotriva Puterilor Centrale. Take Ionescu susținea de asemenea intrarea de partea Antantei în război. Opinia publică era de asemenea în favoarea Antantei.<br><br> \tGruparea lui Titu Maiorescu și Alexandru Marghiloman se pronunța pentru neutralitate și bune relații cu Germania și Austro-Ungaria. Majoritatea oamenilor politici au preferat neutralitatea, întrucât tratatul cu Puterile Centrale avea un caracter defensiv (casus foedris).<br><br>S-a decis expectativa armată(înarmare în timpul neutralității), decizie cu care a fost de acord atât Carol I cât și Ferdinand. Astfel România va fi neutră, dar va simpatiza cu Antanta între anii (1914-1916).<br><br>România era privită cu interes de către ambele tabere, din punct de vedere economic, militar și strategic, mai ales că era înconjurată de state participante la război. Astfel, la (18 septembrie/1 octombrie 1918), printr-un acord secret, Rusia se angaja să respecte integritatea teritorială a României și îi recunoștea drepturile asupra teritoriilor din Austro-Ungaria (tratatul Sazonov-Diamandi), în schimbul neutralității sale.<br><br>La 26 septembrie/10 octombrie 1914 moare Carol I și urcă pe tron fiul fratelui său, Ferdinand I, căsătorit cu Regina Maria, nepoată a Casei Regale Britanice și a țarului Rusiei, ceea ce ne-a împins mai tare spre o alianță cu Antanta.<br><br>În 1915 Italia intră în război de partea Antantei iar Bulgaria și Turcia intră în război de partea Puterilor Centrale. Puterile Centrale sperau, în cel mai fericit caz, neutralitatea României, iar Franța și UK erau nemulțumite de atitudinea lui I I C Brătianu.<br><br>La (4/17 august 1916) Brătianu a obținut recunoașterea drepturilor României asupra Transilvaniei, Banatului și a Bucovinei. Între 1916-1918 I.I.C. Brătianu a ocupat și funcția de ministru de externe. Prevederile tratatului erau - România va declara război Austro-Ungariei și va lansa atacul la (15/29 august 1916).<br><br>- Antanta va sprijini ofensiva Română prin atacuri la Salonic.<br><br>-Rusia se obligă să trimită în Dobrogea 2 divizii de infanterie și 1 de cavalerie. Rusia va ataca și Austria. <br><br>- Antanta va recunoaște integritatea teritorială a României.<br><br>- La sfârșitul războiului, Antanta va recunoaște România ca aliat cu drepturi depline la masa tratativelor.<br><br>Antanta recunoaște drepturile României asupra Transilvaniei, Banatului și Bucovinei aflate la Austro-Ungari.(Atenție, tratatul NU prevede Basarabia, deoarece erau în teritoriul Rusiei, care ne era aliată.)<br><br>Consiliul de Coroană de la București(Cotroceni) la (14/27 august 1916) a decis intrarea în război împotriva Puterilor Centrale. La 14 august 1916 România a declarat război Austro-Ungariei. În ziua următoare (15/27 august 1916) Germania a declarat război României. Atacul general începe la data de 15/27 august 1916, conform planului „Ipoteza Z” conform căruia, 3 părți din armata României atacau Austro-Ungaria, iar una apăra granița cu Bulgaria. Sunt cu succes eliberate orașele Brașov, Sf. Gheorghe, Miercurea Ciuc, Gheorgheni, până aproape de Sibiu, iar în Banat a fost ocupată Orșova.<br><br>Contraofensiva Germano-Bulgară în sud la Turtucaia a venit la 18 august – 24 august (31 august – 7 septembrie gregorian), condusă de generalul/feldmareșalul August Von Mackensen, iar armatele inamice se vor revărsa în Muntenia.<br><br>Până la sfârșitul campaniei vor fi cucerite Turtucaia, Silistra, Constanța și Cernavodă. Absența presiunii din partea generalului Sarrail la Salonic a fost un factor major în înfrângerea României. Ajutoarele au întârziat și Rusia nu a trimis ajutoarele promise în Dobrogea.<br><br>Eșecul contraofensivei generalului ALEXANDRU AVERESCU la Flămânda a obligat România să oprească ofensiva în Transilvania (2/16 septembrie 1916). Armatele germane, comandate de Eric von Falkenhayn în nord și August von Mackensen în sud încep un nou atac. În acest context, generalul EREMIA GRIGORESCU a câștigat bătălia trecătorilor Carpaților Orientali sub deviza „Pe aici nu se trece”.<br><br>Dinspre Valea Jiului și Valea Oltului, România a fost atacată, iar generalii I. Drăgălina și  David Praporgescu, inferior atât numeric cât și tehnic, nu au putut rezista ofensivei.(Aici s-a remarcat și Ecaterina Teodoroiu, înrolată ca voluntar în armată.)<br><br>La 8 noiembrie 1916 a căzut și orașul Craiova.<br><br>După bătălia de pe Neajlov și Argeș (noiembrie/1-3 decembrie 1916), Bucureștiul era părăsit de oficiaități, era ocupat (23 noiembrie / 6 decembrie 1916), iar capitala țării se muta la Iași. 2/3 din teritoriul țării era ocupat de Puterile Centrale. Țara suferise 250.000 de pierderi, aproape 1/3 din toate forțele mobilizate. Tot acum tezaurul României este trimis spre Rusia pentru a fi în siguranță.<br><br>Frontul a fost stabilizat pe linia Focșani-Nămoloasa-Galați în sudul Moldovei la sfârșitul lunii decembrie 1916. La Iași s-a format un guvern condus de I.I.C Brătianu, la 11 decembrie 1916, condus format din liberali și conservatori.<br><br>În Rusia începe revoluția bolșevică în februarie/martie 1917, condusă de Vladimir Ilici Lenin. Țarul și familia vor fi înlăturați și asasinați (martie 1917)<br><br>! – Regele Fedinand face o proclamație la (23 martie 1917) promițând o reformă agrară și votul universal. La (19 iulie 1917) este modificată constituția PENTRU A PERMITE aceste modificări (ele sunt puse în practică, efectiv din 1918, iar primele alegeri pe baza votului universal au loc în 1919) lucru ce a sporit moralul armatei.<br><br>A fost trimis și generalul francez Henry Berthelot pentru instruirea armatei României, care a fost reorganizată în A1(armata I) și A2.<br><br>Armata română, pregătită, va da luptele victorioase la Mărăști(11/24 iulie) Mărășești (24 iulie – 6 august) și Oituz (26 iulie – 9 august) 1917!<br>La Mărăști, generalul ALEXANDRU AVERESCU declanșa OFENSIVA înaintând 20 km în dispozitivul inamic.<br>La (24 iulie 1917) Mackensen a contraatacat în zona Focșani-Mărășești-Adjud, dar A1 condusă de EREMIA GRIGORESCU a reușit să-i oprească pe germani. Pe linia Carpaților Orientali A2 a ținut cu succes trecătorile.<br>La Oituz (26 iulie – 9 august 1917), generalul ALEXANDRU AVERESCU, a reușit să respingă încercarea inamică de a străpunge linia la est de Carpați.<br><br>În Rusia are loc revoluția din Octombrie (25 octombrie/ 7 noiembrie 1917) condusă de Lenin.<br><br>La (26 noiembrie/9 decembrie 1917), România încheie ARMISTIȚIUL DE LA FOCȘANI cu Puterile Centrale.<br><br>În (Ianuarie 1918) este confiscat tezaurul României de către bolșevici. Tot acum președintele american Woodrow Wilson scrie cele 14 puncte despre dreptul popoarelor la autodeterminare.<br><br>La (18 februarie/3 martie 1918), Rusia Bolșevică va semna pacea de la Brest-Litovsk cu Puterile Centrale, ieșind din război. România semnează și ea Pacea de la București (Buftea) cu Puterile Centrale la (24 aprilie/7 mai 1918), semnată de către guvernul progerman condus de Alexandru Marghiloman.<br><br>Pacea de la Buftea prevedea<br> 1 -Teritoriul Țării Românești va fi ocupat de Germania. <br>2.-\tDobrogrea va fi administrată de Bulgaria<br>3. -\tPierdeam Dobrogea și culmile Carpaților în suprafață de 5 600 km2 si 170 de sate. <br> 4. -\tArmata română va fi demobilizată<br>5. -\tSurplusul României de cereale, lemn, petrol, finanțele și navigație pe Dunăre vor fi gestionate de Germania timp de 90 DE ANI. Astfel economic țara va fi SUBORDONATĂ GERMANIEI.<br>6. -\tPuterile Centrale recunoșteau unirea Basarabiei cu România.<br>Regele Ferdinand NU a promulgat legea pentru ratificarea tratatului, care a rămas nul juridic.<br><br>Antanta obține noi victorii, pe frontul de vest în iulie 1918 au reușit să străpungă și să înainteze constant spre Germania. Contraofensiva generalului FOCH pe SOMME a început din nou în august 1918 și în septembrie a început ofensiva lui Sarrail la Salonic. În nordul Italiei, aliații au respins armatele Austro-Ungariei ceea ce a obligat Austro-Ungaria să semneze armistițiul la (21 octombrie/3 noiembrie 1918).<br><br>În aceste condiții, Ferdinand denunță pacea de la București și reintră în război la (28 octombrie/10 noiembrie 1918). Astfel, sfârșitul războiului (29 octombrie/11 noiembrie 1918) prin capitularea Germaniei găsește România în tabăra învingătoare.<br><br>Pierderile României ajungeau la 800.000 de morți, răniți și dispăruți. Capitala eliberată revenea în granițele României la 18 noiembire/1 decembrie 1918.<br><br>România va continua luptele până în 1919, restabilind ordinea în Ungaria( în martie 1919 s-a instalat un regim comunist condus de Bella Kun iar în august 1919 acesta este lichidat de armata română, deoarece prezența a două state comuniste la graniță era riscantă).<br><br>În urma înfăptuirii Marii Uniri au fost semnate tratate cu celelalte state precum:<br>Tratatul de la Versailles cu Germania (28 iunie 1919)<br>2.La Saint Germain cu Austria (10 septembrie/10 octombrie 1919) tratatul cu Austria și cel al minorităților (semnat de România la 10 decembrie 1919)<br>3.Tratatul de la Neuilly cu Bulgaria la (27 noiembrie 1919) prin care se păstra frontiera din 1913.<br><br>4.Tratatul de la Trianon cu Ungaria negociat de N Titulescu la (4 iunie 1920) unde se recunoștea apartenența Transilvaniei la România.<br><br>5.Tratatul de la Paris (ianuarie 1919-28 octombrie 1920) unde UK, Franța, Italia și Japonia recunosc unirea Basarabiei cu România. Aceste puteri invitau Rusia la tratat de îndată ce aceasta va avea un guvern recunoscut de ele.<br><br>6.Tratatul de la Sevres cu Turcia (10 august 1920)",
     "categories": [
       "battles",
+      "theme4",
       "theme5"
     ],
     "isCentury": false,
@@ -9888,7 +10161,8 @@ window.events = [
     "categories": [
       "battles",
       "politics",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -9910,7 +10184,9 @@ window.events = [
     "info": "întrunit la Palatul Cotroceni sub președinția Regelui Ferdinand I, a decis intrarea României în Primul Război Mondial de partea Antantei",
     "categories": [
       "battles",
-      "rulers"
+      "rulers",
+      "theme5",
+      "theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -10097,7 +10373,8 @@ window.events = [
     "date": "1917-02-17",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -10107,7 +10384,8 @@ window.events = [
     "date": "1917-02-18",
     "info": "",
     "categories": [
-      "rulers"
+      "rulers",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -10272,7 +10550,8 @@ window.events = [
     "info": "primul regim totalitar din sec.XX<br>Până în 1945 doar Mongolia și URSS sunt singurele state comuniste din lume, iar între 1944-1948 începe instalarea prin fraudare a alegerilor și prin lovituri de forță a regimurilor comuniste.<br>După 1944 comuniștii iau puterea și în China, Coreaa de Nord, Iugoslavia, Albania și Vietnam.",
     "categories": [
       "politics",
-      "theme7"
+      "theme7",
+      "theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -10437,6 +10716,17 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "S-a constituit Liga Poporului",
+    "date": "1918",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme7"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Partidul Național Român din Transilvania își reia activitatea",
     "date": "1918",
     "info": "",
@@ -10498,7 +10788,8 @@ window.events = [
     "info": "Prin „Puterea dreptului istoric și a dreptului de neam.”",
     "categories": [
       "politics",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -10674,7 +10965,7 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
-      "politics"
+      "politics","Theme4","Theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -10831,7 +11122,8 @@ window.events = [
     "categories": [
       "battles",
       "politics",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -10842,7 +11134,9 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
-      "theme5"
+      "theme5",
+      "theme6",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -11126,7 +11420,8 @@ window.events = [
     "date": "1919-12-09",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -11252,7 +11547,8 @@ window.events = [
     "categories": [
       "battles",
       "politics",
-      "theme4"
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -11327,6 +11623,17 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Instaurarea regimului comunist în Mongolia",
+    "date": "1921",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme7"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Nașterea regelui Mihai la Sinaia",
     "date": "1921",
     "info": "",
@@ -11353,7 +11660,7 @@ window.events = [
     "date": "1921",
     "info": "Această convenție este semnată la inițiativa ministrului de externe român Take Ionescu, care a propus Poloniei un tratat de alianță defensivă împotriva oricărei agresiuni din partea vecinului din est. Această alianță se dezvoltă mai mult în 1926, devenind o alianță împotriva oricărei agresiuni.",
     "categories": [
-      "politics"
+      "politics","theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -11457,7 +11764,7 @@ window.events = [
     "date": "1922",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -11481,6 +11788,17 @@ window.events = [
       "culture",
       "politics",
       "theme6"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "PCR se afiliază la internaționala comunistă",
+    "date": "1922-10",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -11605,7 +11923,8 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
-      "theme6"
+      "theme6",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -11659,7 +11978,7 @@ window.events = [
     "date": "1924",
     "info": "Negocieri între România și URSS, Ion I C Brătianu a oferit instrucțiunile delegației Române",
     "categories": [
-      "politics"
+      "politics","theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -11805,7 +12124,8 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
-      "theme4"
+      "theme4",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -11815,7 +12135,7 @@ window.events = [
     "date": "1925",
     "info": "Legea stabilește structura și funcția instanțelor judecătorești.",
     "categories": [
-      "politics"
+      "politics","theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -12016,6 +12336,17 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Troțki a fost demis din funcție în 1927, exilat în 1929 și asasinat în 1940",
+    "date": "1927",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme7"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Vintilă Brătianu conduce PNL(1927-1930)",
     "date": "1927",
     "info": "",
@@ -12077,7 +12408,7 @@ window.events = [
     "date": "1928",
     "info": "Constantin Argetoianu candidat în județul Dolj.",
     "categories": [
-      "politics"
+      "politics","theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -12131,7 +12462,7 @@ window.events = [
     "date": "1929",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme4","theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -12342,7 +12673,8 @@ window.events = [
     "date": "1933",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -12543,7 +12875,8 @@ window.events = [
     "date": "1935",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -12620,7 +12953,7 @@ window.events = [
     "date": "1935",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -12630,7 +12963,7 @@ window.events = [
     "date": "1935",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -12765,7 +13098,8 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
-      "theme5"
+      "theme5",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -12867,7 +13201,7 @@ window.events = [
     "date": "1938-02-11",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme5","theme6","theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -12971,7 +13305,7 @@ window.events = [
     "date": "1938-12-16",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme8","theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -13027,7 +13361,8 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
-      "theme5"
+      "theme5",
+      "theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -13060,7 +13395,7 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
-      "theme5"
+      "theme5",
     ],
     "isCentury": false,
     "isRange": false
@@ -13159,6 +13494,7 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
+      "theme8",
       "theme9"
     ],
     "isCentury": false,
@@ -13180,7 +13516,7 @@ window.events = [
     "date": "1940-07-04",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme5","theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -13224,7 +13560,9 @@ window.events = [
     "info": "României i s-a impus semnarea Arbitrajului de la Viena, prin care s-a cedat Ungariei partea de nord-vest(Nord-est cf.editurii Gimnasium p.125) a Transilvaniei. Prin acesta România pierde (42 243 km^2 și 2 628 238 loc cf.Zoe Petre p.124|| ).<br><br>Consiliul de coroană s-a întrunit la Sinaia.<img src=\"pierderiTR.jpg\">",
     "categories": [
       "politics",
-      "theme9"
+      "theme9",
+      "theme5",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -13269,7 +13607,8 @@ window.events = [
     "info": "În urma acestuia, România ceda Bulgariei sudul Dobrogei (Cadrilaterul, cu jutețele Druostor și Caliacra. Prin acesta pierde România pierde (6 921 km^2 și 4250 000 loc cf.Zoe Petre p.124<img src=dobrogea7sept.jpg>",
     "categories": [
       "politics",
-      "theme5"
+      "theme5",
+      "theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -13350,7 +13689,18 @@ window.events = [
     "date": "1941-07",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme5  "
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Evreii din Germania sunt obligați să poarte stema galbenă a lui David",
+    "date": "1941-09",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -13496,7 +13846,10 @@ window.events = [
     "categories": [
       "politics",
       "rulers",
-      "theme5"
+      "theme5",
+      "theme7",
+      "theme8",
+      "theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -13541,6 +13894,7 @@ window.events = [
     "categories": [
       "battles",
       "politics",
+      "theme5",
       "theme8"
     ],
     "isCentury": false,
@@ -13552,6 +13906,7 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
+      "theme5",
       "theme8"
     ],
     "isCentury": false,
@@ -13598,7 +13953,8 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
-      "theme5"
+      "theme5",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -13621,6 +13977,18 @@ window.events = [
     "categories": [
       "politics",
       "theme8"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Înfrângerea Germaniei",
+    "date": "1945-05",
+    "info": "",
+    "categories": [
+      "battles",
+      "politics",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -13777,7 +14145,8 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
-      "theme8"
+      "theme8",
+      "theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -13899,6 +14268,7 @@ window.events = [
     "categories": [
       "battles",
       "politics",
+      "theme8",
       "theme9"
     ],
     "isCentury": false,
@@ -14208,7 +14578,8 @@ window.events = [
     "info": "Se vorbeşte mereu de transformarea Daciei în provincie romană. Unii istorici burghezi consideră aceasta ca una din minunile pe care le-a cunoscut istoria țării noastre. Dar, din analiza documentelor existente şi accesibile fiecăruia, reiese cruzimea cu care erau exploatate provinciile cotropite de către Imperiul Roman deci şi Dacia. Nu prea vorbesc unii istorici de groaza care cu- prindea popoarele, când auzeau de autoritățile romane.  Nu prea ne ocupam de lămurirea eroismului şi a izvorului acestui eroism al dacilor, conduşi de Decebal, în luptele contra cotropitorilor romani, conduşi de Traian, eroism care îşi găseşte explicația în dorința fierbinte a dacilor de a nu cădea în sclavia Imperiului Roman. Exagerarea tendențioasă a latinității [are drept obiectiv] a evita studierea şi cunoaşterea popoarelor vecine, în absoluta lor majoritate slave, şi a influenței pe care aceste popoare au exercitat-o asupra formării şi dezvoltării poporului român.",
     "categories": [
       "culture",
-      "theme1"
+      "theme1",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -14288,7 +14659,9 @@ window.events = [
     "categories": [
       "battles",
       "politics",
-      "theme8"
+      "theme5",
+      "theme8",
+      "theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -14421,7 +14794,9 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
-      "theme6"
+      "theme6",
+      "theme8",
+      "theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -14577,7 +14952,7 @@ window.events = [
     "date": "1948",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -14587,7 +14962,7 @@ window.events = [
     "date": "1948",
     "info": "Acutizarea sa în 1951 a dus la deportarea a 40.000(44.000) de persoane în Bărăgan",
     "categories": [
-      "politics"
+      "politics","theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -14675,7 +15050,8 @@ window.events = [
     "info": "Dreptul de vot îl aveau toți cetățenii peste 18 ani, iar aceștia puteau fi aleși de la <span class='highlight1'>23 de ani</span>.<br>Organele locale ale puterii erau <span class=`highlight1`>consiliile populare locale.</span>.<br>Nu mai prevedea principiul separării puterilor în stat, întrucât Marea Adunare Națională devenea „Organul suprem al puterii de stat a RPR” deci legislativul și executivul se confundau.<br><span class=`highlight`>Prerogativele MAN erau alegeraea Prezidiului MAN, formarea guvernului RPR, modificarea Constituției, stabilirea numărului, atribuțiilor și denumirilor ministerelor și desființarea, contopirea sau denumirea celor existente. Votarea bugetului, fixarea impozitelor și a modului de percepere a lor. Deciderea consultării poporului prin referendum, acordarea amnistiei.</span><br>Prezidiului convoca Marea Adunare Națională în sesiuni ordinare și extraordinare. emitea decrete, interpreta legile votate de MAN, exercita dreptul de grațiere și comuta pedepsele, conferea decorațiile și medaliile RPR, reprezenta RPR în relațiile internaționale, acredita și rechema la propunerea guvernului pe reprezentații diplomatici ai RPR, numea și revoca miniștri la propunerea președintelui Consiliului de Miniștre, stabilea gradele militare, ragnurile diplomatice la propunerea guvernului. În caz de agresiune, declara stare de necesitate. ratifica sau denunța tratatele internaționale.<br>Nu era prevăzut în mod expres rolul conducător al PMR dar organele de stat erau subordonate acestuia.<br>Art. 1 Republica Populară Română este stat popular, unitar independent și suveran.<br>Art. 2 RPR a luat ființă prin lupta dusă de popor, în frunte cu clasa muncitoare, împotriva fascismului, reacțiunii și imperialismului.<br>Art. 3 În RPR întreaga putere de stat emană de la popor și aparține poporului. Poporul își exercită puterea prin organe reprezentative, alese prin vot universal, egal, direct și secret. <br>Art. 5 În RPR mijloacele de producție aparțin Statului, ca bunuri ale întregului popor.<br>Art. 6 Bogățiile de orice natură ale subsolului, zăcămintele miniere, pădurile, apele, izvoarele de energie naturală, căile de comunicație ferate, rutiere, pe apă și în aer, poșta, telegraful, telefonul și radioul aparțin statului ca bunuri comune ale poporului.<BR>Prin lege se vor stabili modalitățile de trecere în proprietatea statului, a bunurilor enumerate în alineatul precedent, care la data intrării în vigoare a constituției actuale  se aflau în mâini particulare.<br>Art. 7 Bunurile comune are poprului constituiesc temelia materială a proprășirii economice și a independenței naționale a RPR.<BR>Art. 11 Prevedea că mijloacele de producție, băncile și societățile de asigurare pot deveni proprietatea Statului oricând interesul general o cere.<br>Art. 14 Comerțul intern și extern trec sub controlul statului.<br>Art. 15 Prevedea planificarea economiei naționale.<br>Art.16 Toți cetățenii fără deosebire de sex, naționalitate, rasă, religie sau grad de cultură sunt egali în fața legii.<br>Art. 18 Nu au drept de vot „Persoanele interzise” lipsite de drepturi civile și politice și nedemne declarate ca atare îndrept, conform legii.<br>Art. 19 Dreptul la muncă este asigurat de dezvoltarea planificată a economiei naționale.<br>Art. 20 Dreptul la odihnă este asigurat prin concedii plătite de case de odihnă, cluburi, etc.<br>Art. 21 Femeia are drepturi egale și salarizare egală cu bărbatul.<br>Art. 28 Libertatea individuală este garantată.<br>Art. 29 Domiciliul este inviolabil.<br>Art.32 Cetățenii au dreptul de a se asocia și a se organiza dacă scopul urmărit nu este îndreptat contra ordinii democratice stabilite prin constituție.",
     "categories": [
       "politics",
-      "theme6"
+      "theme6",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -14811,7 +15187,7 @@ window.events = [
     "date": "1948-11",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -14911,7 +15287,7 @@ window.events = [
     "date": "1949",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -14956,7 +15332,20 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
+      "theme7",
       "theme9"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Konrad Adenauer, cancelarul Germaniei care a jucat un rol esențial în reconstruirea Germaniei de vest(1949-1963)",
+    "date": "1949",
+    "info": "",
+    "categories": [
+      "politics",
+      "rulers",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -15079,7 +15468,7 @@ window.events = [
     "date": "1950-05-09",
     "info": "Planul Schuman a fost o propunere de a pune producția de cărbune și oțel sub o singură autoritate care a devenit mai târziu Comunitatea Europeană de Cărbune și Oțel",
     "categories": [
-      "politics"
+      "politics","theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -15183,7 +15572,8 @@ window.events = [
     "info": "",
     "categories": [
       "rulers",
-      "theme6"
+      "theme6",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -15412,6 +15802,8 @@ window.events = [
     "categories": [
       "battles",
       "politics",
+      "theme5",
+      "theme8",
       "theme9"
     ],
     "isCentury": false,
@@ -15481,6 +15873,7 @@ window.events = [
     "categories": [
       "politics",
       "rulers",
+      "theme7",
       "theme8"
     ],
     "isCentury": false,
@@ -15505,6 +15898,7 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
+      "theme7",
       "theme9"
     ],
     "isCentury": false,
@@ -15630,7 +16024,7 @@ window.events = [
     "date": "1958",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -15732,7 +16126,7 @@ window.events = [
     "date": "1960",
     "info": "România devine stat membru al Uniunii Europene.",
     "categories": [
-      "politics"
+      "politics","theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -15768,7 +16162,8 @@ window.events = [
     "categories": [
       "politics",
       "rulers",
-      "theme6"
+      "theme6",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -16191,7 +16586,8 @@ window.events = [
     "categories": [
       "rulers",
       "theme6",
-      "theme9"
+      "theme9",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -16215,7 +16611,8 @@ window.events = [
       "culture",
       "politics",
       "rulers",
-      "theme6"
+      "theme6",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -16328,6 +16725,7 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
+      "theme8",
       "theme9"
     ],
     "isCentury": false,
@@ -16489,7 +16887,7 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
-      "rulers"
+      "rulers","theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -16569,6 +16967,7 @@ window.events = [
       "rulers",
       "battles",
       "politics",
+      "theme8",
       "theme9"
     ],
     "isCentury": false,
@@ -16579,7 +16978,8 @@ window.events = [
     "date": "1969",
     "info": "",
     "categories": [
-      "battles"
+      "battles",
+      "theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -16683,7 +17083,8 @@ window.events = [
     "info": "",
     "categories": [
       "rulers",
-      "politics"
+      "politics",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -16738,7 +17139,8 @@ window.events = [
     "date": "1972",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -16888,6 +17290,7 @@ window.events = [
     "categories": [
       "rulers",
       "politics",
+      "theme6",
       "theme8"
     ],
     "isCentury": false,
@@ -16898,7 +17301,7 @@ window.events = [
     "date": "1974",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme8","theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -16910,7 +17313,8 @@ window.events = [
     "categories": [
       "rulers",
       "politics",
-      "theme8"
+      "theme8",
+      "theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -17084,7 +17488,7 @@ window.events = [
     "info": "",
     "categories": [
       "rulers",
-      "culture"
+      "culture","theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -17195,7 +17599,7 @@ window.events = [
     "date": "1979",
     "info": "Constituirea Parlamentului European a avut loc în 1979.",
     "categories": [
-      "politics"
+      "politics","theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -17435,6 +17839,7 @@ window.events = [
     "categories": [
       "rulers",
       "politics",
+      "theme7",
       "theme9"
     ],
     "isCentury": false,
@@ -17458,7 +17863,8 @@ window.events = [
     "categories": [
       "rulers",
       "politics",
-      "theme8"
+      "theme8",
+      "theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -17651,6 +18057,17 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Reîntoarcerea la democrație",
+    "date": "1989",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme5"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Prima peședinție a lui Ion Iliescu(1989-1996)",
     "date": "1989",
     "info": "",
@@ -17710,7 +18127,9 @@ window.events = [
     "date": "1989-03",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme8",
+      "theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -17720,7 +18139,8 @@ window.events = [
     "date": "1989-03",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -17804,6 +18224,7 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
+      "theme6",
       "theme8"
     ],
     "isCentury": false,
@@ -17827,7 +18248,8 @@ window.events = [
     "categories": [
       "rulers",
       "politics",
-      "theme6"
+      "theme6",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -17839,6 +18261,7 @@ window.events = [
     "categories": [
       "rulers",
       "politics",
+      "theme7",
       "theme8"
     ],
     "isCentury": false,
@@ -18097,7 +18520,8 @@ window.events = [
       "rulers",
       "politics",
       "culture",
-      "theme6"
+      "theme6",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -18108,6 +18532,7 @@ window.events = [
     "info": "77,3% din voturi(Zoe) / 73%",
     "categories": [
       "politics",
+      "theme6",
       "theme8"
     ],
     "isCentury": false,
@@ -18119,6 +18544,7 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
+      "theme7",
       "theme9"
     ],
     "isCentury": false,
@@ -18129,7 +18555,7 @@ window.events = [
     "date": "1992",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -18151,7 +18577,8 @@ window.events = [
     "info": "parlamentare în septembrie 1992, din 65 de partide opt au câșstigat 143 de mandate, iar pentru camera deputaților, 79 de partide, 7 căștigă 341 de mandate. CD ia locul 2",
     "categories": [
       "rulers",
-      "politics"
+      "politics",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -18161,7 +18588,8 @@ window.events = [
     "date": "1993-02",
     "info": "",
     "categories": [
-      "politics"
+      "politics",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -18206,7 +18634,7 @@ window.events = [
     "date": "1999",
     "info": "",
     "categories": [
-      "politics"
+      "politics","theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -18251,7 +18679,8 @@ window.events = [
     "info": "Art.1 Statul Român este stat național, suveran și independent, unitar și indivizibil. Forma de guvernământ este republica(...) Statul se organizează potrivit principiului separației și echilibrului puterilor - legislativă, executivă și judecătorească - în cadrul democtației constituționale.<br>Art. 3 Teritoriul României este inalienabil. Frontierele țării sunt consfințite prin lege organică, cu respectarea principiilor și a celorlalte norme admise ale dreptului internațional. Teritoriul este organizat sub aspect administrativ, în comune, orașe și județe. În condițiile legii unele orașe sunt declarate municipii.",
     "categories": [
       "politics",
-      "theme6"
+      "theme6",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -18286,6 +18715,7 @@ window.events = [
     "categories": [
       "battles",
       "politics",
+      "theme7",
       "theme8"
     ],
     "isCentury": false,
@@ -18297,7 +18727,8 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
-      "theme5"
+      "theme5",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -18354,7 +18785,10 @@ window.events = [
     "info": "România devine stat membru al Uniunii Europene.",
     "categories": [
       "politics",
-      "theme5"
+      "theme5",
+      "theme6",
+      "theme7",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
