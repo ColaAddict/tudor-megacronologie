@@ -479,6 +479,7 @@ function renderTimeline() {
 }
 
 // Side Drawer Actions
+// Side Drawer Actions
 function openDrawer(event) {
   let isBc = false;
   if (!event.isCentury && !/^[IVXLCDM]+$/i.test(event.date)) {
@@ -490,9 +491,7 @@ function openDrawer(event) {
   drawerDate.className = `drawer-date-badge ${isBc ? 'era-bc' : 'era-ad'}`;
   drawerTitle.textContent = event.title;
   
-  // Replace custom inline tags inside info descriptions
   let text = event.info || "Fără descriere detaliată disponibilă.";
-  // If no html formatting is inside and there are line breaks, format them
   if (!text.includes("<br") && !text.includes("<p>")) {
     text = text.replace(/\n/g, "<br>");
   }
@@ -502,12 +501,21 @@ function openDrawer(event) {
   drawer.classList.add("open");
   drawerOverlay.classList.add("open");
   document.body.style.overflow = "hidden"; // Prevent background scroll
-}
 
-function closeDrawer() {
+  // --- Push history state for back button handling ---
+  if (!history.state || !history.state.drawerOpen) {
+    history.pushState({ drawerOpen: true }, "");
+  }
+}
+function closeDrawer(fromPopState = false) {
   drawer.classList.remove("open");
   drawerOverlay.classList.remove("open");
   document.body.style.overflow = "";
+
+  // If closed via close button/overlay (not via back button), step back in history
+  if (!fromPopState && history.state && history.state.drawerOpen) {
+    history.back();
+  }
 }
 
 // Drawer Event Listeners
@@ -517,6 +525,25 @@ timelineContainer.addEventListener("click", (e) => {
     openDrawer(item.eventData);
   }
 });
+
+// Drawer Event Listeners
+timelineContainer.addEventListener("click", (e) => {
+  const item = e.target.closest(".event-item");
+  if (item && item.eventData) {
+    openDrawer(item.eventData);
+  }
+});
+
+drawerClose.addEventListener("click", () => closeDrawer());
+drawerOverlay.addEventListener("click", () => closeDrawer());
+
+// Handle mobile/browser Back button
+window.addEventListener("popstate", (e) => {
+  if (drawer.classList.contains("open")) {
+    closeDrawer(true); // Pass true so we don't trigger history.back() again
+  }
+});
+
 
 drawerClose.addEventListener("click", closeDrawer);
 drawerOverlay.addEventListener("click", closeDrawer);
