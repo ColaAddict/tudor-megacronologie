@@ -690,6 +690,17 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Înființarea ordinului Cavalerilor Ioaniți",
+    "date": "XI",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme2"
+    ],
+    "isCentury": true,
+    "isRange": false
+  },
+  {
     "title": "Rege Ungariei Ștefan I cel Sfânt îl învinge pe Gyula, stăpânitor al fostei țări a lui Gelu cu capitala la Bălgrad(Alba Iulia)",
     "date": "1003",
     "info": "",
@@ -988,7 +999,8 @@ window.events = [
     "info": "pe ruinele unei vechi construcții romane.",
     "categories": [
       "culture",
-      "theme1"
+      "theme1",
+      "theme2"
     ],
     "isCentury": true,
     "isRange": false
@@ -1032,17 +1044,6 @@ window.events = [
     "info": "Se conturează din ce în ce mai bine formațiunile politice extracarpatice",
     "categories": [
       "general",
-      "theme2"
-    ],
-    "isCentury": true,
-    "isRange": false
-  },
-  {
-    "title": "Biserica ortodoxă din Densuș (HD)",
-    "date": "XIII",
-    "info": "",
-    "categories": [
-      "culture",
       "theme2"
     ],
     "isCentury": true,
@@ -1651,6 +1652,18 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Apariția legilor scrise în țările române",
+    "date": "XIV",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme2",
+      "theme3"
+    ],
+    "isCentury": true,
+    "isRange": false
+  },
+  {
     "title": "Dispariția dinastiei arpadiene",
     "date": "1301",
     "info": "",
@@ -1686,6 +1699,17 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Angevinii readuc Transilvania la statututl de voievodat",
+    "date": "1315",
+    "info": "",
+    "categories": [
+      "general",
+      "theme2"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Prima atestare documentară a lui Basarab ca voievod",
     "date": "1317",
     "info": "",
@@ -1698,22 +1722,12 @@ window.events = [
     "isRange": false
   },
   {
-    "title": "Angevinii readuc Transilvania la statututl de voievodat",
-    "date": "1315",
-    "info": "",
-    "categories": [
-      "general",
-      "theme2"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
     "title": "Basarab I ia parte la conflicte în balcani de partea bulgarilor împotriva sârbilor și bizantinilor",
     "date": "1323",
     "info": "",
     "categories": [
-      "politics","theme3"
+      "politics",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -1980,8 +1994,8 @@ window.events = [
     "isRange": false
   },
   {
-    "title": "Cel mai vechi privilegiu comercial acordat de Vladislav I Brașovenilor",
-    "date": "1368-01",
+    "title": "Vladislav Vlaicu primește titlul de Ban de Severin",
+    "date": "1368",
     "info": "",
     "categories": [
       "politics",
@@ -1992,8 +2006,8 @@ window.events = [
     "isRange": false
   },
   {
-    "title": "Vladislav Vlaicu primește titlul de Ban de Severin",
-    "date": "1368",
+    "title": "Cel mai vechi privilegiu comercial acordat de Vladislav I Brașovenilor",
+    "date": "1368-01",
     "info": "",
     "categories": [
       "politics",
@@ -2044,7 +2058,8 @@ window.events = [
     "date": "1370",
     "info": "Întemeiată de Lațcu",
     "categories": [
-      "politics","theme2"
+      "politics",
+      "theme2"
     ],
     "isCentury": false,
     "isRange": false
@@ -2117,7 +2132,8 @@ window.events = [
     "date": "1386",
     "info": "",
     "categories": [
-      "politics","theme2"
+      "politics",
+      "theme2"
     ],
     "isCentury": false,
     "isRange": false
@@ -2472,7 +2488,8 @@ window.events = [
     "date": "1406",
     "info": "",
     "categories": [
-      "politics","theme2"
+      "politics",
+      "theme2"
     ],
     "isCentury": false,
     "isRange": false
@@ -2983,7 +3000,8 @@ window.events = [
     "date": "1460",
     "info": "",
     "categories": [
-      "politics","theme3"
+      "politics",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -3078,7 +3096,8 @@ window.events = [
     "info": "În locul lui Radu cel Frumos care era pe tron din 1462.",
     "categories": [
       "politics",
-      "rulers","theme3"
+      "rulers",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -3101,7 +3120,8 @@ window.events = [
     "date": "1473",
     "info": "????",
     "categories": [
-      "politics","theme3"
+      "politics",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -3347,7 +3367,7 @@ window.events = [
   {
     "title": "Ștefan depune omagiu(jurământ) de Vasalitate regelui polon Cazuimir al IV-lea Jagello",
     "date": "1485-09-15",
-    "info": "La Colomeea.",
+    "info": "La Colomeea.<br><br>Despre acest eveniment a scris cronicarul polonez Cromer.",
     "categories": [
       "politics",
       "rulers",
@@ -3525,6 +3545,17 @@ window.events = [
       "politics",
       "rulers",
       "theme3"
+    ],
+    "isCentury": true,
+    "isRange": false
+  },
+  {
+    "title": "Introducerea regimului celor 4 religii",
+    "date": "XVI",
+    "info": "În a doua jumătate a secolului XVI este introdus regimul celor 4 religii, anume catolică, luterană, calvinistă și unitariană.",
+    "categories": [
+      "politics",
+      "theme8"
     ],
     "isCentury": true,
     "isRange": false
@@ -4196,7 +4227,8 @@ window.events = [
     "date": "1594",
     "info": "",
     "categories": [
-      "politics","theme3"
+      "politics",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -4286,7 +4318,7 @@ window.events = [
   {
     "title": "Bătălia de la Călugăreni(13/23 august 1595) ⚔️",
     "date": "1595-08-23",
-    "info": "Românii cauzează mari pierderi otomane, dar fără a le putea opri avansul.",
+    "info": "Românii cauzează mari pierderi otomane, dar fără a le putea opri avansul.<br><br>Szamoskozy scrie despre această bătălie, unde Sinan Pașa(conducătorul otomanilor) fuge, cade pe podul râului Neajlov, pierde doi dinți, dar scapă cu viață.",
     "categories": [
       "battles",
       "theme3"
@@ -4815,7 +4847,8 @@ window.events = [
     "date": "1653",
     "info": "Culegerea de legi Compilatae Constitutiones apare în 1669",
     "categories": [
-      "politics","theme4"
+      "politics",
+      "theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -4847,7 +4880,8 @@ window.events = [
     "date": "1669",
     "info": "Culegerea de legi Compilatae Constitutiones apare în 1669",
     "categories": [
-      "politics","theme3"
+      "politics",
+      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -6244,7 +6278,8 @@ window.events = [
     "date": "1812",
     "info": "",
     "categories": [
-      "politics","theme1"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -6352,7 +6387,8 @@ window.events = [
     "date": "1818",
     "info": "",
     "categories": [
-      "politics","theme1"
+      "politics",
+      "theme1"
     ],
     "isCentury": false,
     "isRange": false
@@ -7270,7 +7306,8 @@ window.events = [
     "date": "1851",
     "info": "Această lucrare este menționată în contextul proiectelor politice pașoptiste, evidențiind idei precum „contractul social” și suveranitatea poporului, care trebuie să fie singurul stăpân al țării",
     "categories": [
-      "culture","theme4"
+      "culture",
+      "theme4"
     ],
     "isCentury": false,
     "isRange": false
@@ -7441,19 +7478,6 @@ window.events = [
     "categories": [
       "politics",
       "theme6"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
-    "title": "Congresul de pace de la Berlin",
-    "date": "1858-06-01",
-    "info": "Acest tratat(1/13 iulie 1878) consfințește independența României, Serbiei și Muntenegrului precum și autonomia Bulgariei",
-    "categories": [
-      "battles",
-      "politics",
-      "theme5",
-      "theme3"
     ],
     "isCentury": false,
     "isRange": false
@@ -8408,12 +8432,45 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Pronunciamentul de la Blaj",
+    "date": "1868",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme4"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Sunt înființate Curțile de Jurați",
     "date": "1868-07",
     "info": "",
     "categories": [
       "politics",
       "theme4"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Se constituie PNR din Banat și Ungaria",
+    "date": "1869-01",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme7"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Se constituie PNR din Transilvania",
+    "date": "1869-03",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -9008,6 +9065,19 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "Congresul de pace de la Berlin",
+    "date": "1878-06-01",
+    "info": "Acest tratat(1/13 iulie 1878) consfințește independența României, Serbiei și Muntenegrului precum și autonomia Bulgariei",
+    "categories": [
+      "battles",
+      "politics",
+      "theme5",
+      "theme3"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Memoriu al României la Congresul de la Berlin",
     "date": "1878-06-12",
     "info": "(12/24 IUN 1878)",
@@ -9171,7 +9241,7 @@ window.events = [
   {
     "title": "Înființarea creditului agricol",
     "date": "1881",
-    "info": "",
+    "info": "Creditul Agricol - 1881, vânzarea proprietății statului către țărani - 1889 și învoielile agricole (care au dus la răscoala de la flămânzi) 1907",
     "categories": [
       "politics",
       "rulers",
@@ -9390,7 +9460,7 @@ window.events = [
   {
     "title": "Vânzarea proprietății statului la țărani",
     "date": "1889",
-    "info": "",
+    "info": "Creditul Agricol - 1881, vânzarea proprietății statului către țărani - 1889 și învoielile agricole (care au dus la răscoala de la flămânzi) 1907",
     "categories": [
       "politics",
       "general",
@@ -9463,28 +9533,6 @@ window.events = [
     "categories": [
       "politics",
       "theme4"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
-    "title": "Se constituie PNR din Banat și Ungaria",
-    "date": "1869-01",
-    "info": "",
-    "categories": [
-      "politics",
-      "theme7"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
-    "title": "Se constituie PNR din Transilvania",
-    "date": "1869-03",
-    "info": "",
-    "categories": [
-      "politics",
-      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -9720,7 +9768,7 @@ window.events = [
   {
     "title": "Învoielile agricole",
     "date": "1907",
-    "info": "Au dus la răscoala țăranilor din 1907 și la intervenția armatei pentru reprimarea ei. Aceasta a început la Flămânzi.",
+    "info": "Au dus la răscoala țăranilor din 1907 și la intervenția armatei pentru reprimarea ei. Aceasta a început la Flămânzi. Creditul Agricol - 1881, vânzarea proprietății statului către țărani - 1889 și învoielile agricole (care au dus la răscoala de la flămânzi) 1907",
     "categories": [
       "politics",
       "theme4"
@@ -9777,7 +9825,9 @@ window.events = [
     "date": "1908",
     "info": "",
     "categories": [
-      "politics","theme5","theme7"
+      "politics",
+      "theme5",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -9949,7 +9999,10 @@ window.events = [
     "date": "1913-05",
     "info": "",
     "categories": [
-      "battles","theme4","theme5","theme7"
+      "battles",
+      "theme4",
+      "theme5",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -10965,7 +11018,9 @@ window.events = [
     "info": "",
     "categories": [
       "battles",
-      "politics","Theme4","Theme5"
+      "politics",
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -11645,7 +11700,7 @@ window.events = [
     "isRange": false
   },
   {
-    "title": "Votarea legii agrare, desființând marea proprietate.",
+    "title": "Votarea legii(reformei) agrare, desființând marea proprietate.",
     "date": "1921",
     "info": "",
     "categories": [
@@ -11660,7 +11715,8 @@ window.events = [
     "date": "1921",
     "info": "Această convenție este semnată la inițiativa ministrului de externe român Take Ionescu, care a propus Poloniei un tratat de alianță defensivă împotriva oricărei agresiuni din partea vecinului din est. Această alianță se dezvoltă mai mult în 1926, devenind o alianță împotriva oricărei agresiuni.",
     "categories": [
-      "politics","theme5"
+      "politics",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -11764,7 +11820,8 @@ window.events = [
     "date": "1922",
     "info": "",
     "categories": [
-      "politics","theme7"
+      "politics",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -11793,17 +11850,6 @@ window.events = [
     "isRange": false
   },
   {
-    "title": "PCR se afiliază la internaționala comunistă",
-    "date": "1922-10",
-    "info": "",
-    "categories": [
-      "politics",
-      "theme7"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
     "title": "Are loc încoronarea lui Ferdinand I și a Reginei Maria la Alba Iulia",
     "date": "1922-10-15",
     "info": "",
@@ -11815,9 +11861,20 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "PCR se afiliază la internaționala comunistă",
+    "date": "1922-10",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme7"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "Partidul fascist ajunge la putere în Italia(Marșul asupra Romei)",
     "date": "1922-10-22",
-    "info": "De teama unui potențial război civil, regele Italiei Victor Emanuel al III-lea îl proclamă pe Mussolini prim-ministru.",
+    "info": "De teama unui potențial război civil, regele Italiei Victor Emanuel al III-lea îl proclamă pe Mussolini prim-ministru.<br><br>Poliția politică a Italiei era numită OVRA. Populația matură era îndoctrinată prin Dopolavro iar populația minoră/tânără era îndoctrinată prin Avangurdisti și Ballila",
     "categories": [
       "politics",
       "rulers",
@@ -11978,7 +12035,8 @@ window.events = [
     "date": "1924",
     "info": "Negocieri între România și URSS, Ion I C Brătianu a oferit instrucțiunile delegației Române",
     "categories": [
-      "politics","theme5"
+      "politics",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -12135,7 +12193,19 @@ window.events = [
     "date": "1925",
     "info": "Legea stabilește structura și funcția instanțelor judecătorești.",
     "categories": [
-      "politics","theme4"
+      "politics",
+      "theme4"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Mitropolia este ridicată la rangul de patriarhie",
+    "date": "1925",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -12408,7 +12478,8 @@ window.events = [
     "date": "1928",
     "info": "Constantin Argetoianu candidat în județul Dolj.",
     "categories": [
-      "politics","theme7"
+      "politics",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -12462,7 +12533,9 @@ window.events = [
     "date": "1929",
     "info": "",
     "categories": [
-      "politics","theme4","theme5"
+      "politics",
+      "theme4",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -12953,7 +13026,8 @@ window.events = [
     "date": "1935",
     "info": "",
     "categories": [
-      "politics","theme7"
+      "politics",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -12963,7 +13037,8 @@ window.events = [
     "date": "1935",
     "info": "",
     "categories": [
-      "politics","theme5"
+      "politics",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -13201,7 +13276,10 @@ window.events = [
     "date": "1938-02-11",
     "info": "",
     "categories": [
-      "politics","theme5","theme6","theme7"
+      "politics",
+      "theme5",
+      "theme6",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -13209,7 +13287,7 @@ window.events = [
   {
     "title": "Noua constituție (Carol II) este înfățișată poporului de către rege",
     "date": "1938-02-20",
-    "info": "Prin aceasta Carol II își impune regimul de monarhie autoritară, iar votul feminin era PARȚIAL atribuit.",
+    "info": "Prin aceasta Carol II își impune regimul de monarhie autoritară, iar votul feminin era PARȚIAL atribuit. Tot la această dată textul noii constituții a fost aprobat de Consiliul de Miniștri",
     "categories": [
       "politics",
       "rulers",
@@ -13305,7 +13383,9 @@ window.events = [
     "date": "1938-12-16",
     "info": "",
     "categories": [
-      "politics","theme8","theme9"
+      "politics",
+      "theme8",
+      "theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -13395,7 +13475,7 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
-      "theme5",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -13516,7 +13596,9 @@ window.events = [
     "date": "1940-07-04",
     "info": "",
     "categories": [
-      "politics","theme5","theme7"
+      "politics",
+      "theme5",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -13689,7 +13771,8 @@ window.events = [
     "date": "1941-07",
     "info": "",
     "categories": [
-      "politics","theme5  "
+      "politics",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -13982,18 +14065,6 @@ window.events = [
     "isRange": false
   },
   {
-    "title": "Înfrângerea Germaniei",
-    "date": "1945-05",
-    "info": "",
-    "categories": [
-      "battles",
-      "politics",
-      "theme5"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
     "title": "România intră în sfera hegemonică a URSS",
     "date": "1945",
     "info": "",
@@ -14198,7 +14269,7 @@ window.events = [
   {
     "title": "Reforma agrară impusă de guvernul Groza",
     "date": "1945-03-23",
-    "info": "Prin aceasta împroprietărite 917 777 de familii de țărani cu 1 468 946 de ha de teren",
+    "info": "Prin aceasta împroprietărite 917 777 de familii de țărani cu 1 468 946 de ha de teren. Pământul, efectivele de animale și echipamentul proprietarilor de pământ care posedaseră pământuri până la maxim 50 ha, au fost exproprietărite fără compensație.",
     "categories": [
       "politics",
       "theme8"
@@ -14220,7 +14291,7 @@ window.events = [
   {
     "title": "Înființarea sovromurilor",
     "date": "1945-05-08",
-    "info": "",
+    "info": "Primele sovromuri care operau deja până în 1948 erau Sovrompetrol, Sovromtransport, Sovromlemn, Sovrombank.",
     "categories": [
       "politics",
       "theme8"
@@ -14235,6 +14306,18 @@ window.events = [
     "categories": [
       "battles",
       "theme9"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Înfrângerea Germaniei",
+    "date": "1945-05",
+    "info": "",
+    "categories": [
+      "battles",
+      "politics",
+      "theme5"
     ],
     "isCentury": false,
     "isRange": false
@@ -14542,7 +14625,7 @@ window.events = [
   {
     "title": "Au loc alegerile furate de comuniști",
     "date": "1946-11-19",
-    "info": "Câștigate de BPD",
+    "info": "Câștigate de BPD - format din: PCR (Forța conducătoare), PSD, PNL - Tătărescu, PNȚ - Anton Alexandrescu, Partidul Național Popular și Frontul Plugarilor, condus de Petru Groza.",
     "categories": [
       "politics",
       "theme8"
@@ -14948,21 +15031,23 @@ window.events = [
     "isRange": false
   },
   {
-    "title": "Înființarea Comitetului de stat al planificării",
+    "title": "Începutul conflictului între Stalin și Tito",
     "date": "1948",
-    "info": "",
+    "info": "Acutizarea sa în 1951 a dus la deportarea a 40.000(44.000) de persoane în Bărăgan",
     "categories": [
-      "politics","theme8"
+      "politics",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
   },
   {
-    "title": "Începutul conflictului între Stalin și Tito",
+    "title": "Introducerea sistemului judecătoresc sovietic în România",
     "date": "1948",
-    "info": "Acutizarea sa în 1951 a dus la deportarea a 40.000(44.000) de persoane în Bărăgan",
+    "info": "",
     "categories": [
-      "politics","theme8"
+      "politics",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -15116,7 +15201,18 @@ window.events = [
   {
     "title": "Legea 119 privind NAȚIONALIZAREA mijloacelor de producție",
     "date": "1948-06-11",
-    "info": "11/22 iunie 1948",
+    "info": "11/22 iunie 1948.<br><br>Acestă lege lăsa o portiță pentru cea mai arogantă exploatare străină. Ea excepta de la exproprietărire „capitalul acelor întreprinderi care au fost acordate unui stat membru al ONU, ca rezultat al aplicării tratatului de pace ori a reparațiilor de război”. Această prevedere a făcut ca guvernul sovietic să fie singurul mare proprietar de capital industrial RPR.",
+    "categories": [
+      "politics",
+      "theme8"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Înființarea Comitetului de stat al planificării",
+    "date": "1948-07-18",
+    "info": "",
     "categories": [
       "politics",
       "theme8"
@@ -15139,7 +15235,7 @@ window.events = [
   {
     "title": "Legea pentru reforma învățământului",
     "date": "1948-08",
-    "info": "Sunt închise școlile străine, inclusiv cele de culte",
+    "info": "Sunt închise școlile străine, inclusiv cele de culte. Marxism leninismul a devenit obligatoriu din școala secundarăîăn sus. Predarea religiei a fost interzisă.",
     "categories": [
       "culture",
       "politics",
@@ -15187,7 +15283,8 @@ window.events = [
     "date": "1948-11",
     "info": "",
     "categories": [
-      "politics","theme8"
+      "politics",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -15250,7 +15347,7 @@ window.events = [
   {
     "title": "Primul plan anual(1949-1950)",
     "date": "1949",
-    "info": "",
+    "info": "Cf. Editura Corvin, pag 139 În 1948 a fost elaborat primul plan anual, cel de-al doilea în 1950",
     "categories": [
       "politics",
       "theme8"
@@ -15287,7 +15384,31 @@ window.events = [
     "date": "1949",
     "info": "",
     "categories": [
-      "politics","theme9"
+      "politics",
+      "theme9"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Konrad Adenauer, cancelarul Germaniei care a jucat un rol esențial în reconstruirea Germaniei de vest(1949-1963)",
+    "date": "1949",
+    "info": "",
+    "categories": [
+      "politics",
+      "rulers",
+      "theme7"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Trupele de securitate sunt înființate",
+    "date": "1949",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -15317,7 +15438,7 @@ window.events = [
   {
     "title": "Plenara CC decide transformarea socialistă a agriculturii (colectivizarea, 1949-1962)(3-5 martie 1949)",
     "date": "1949-03-03",
-    "info": "Acum au luat naștere GAS și CAP",
+    "info": "Acum au luat naștere GAS și CAP. Milița a scos din casele lor 17.000 de familii și le-a mutat în zone reașezate. Membrii gospodăriilor colective li s-a permis să păstreze mici loturi de pământ care să nu depășească 0.15 ha.",
     "categories": [
       "culture",
       "politics",
@@ -15334,18 +15455,6 @@ window.events = [
       "politics",
       "theme7",
       "theme9"
-    ],
-    "isCentury": false,
-    "isRange": false
-  },
-  {
-    "title": "Konrad Adenauer, cancelarul Germaniei care a jucat un rol esențial în reconstruirea Germaniei de vest(1949-1963)",
-    "date": "1949",
-    "info": "",
-    "categories": [
-      "politics",
-      "rulers",
-      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -15468,7 +15577,8 @@ window.events = [
     "date": "1950-05-09",
     "info": "Planul Schuman a fost o propunere de a pune producția de cărbune și oțel sub o singură autoritate care a devenit mai târziu Comunitatea Europeană de Cărbune și Oțel",
     "categories": [
-      "politics","theme9"
+      "politics",
+      "theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -15694,7 +15804,7 @@ window.events = [
   {
     "title": "Iuliu Maniu și Gh, I. Brătianu mor în închisoare la Sighet",
     "date": "1953",
-    "info": "",
+    "info": "La Sighet a fost organizat și Memorialul victimelor comunismului.",
     "categories": [
       "politics",
       "rulers",
@@ -16024,7 +16134,8 @@ window.events = [
     "date": "1958",
     "info": "",
     "categories": [
-      "politics","theme7"
+      "politics",
+      "theme7"
     ],
     "isCentury": false,
     "isRange": false
@@ -16126,7 +16237,8 @@ window.events = [
     "date": "1960",
     "info": "România devine stat membru al Uniunii Europene.",
     "categories": [
-      "politics","theme8"
+      "politics",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -16642,7 +16754,7 @@ window.events = [
   {
     "title": "Vizita prim-ministrului chinez Zhou Enlai în România",
     "date": "1966",
-    "info": "",
+    "info": "Conform spuselor acestuia, principalele dificultăți a vietnamezilor în războiul împotriva americanilor erau lipsurile în armament și echipament.",
     "categories": [
       "politics",
       "rulers",
@@ -16665,7 +16777,7 @@ window.events = [
   {
     "title": "Interzicerea avortului",
     "date": "1966",
-    "info": "",
+    "info": "În urma acestei interdicții mor 11.000 de femei",
     "categories": [
       "politics",
       "theme8"
@@ -16887,7 +16999,8 @@ window.events = [
     "info": "",
     "categories": [
       "politics",
-      "rulers","theme8"
+      "rulers",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -17301,7 +17414,9 @@ window.events = [
     "date": "1974",
     "info": "",
     "categories": [
-      "politics","theme8","theme9"
+      "politics",
+      "theme8",
+      "theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -17488,7 +17603,8 @@ window.events = [
     "info": "",
     "categories": [
       "rulers",
-      "culture","theme9"
+      "culture",
+      "theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -17599,7 +17715,8 @@ window.events = [
     "date": "1979",
     "info": "Constituirea Parlamentului European a avut loc în 1979.",
     "categories": [
-      "politics","theme9"
+      "politics",
+      "theme9"
     ],
     "isCentury": false,
     "isRange": false
@@ -18359,7 +18476,7 @@ window.events = [
   {
     "title": "FSN devine partid politic",
     "date": "1990-02-06",
-    "info": "",
+    "info": "FSN în 1990, FDSN în 1992, PDSR în 2000",
     "categories": [
       "politics",
       "theme8"
@@ -18392,6 +18509,17 @@ window.events = [
   {
     "title": "Proclamația de la Timișoara",
     "date": "1990-03-11",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme8"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Legea electorală prin care se prevede alcătuirea parlamentului",
+    "date": "1990-03-14",
     "info": "",
     "categories": [
       "politics",
@@ -18504,7 +18632,7 @@ window.events = [
   {
     "title": "Distrugerea sediului guvernului",
     "date": "1991-09",
-    "info": "",
+    "info": "Guvernul Petre Roman este înlocuit cu guvernul Stolojan.",
     "categories": [
       "politics",
       "theme8"
@@ -18555,7 +18683,30 @@ window.events = [
     "date": "1992",
     "info": "",
     "categories": [
-      "politics","theme9"
+      "politics",
+      "theme9"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Petre Roman preia conducerea în FSN",
+    "date": "1992-03",
+    "info": "Iliescu este nevoit să formeze un partid nou, FDSN",
+    "categories": [
+      "politics",
+      "theme8"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Legea electorală prin care care se stabilește pragul electoral la 3% pentru partide",
+    "date": "1992-06-12",
+    "info": "Din 2000 acest prag este mărit la 5%",
+    "categories": [
+      "politics",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
@@ -18563,7 +18714,7 @@ window.events = [
   {
     "title": "Constituirea Convenției Democratice",
     "date": "1992-06-24",
-    "info": "",
+    "info": "Formată din PNȚCD, PNL, PSD și UDMR",
     "categories": [
       "politics",
       "theme8"
@@ -18574,7 +18725,7 @@ window.events = [
   {
     "title": "Alegerile sunt câștigate din nou de Ion Iliescu și FDSN",
     "date": "1992-10-11",
-    "info": "parlamentare în septembrie 1992, din 65 de partide opt au câșstigat 143 de mandate, iar pentru camera deputaților, 79 de partide, 7 căștigă 341 de mandate. CD ia locul 2",
+    "info": "parlamentare în septembrie 1992, din 65 de partide opt au câșstigat 143 de mandate, iar pentru camera deputaților, 79 de partide, 7 căștigă 341 de mandate. CD ia locul 2. <br><br>În urma alegerilor se prezidează și un nou guvern al lui Nicolae Văcăroiu care a declanșat restructurarea economiei și programul de privatizare în masă.",
     "categories": [
       "rulers",
       "politics",
@@ -18584,8 +18735,30 @@ window.events = [
     "isRange": false
   },
   {
+    "title": "FDSN devine PDSR",
+    "date": "1993",
+    "info": "Iliescu este nevoit să formeze un partid nou, FDSN",
+    "categories": [
+      "politics",
+      "theme8"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
     "title": "România începe negocierile de aderare la UE/Acordul de asociere",
     "date": "1993-02",
+    "info": "",
+    "categories": [
+      "politics",
+      "theme8"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Fuzionarea FFSN cu Partidul Democrat luându-și numele de Partidul Democrat - FSN",
+    "date": "1993-05",
     "info": "",
     "categories": [
       "politics",
@@ -18606,12 +18779,11 @@ window.events = [
     "isRange": false
   },
   {
-    "title": "Emil Constantinescu(1996-2000)",
+    "title": "Pe plan extern România a semnat Tratatul cu Ungaria",
     "date": "1996",
     "info": "",
     "categories": [
-      "rulers",
-      "theme6",
+      "politics",
       "theme8"
     ],
     "isCentury": false,
@@ -18620,10 +18792,11 @@ window.events = [
   {
     "title": "Noile alegeri sunt câștigate de Emil Constantinescu",
     "date": "1996-11-17",
-    "info": "",
+    "info": "Președinte între 1996-2000",
     "categories": [
       "rulers",
       "politics",
+      "theme6",
       "theme8"
     ],
     "isCentury": false,
@@ -18634,15 +18807,16 @@ window.events = [
     "date": "1999",
     "info": "",
     "categories": [
-      "politics","theme8"
+      "politics",
+      "theme8"
     ],
     "isCentury": false,
     "isRange": false
   },
   {
-    "title": "A doua președinție a lui Ion Iliescu(2000-2004)",
+    "title": "A doua președinție a lui Ion Iliescu",
     "date": "2000",
-    "info": "",
+    "info": "2000-2004",
     "categories": [
       "rulers",
       "politics",
@@ -18654,7 +18828,18 @@ window.events = [
   {
     "title": "Ieșirea de pe scena politică a PNTCD",
     "date": "2000",
-    "info": "",
+    "info": "în urma alegerilor din acest an",
+    "categories": [
+      "politics",
+      "theme8"
+    ],
+    "isCentury": false,
+    "isRange": false
+  },
+  {
+    "title": "Modificarea a legii electorale prin care s-a mărit pragul electoral la 5%",
+    "date": "2000",
+    "info": "Din 2000 acest prag este mărit la 5%",
     "categories": [
       "politics",
       "theme8"
@@ -18676,7 +18861,7 @@ window.events = [
   {
     "title": "Constituția din 1991 este supusă revizuirii în urma unui referendum",
     "date": "2003-10-18",
-    "info": "Art.1 Statul Român este stat național, suveran și independent, unitar și indivizibil. Forma de guvernământ este republica(...) Statul se organizează potrivit principiului separației și echilibrului puterilor - legislativă, executivă și judecătorească - în cadrul democtației constituționale.<br>Art. 3 Teritoriul României este inalienabil. Frontierele țării sunt consfințite prin lege organică, cu respectarea principiilor și a celorlalte norme admise ale dreptului internațional. Teritoriul este organizat sub aspect administrativ, în comune, orașe și județe. În condițiile legii unele orașe sunt declarate municipii.",
+    "info": "Art.1 Statul Român este stat național, suveran și independent, unitar și indivizibil. Forma de guvernământ este republica(...) Statul se organizează potrivit principiului separației și echilibrului puterilor - legislativă, executivă și judecătorească - în cadrul democtației constituționale.<br>Art. 3 Teritoriul României este inalienabil. Frontierele țării sunt consfințite prin lege organică, cu respectarea principiilor și a celorlalte norme admise ale dreptului internațional. Teritoriul este organizat sub aspect administrativ, în comune, orașe și județe. În condițiile legii unele orașe sunt declarate municipii.<br><br>Art.23 - Libertatea individuală și siguranța persoanei sunt inviolabile.<br><br>Art.25 Dreptul la liberă circulație, în țară și străinătate este garantat. Legea stabilește condițiile exercitării acestui drept.<br><br>Libertatea găndirii și a opiniilor, precum și libertatea credințelor religioase nu pot fi îngrădite sub nicio formă.<br><br>Art.30 Libertatea de exprimare a gândurilor, a opiniilor sau a credințelor și libertatea creațiilor de orice fel, prin viu grai, prin scris, prin imagini, prin sunete sau prin alte mijolace de comunicare în public, sunt inviolabile.<br><br>Art.31 Dreptul persoanei de a avea acces la orice informație de interes public nu poate fi îngrădit.<br><br>Dreptul la învățătură este asigurat prin învățământul general obligatoriu, prin învățământul liceal și prin cel profesional, prin învățământul superior, precum și alte forme de instrucție și perfecționare.<br><br>Art.36 Cetățenii au drept de vot de la vârsta de 18 ani, împliniți până la ziua alegerilor inclusiv.<br><br>Art.38 Dreptul de a fi ales în Parlamentul European.",
     "categories": [
       "politics",
       "theme6",

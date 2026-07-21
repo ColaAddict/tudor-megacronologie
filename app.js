@@ -231,9 +231,11 @@ let activeView = "timeline";
 let searchQuery = "";
 let themeFilter = "all"; // <--- Modificat
 let categoryFilter = "all";
+let dateTypeFilter = "all"; // Options: 'all', 'exact', 'century'
 
 // DOM Nodes
-// DOM Nodes
+// State
+const dateTypeFilterSelect = document.getElementById("date-type-filter");
 const timelineContainer = document.getElementById("timeline-container");
 const searchInput = document.getElementById("search-input");
 const clearSearchBtn = document.getElementById("clear-search");
@@ -310,7 +312,18 @@ function highlightText(text, query) {
 // Process and Group Events on the fly
 function getFilteredAndGroupedEvents() {
   const filtered = window.events.filter(e => {
-    // 1. Theme filter (Înlocuiește complet era filter)
+    // Determine if the event is a century event
+    const isCenturyEvent = e.isCentury || /^[IVXLCDM]+$/i.test(e.date.trim());
+
+    // 0. Date Type Filter
+    let matchesDateType = true;
+    if (dateTypeFilter === "century") {
+      matchesDateType = isCenturyEvent;
+    } else if (dateTypeFilter === "exact") {
+      matchesDateType = !isCenturyEvent;
+    }
+
+    // 1. Theme filter
     let matchesTheme = true;
     if (themeFilter !== "all") {
       const cats = getEventCategories(e);
@@ -334,7 +347,7 @@ function getFilteredAndGroupedEvents() {
       matchesSearch = normalizedText.includes(normalizedQuery);
     }
 
-    return matchesTheme && matchesCategory && matchesSearch; // <--- Modificat aici la return
+    return matchesDateType && matchesTheme && matchesCategory && matchesSearch;
   });
 
   // Group sequentially
@@ -356,6 +369,8 @@ function getFilteredAndGroupedEvents() {
 
   return groups;
 }
+
+
 
 // Render Timeline & Sidebar
 function renderTimeline() {
@@ -537,6 +552,11 @@ themeFilterSelect.addEventListener("change", (e) => {
 
 categoryFilterSelect.addEventListener("change", (e) => {
   categoryFilter = e.target.value;
+  renderTimeline();
+});
+
+dateTypeFilterSelect.addEventListener("change", (e) => {
+  dateTypeFilter = e.target.value;
   renderTimeline();
 });
 
