@@ -1065,3 +1065,92 @@ body {
   transform: translateY(-1px);
   transition: all 0.2s ease;
 }
+
+
+/* Mobile-friendly Header & Layout Fixes */
+@media (max-width: 768px) {
+  /* Prevent horizontal scrolling on the main page */
+  html, body, .app-layout {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  /* Stack header controls vertically */
+  .header-controls {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  /* Make filters wrap nicely on small screens */
+  .filter-controls {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 8px;
+  }
+
+  .filter-controls select {
+    flex: 1 1 calc(50% - 8px); /* Displays 2 filters per row */
+    min-width: 140px;
+  }
+
+  /* Make View Switcher buttons fit in 1 row */
+  .view-switcher {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .switch-btn {
+    flex: 1;
+    padding: 8px 4px;
+    font-size: 0.85rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .century-sidebar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #ffffff; /* Or your dark theme background color */
+    padding: 8px 0;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .sidebar-title {
+    display: none; /* Hide title to save vertical space */
+  }
+
+  .century-list {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 0 10px;
+    gap: 8px;
+    -webkit-overflow-scrolling: touch; /* Smooth iOS scrolling */
+  }
+
+  .century-list::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for a clean pill look */
+  }
+
+  .century-item button {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+  }
+}
+
+.drawer-handle {
+  width: 40px;
+  height: 5px;
+  background-color: #cbd5e1;
+  border-radius: 3px;
+  margin: 10px auto 5px auto;
+}
