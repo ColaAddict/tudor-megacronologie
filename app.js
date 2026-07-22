@@ -200,6 +200,28 @@ function formatDateRO(original) {
   return original;
 }
 
+// Classify a raw date string into one of the 5 known formats.
+// Used to keep quiz options consistent (same format as the correct answer).
+function getDateFormat(dateStr) {
+  const t = (dateStr || "").trim();
+  if (/^[IVXLCDM]+$/i.test(t)) return 'century';
+  if (/^(-?\d{1,4})-(\d{3,4})$/.test(t)) return 'range';
+  if (/^-?\d{1,4}$/.test(t)) return 'year-only';
+  if (/^-?\d{1,4}-\d{2}$/.test(t)) return 'year-month';
+  if (t.split("-").length === 3) return 'full-date';
+  return 'other';
+}
+
+// Extract a comparable year (int) from any supported date format, for sorting by proximity.
+function getComparableYear(dateStr) {
+  if (!dateStr) return NaN;
+  let y = parseInt(dateStr, 10);
+  if (isNaN(y) && dateStr.includes('-')) {
+    y = parseInt(dateStr.split("-")[0], 10);
+  }
+  return y;
+}
+
 // Compute Century Label for Grouping
 function getCenturyLabel(event) {
   const dateStr = event.date;
@@ -756,46 +778,43 @@ function loadNextQuizQuestion() {
   quizQuestionInfo.style.display = "none";
   quizQuestionInfo.innerHTML = "";
 
-  // 1. Filter events that have a title and date, AND match the active theme filter
-  const validEvents = window.events.filter(e => {
+  // 1. FILTER QUESTIONS STRICTLY BY THE SELECTED THEME
+  const validThemeEvents = window.events.filter(e => {
     if (!e.title || !e.date) return false;
     
-    // If a specific theme is selected, make sure this event belongs to it
+    // If a theme filter is active, only pick questions from this theme
     if (themeFilter !== "all") {
       const cats = getEventCategories(e);
       return cats.some(cat => cat.id === themeFilter);
     }
-    
     return true;
   });
 
-  // Handle case where no events match the selected theme
-  if (validEvents.length === 0) {
+  // Handle case where theme has no valid events
+  if (validThemeEvents.length === 0) {
     quizQuestionTitle.textContent = "Niciun eveniment disponibil pentru tema selectată.";
     if (quizSrsLevel) quizSrsLevel.textContent = "---";
     return;
   }
 
-  // Filter out recently asked questions to prevent immediate repetition
-  const eligibleEvents = validEvents.filter(e => {
+  // Avoid asking recently seen questions
+  const eligibleEvents = validThemeEvents.filter(e => {
     const key = getEventKey(e);
     return !recentQuestionsQueue.includes(key);
   });
 
-  // If we ran out of unseen events in this category, reset and use the whole valid theme pool
-  const pool = eligibleEvents.length > 0 ? eligibleEvents : validEvents;
+  const pool = eligibleEvents.length > 0 ? eligibleEvents : validThemeEvents;
 
-  // Weighted SRS selection (roulette wheel)
+  // Weighted SRS selection
   const weights = pool.map(e => {
     const key = getEventKey(e);
     const lvl = srsState[key] || 0;
-    // Weight decays exponentially by 50% per level
     return Math.pow(0.5, lvl);
   });
 
   const totalWeight = weights.reduce((sum, w) => sum + w, 0);
   let rand = Math.random() * totalWeight;
-  let selectedEvent = pool[pool.length - 1]; // fallback
+  let selectedEvent = pool[pool.length - 1];
 
   for (let i = 0; i < pool.length; i++) {
     rand -= weights[i];
@@ -807,21 +826,20 @@ function loadNextQuizQuestion() {
 
   quizState.currentEvent = selectedEvent;
 
-  // Add to recent questions queue (limit to 15 items, or pool size if it's smaller)
+  // Update recent questions queue
   const currentKey = getEventKey(selectedEvent);
   recentQuestionsQueue.push(currentKey);
-  const maxQueueSize = Math.min(15, Math.floor(validEvents.length / 2));
+  const maxQueueSize = Math.min(15, Math.floor(validThemeEvents.length / 2));
   if (recentQuestionsQueue.length > maxQueueSize) {
     recentQuestionsQueue.shift();
   }
 
-  // Format the display title (hide dates in title if any to prevent cheating)
+  // Format question title
   let displayTitle = selectedEvent.title;
   displayTitle = displayTitle.replace(/\(\d+.*?\)/g, "").replace(/\(-\d+.*?\)/g, "");
-
   quizQuestionTitle.textContent = `În ce dată a avut loc: "${displayTitle}"?`;
 
-  // Display description details (without cheating answers) if info exists
+  // Format clue/info
   if (selectedEvent.info) {
     let cleanInfo = selectedEvent.info.replace(/\d+/g, "[an/sec]").replace(/î\.Hr\./g, "").replace(/sec/g, "");
     if (cleanInfo.length > 250) {
@@ -831,7 +849,7 @@ function loadNextQuizQuestion() {
     quizQuestionInfo.style.display = "block";
   }
 
-  // Display SRS level badge
+  // SRS Badge
   const currentLvl = srsState[currentKey] || 0;
   const srsLabels = {
     0: "🔴 Nou",
@@ -845,64 +863,46 @@ function loadNextQuizQuestion() {
     quizSrsLevel.textContent = srsLabels[currentLvl] || "🔴 Nou";
   }
 
-  // 2. Generate 4 choices (1 correct, 3 wrong ones closely matched in year AND same format)
+  // 2. GENERATE 4 OPTIONS (Correct answer + 3 wrong options pulled from GLOBAL database)
   const correctOption = formatDateRO(selectedEvent.date);
   const optionsSet = new Set([correctOption]);
 
-  // Determine the format of the correct response
   const trimmedDate = selectedEvent.date.trim();
-  let correctFormat = 'other';
-  if (/^[IVXLCDM]+$/i.test(trimmedDate)) correctFormat = 'century';
-  else if (/^(-?\d{1,4})-(\d{3,4})$/.test(trimmedDate)) correctFormat = 'range';
-  else if (/^-?\d{1,4}$/.test(trimmedDate)) correctFormat = 'year-only';
-  else if (/^-?\d{1,4}-\d{2}$/.test(trimmedDate)) correctFormat = 'year-month';
-  else if (trimmedDate.split("-").length === 3) correctFormat = 'full-date';
+  const correctFormat = getDateFormat(trimmedDate);
+  const currentYear = getComparableYear(selectedEvent.date);
 
-  let currentYear = parseInt(selectedEvent.date, 10);
-  if (isNaN(currentYear) && selectedEvent.date.includes('-')) {
-    currentYear = parseInt(selectedEvent.date.split("-")[0], 10);
-  }
+  // Look through ALL events across ALL chapters/themes (ignoring the current
+  // theme filter entirely) so the wrong options are always the closest dates
+  // in time that share the same format as the correct answer — regardless of
+  // which chapter the question itself was drawn from.
+  const globalEvents = window.events.filter(e => e.title && e.date);
 
-  // Find distractors from the entire valid pool of this theme
+  // Pool size depends on date precision: coarser formats (centuries) have
+  // fewer plausible neighbors to draw from, finer formats (full dates) can
+  // safely pull from a slightly wider pool.
+  const POOL_SIZE_BY_FORMAT = {
+    'century': 6,
+    'year-only': 10,
+    'range': 10,
+    'year-month': 12,
+    'full-date': 12
+  };
+  const NEAR_POOL_SIZE = POOL_SIZE_BY_FORMAT[correctFormat] || 10;
+
   if (!isNaN(currentYear)) {
-    const nearbyEvents = validEvents
+    const nearbyEvents = globalEvents
       .filter(e => {
-        const tDate = e.date.trim();
-        let eFormat = 'other';
-        if (/^[IVXLCDM]+$/i.test(tDate)) eFormat = 'century';
-        else if (/^(-?\d{1,4})-(\d{3,4})$/.test(tDate)) eFormat = 'range';
-        else if (/^-?\d{1,4}$/.test(tDate)) eFormat = 'year-only';
-        else if (/^-?\d{1,4}-\d{2}$/.test(tDate)) eFormat = 'year-month';
-        else if (tDate.split("-").length === 3) eFormat = 'full-date';
-
-        if (eFormat !== correctFormat) return false;
-        return formatDateRO(e.date) !== correctOption;
+        if (getDateFormat(e.date) !== correctFormat) return false;
+        const y = getComparableYear(e.date);
+        return !isNaN(y) && formatDateRO(e.date) !== correctOption;
       })
       .sort((a, b) => {
-        let yA = parseInt(a.date, 10);
-        if (isNaN(yA) && a.date.includes('-')) yA = parseInt(a.date.split("-")[0], 10);
-        let yB = parseInt(b.date, 10);
-        if (isNaN(yB) && b.date.includes('-')) yB = parseInt(b.date.split("-")[0], 10);
+        const yA = getComparableYear(a.date);
+        const yB = getComparableYear(b.date);
         return Math.abs(yA - currentYear) - Math.abs(yB - currentYear);
       });
 
-
-
-
-   // Define custom pool sizes depending on how precise the format is
-    let poolSize = 40; // Default fallback
-    if (correctFormat === 'year-only') {
-      poolSize = 12;
-    } else if (correctFormat === 'full-date') {
-      poolSize = 6;  // Crucial for Academy tests: only looks at the 6 closest dates
-    } else if (correctFormat === 'year-month') {
-      poolSize = 8;  // Only looks at the 8 closest months
-    }
-
-    // Grab the tightly filtered subset of closest historical events
-    const closePool = nearbyEvents.slice(0, poolSize);
-    
-
+    const closePool = nearbyEvents.slice(0, NEAR_POOL_SIZE);
 
     while (optionsSet.size < 4 && closePool.length > 0) {
       const randomIndex = Math.floor(Math.random() * closePool.length);
@@ -912,37 +912,35 @@ function loadNextQuizQuestion() {
         optionsSet.add(option);
       }
     }
+
+    // Dynamic year offsets for sparse year-only questions (still same format)
+    if (correctFormat === 'year-only' && optionsSet.size < 4) {
+      const offsets = [-2, 3, -5, 4, -8, 6, -1, 2, -10, 12];
+      for (let offset of offsets) {
+        if (optionsSet.size >= 4) break;
+        const fakeYear = currentYear + offset;
+        if (fakeYear > 0) {
+          optionsSet.add(fakeYear.toString());
+        }
+      }
+    }
   }
 
-  // Fallback 1: Try to pull matching formats from the entire database if the current theme pool is small
+  // Safety fallback: still restricted to the SAME date format as the correct
+  // answer, so options never mix formats even as a last resort.
+  const sameFormatEvents = globalEvents.filter(e => getDateFormat(e.date) === correctFormat);
+  const fallbackPool = sameFormatEvents.length > 0 ? sameFormatEvents : globalEvents;
   let attempts = 0;
-  const globalValidEvents = window.events.filter(e => e.title && e.date);
-  while (optionsSet.size < 4 && attempts < 200) {
-    const wrongEvent = globalValidEvents[Math.floor(Math.random() * globalValidEvents.length)];
-    const tDate = wrongEvent.date.trim();
-    let eFormat = 'other';
-    if (/^[IVXLCDM]+$/i.test(tDate)) eFormat = 'century';
-    else if (/^(-?\d{1,4})-(\d{3,4})$/.test(tDate)) eFormat = 'range';
-    else if (/^-?\d{1,4}$/.test(tDate)) eFormat = 'year-only';
-    else if (/^-?\d{1,4}-\d{2}$/.test(tDate)) eFormat = 'year-month';
-    else if (tDate.split("-").length === 3) eFormat = 'full-date';
-
-    if (eFormat === correctFormat) {
-      const option = formatDateRO(wrongEvent.date);
-      if (option) {
-        optionsSet.add(option);
-      }
+  while (optionsSet.size < 4 && attempts < 100) {
+    const wrongEvent = fallbackPool[Math.floor(Math.random() * fallbackPool.length)];
+    const option = formatDateRO(wrongEvent.date);
+    if (option) {
+      optionsSet.add(option);
     }
     attempts++;
   }
 
-  // Fallback 2: Extreme fallback
-  while (optionsSet.size < 4) {
-    const wrongEvent = globalValidEvents[Math.floor(Math.random() * globalValidEvents.length)];
-    optionsSet.add(formatDateRO(wrongEvent.date));
-  }
-
-  // Convert set to array and shuffle
+  // Convert to array and shuffle options
   quizState.options = Array.from(optionsSet);
   shuffleArray(quizState.options);
 
@@ -955,6 +953,10 @@ function loadNextQuizQuestion() {
     quizOptionsContainer.appendChild(btn);
   });
 }
+
+
+
+
 
 function handleQuizAnswer(selectedBtn, selectedOption, correctOption) {
   // Disable all option buttons
